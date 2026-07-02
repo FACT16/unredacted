@@ -49,8 +49,8 @@ jobs:
       - name: Commit refreshed corpus if changed
         id: commit
         run: |
-          git config user.name "justthefiles-bot"
-          git config user.email "actions@github.com"
+          git config user.name "Anderson Davis"
+          git config user.email "amdavis2024@icloud.com"
           if git diff --quiet -- apps/web/lib/generated-documents.json; then
             echo "No corpus changes today."
             echo "changed=false" >> "$GITHUB_OUTPUT"
