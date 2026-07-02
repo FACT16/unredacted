@@ -14,7 +14,7 @@
 //     (congressional hearings & reports, published records). api.data.gov key.
 //   • NARA Catalog — the National Archives, only if NARA_API_KEY is set.
 
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 
 const OUT = new URL("../lib/generated-documents.json", import.meta.url);
 const DATA_GOV_KEY = process.env.DATA_GOV_API_KEY || "DEMO_KEY";
@@ -113,6 +113,58 @@ async function ingestGovInfo(topic) {
       sourceNote: "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source.",
     };
   }).filter(Boolean);
+}
+
+// ── GovInfo Collections Service — the "just published" feed ──────────────────
+// Lists packages as GPO adds them to the official record. This is the closest
+// thing to a live wire of government document drops: full titles, and links that
+// are always specific (/app/details/<packageId>). Window rolls forward, so the
+// nightly job keeps the "latest" topic fresh automatically.
+const LATEST_COLLECTIONS = [
+  ["CRPT", "committee report"],
+  ["CHRG", "congressional hearing"],
+  ["PLAW", "public law"],
+];
+
+async function ingestLatest(daysBack = 45, perCollection = 14) {
+  const since = new Date(Date.now() - daysBack * 86400000).toISOString().replace(/\.\d+Z$/, "Z");
+  const out = [];
+  for (const [code, kind] of LATEST_COLLECTIONS) {
+    let res;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      res = await fetchWithTimeout(
+        `https://api.govinfo.gov/collections/${code}/${encodeURIComponent(since)}?offsetMark=%2A&pageSize=${perCollection}&api_key=${encodeURIComponent(DATA_GOV_KEY)}`,
+      );
+      if (res.status !== 429 && res.status !== 503) break;
+      await new Promise((r) => setTimeout(r, 5000 * (attempt + 1)));
+    }
+    if (!res.ok) throw new Error(`HTTP ${res.status} (${code})`);
+    const json = await res.json();
+    for (const p of json?.packages ?? []) {
+      if (!p?.packageId) continue;
+      const title = clamp(stripHtml(asText(p.title)) || p.packageId, 180);
+      const released = isoDate(p.lastModified) ?? isoDate(p.dateIssued) ?? "1970-01-01";
+      out.push({
+        id: `gov-${p.packageId}`,
+        title,
+        agency: inferAgency(`${title} ${code}`),
+        collection: "latest",
+        topics: ["latest"],
+        docDate: isoDate(p.dateIssued) ?? released,
+        releaseDate: released,
+        originalUrl: `https://www.govinfo.gov/app/details/${p.packageId}`,
+        sourceName: "GovInfo (U.S. GPO)",
+        language: "English",
+        summary: clamp(`${title}. A ${kind} newly published to the official record by the U.S. Government Publishing Office.`, 360),
+        pages: [{ pageNumber: 1, text: clamp(`${title}. A ${kind} recently added to the official record (GovInfo collection ${code}). Read the full document at the source.`, 1600) }],
+        entities: [],
+        tags: [kind],
+        sourceNote: "Newly published to the official record by the U.S. Government Publishing Office; read the full document at the source.",
+      });
+    }
+    await new Promise((r) => setTimeout(r, 1500));
+  }
+  return out;
 }
 
 // ── Federal Register (presidential documents → executive-orders) ──────────────
@@ -216,14 +268,38 @@ async function main() {
   }
 
   try {
+    console.log(`  ${"latest".padEnd(16)} GovInfo-new +${addAll(await ingestLatest(), "latest")}`);
+  } catch (err) {
+    console.log(`  latest           GovInfo-new FAIL(${err.message})`);
+  }
+
+  try {
     console.log(`  ${"executive-orders".padEnd(16)} FedReg +${addAll(await ingestFederalRegister(), "executive-orders")}`);
   } catch (err) {
     console.log(`  executive-orders FedReg FAIL(${err.message})`);
   }
 
   const out = [...byId.values()];
+
+  // Safety floor: on a bad day (rate limits, source outages) a run can come back
+  // nearly empty. Never let that gut the published corpus — keep the previous
+  // snapshot and fail loudly instead.
+  let previousCount = 0;
+  try {
+    previousCount = JSON.parse(await readFile(OUT, "utf8")).length;
+  } catch {
+    /* no previous snapshot */
+  }
+  if (previousCount > 0 && out.length < previousCount * 0.6) {
+    console.error(
+      `\nABORT: new snapshot has ${out.length} records vs ${previousCount} previously (<60%). ` +
+        "Keeping the existing corpus; likely rate-limiting. Re-run later or set DATA_GOV_API_KEY.",
+    );
+    process.exit(1);
+  }
+
   await writeFile(OUT, JSON.stringify(out, null, 2) + "\n");
-  console.log(`\nWrote ${out.length} records to lib/generated-documents.json`);
+  console.log(`\nWrote ${out.length} records to lib/generated-documents.json (was ${previousCount})`);
   if (out.length === 0) console.warn("No records ingested — sources may be unreachable from this environment.");
 }
 

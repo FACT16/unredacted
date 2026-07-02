@@ -431,6 +431,18 @@ export const DOCUMENTS: GovDocument[] = [
 
 export const COLLECTIONS: Collection[] = [
   {
+    slug: "latest",
+    title: "Latest Releases",
+    blurb:
+      "Documents the U.S. government published in the last several weeks — committee reports, hearings, and public laws, straight from the official record.",
+    heroQuestion: "What did the government just release?",
+    overview: [
+      "This feed tracks documents as the U.S. Government Publishing Office adds them to the official record — congressional committee reports, hearing transcripts, and newly enacted public laws.",
+      "It refreshes automatically as new documents are published. Every entry links to the official record on GovInfo.",
+    ],
+    documentIds: [],
+  },
+  {
     slug: "epstein",
     title: "The Epstein Files",
     blurb:
