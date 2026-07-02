@@ -1,0 +1,54 @@
+name: Nightly ingest
+
+# Re-pull all public sources every day and commit the refreshed corpus. The commit
+# to main triggers the Pages deploy workflow, so new government drops appear on the
+# site automatically. Also runnable on demand from the Actions tab.
+on:
+  schedule:
+    - cron: "17 9 * * *" # 09:17 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: apps/web
+
+      - name: Ingest latest government records
+        run: npm run ingest
+        working-directory: apps/web
+        # Optional: add a repo secret DATA_GOV_API_KEY for higher GovInfo/NARA limits.
+        env:
+          DATA_GOV_API_KEY: ${{ secrets.DATA_GOV_API_KEY }}
+          NARA_API_KEY: ${{ secrets.NARA_API_KEY }}
+
+      - name: Commit refreshed corpus if changed
+        run: |
+          git config user.name "unredacted-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- apps/web/lib/generated-documents.json; then
+            echo "No corpus changes today."
+          else
+            count=$(node -e "console.log(require('./apps/web/lib/generated-documents.json').length)")
+            git add apps/web/lib/generated-documents.json
+            git commit -m "chore(corpus): nightly ingest — ${count} records"
+            git push
+            echo "Pushed refreshed corpus (${count} records)."
+          fi

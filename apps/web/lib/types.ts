@@ -19,6 +19,7 @@ export type AgencyCode =
   | "SENATE"
   | "COMMISSION"
   | "COURT"
+  | "WH"
   // Catch-all for ingested records whose originating agency isn't one of the above.
   | "OTHER";
 

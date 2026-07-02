@@ -17,6 +17,7 @@ const AGENCY_LABELS: Record<AgencyCode, { short: string; name: string }> = {
   SENATE: { short: "Senate", name: "United States Senate" },
   COMMISSION: { short: "Comm.", name: "Independent Federal Commission" },
   COURT: { short: "Courts", name: "U.S. Federal Courts" },
+  WH: { short: "WH", name: "The White House" },
   OTHER: { short: "GOV", name: "U.S. Government" },
 };
 

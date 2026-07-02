@@ -31,6 +31,7 @@ export const AGENCIES: Record<AgencyCode, Agency> = {
   SENATE: { code: "SENATE", name: "United States Senate", short: "U.S. Senate" },
   COMMISSION: { code: "COMMISSION", name: "Independent Federal Commission", short: "Commission" },
   COURT: { code: "COURT", name: "U.S. Federal Courts", short: "U.S. Courts" },
+  WH: { code: "WH", name: "The White House", short: "WH" },
   OTHER: { code: "OTHER", name: "U.S. Government", short: "GOV" },
 };
 
@@ -543,6 +544,54 @@ export const COLLECTIONS: Collection[] = [
       "Both are primary sources available in full. The Commission described its central finding as a 'failure of imagination' across the national security establishment.",
     ],
     documentIds: ["sept11-commission-report", "sept11-28-pages"],
+  },
+  {
+    slug: "executive-orders",
+    title: "Executive Orders & Presidential Actions",
+    blurb:
+      "Every executive order, proclamation, and presidential memorandum as it's published in the Federal Register — the government's decisions, in the government's words.",
+    heroQuestion: "What has the President actually ordered?",
+    overview: [
+      "Executive orders, proclamations, and memoranda are the President's direct instructions to the federal government. Each is published in the Federal Register — the official daily journal of the U.S. government — as it takes effect.",
+      "This collection tracks those presidential documents as they drop, linked to the authoritative Federal Register record so you can read the order itself, not a summary of it.",
+    ],
+    documentIds: [],
+  },
+  {
+    slug: "fbi-files",
+    title: "FBI Files",
+    blurb:
+      "Declassified Federal Bureau of Investigation records — investigations, surveillance files, and released case documents.",
+    heroQuestion: "What is in the FBI's declassified files?",
+    overview: [
+      "The FBI has released large volumes of records through its FOIA program and the National Archives, covering historical investigations, domestic intelligence programs, and closed cases.",
+      "These files range from field-office memoranda to surveillance summaries, and many are heavily redacted. Each links to the original release.",
+    ],
+    documentIds: [],
+  },
+  {
+    slug: "watergate",
+    title: "Watergate",
+    blurb:
+      "Records from the Watergate scandal — the investigations, tapes, and documents that ended the Nixon presidency.",
+    heroQuestion: "What do the Watergate records show?",
+    overview: [
+      "Watergate produced one of the largest documentary records of executive-branch wrongdoing in American history — grand-jury materials, the White House tapes, and congressional investigation files.",
+      "This collection gathers released Watergate-era records, each linked to its archival source.",
+    ],
+    documentIds: [],
+  },
+  {
+    slug: "cold-war",
+    title: "Cold War & Covert Operations",
+    blurb:
+      "Declassified records of Cold War intelligence and covert action — from the Bay of Pigs to the Cuban Missile Crisis and beyond.",
+    heroQuestion: "What did the government do during the Cold War?",
+    overview: [
+      "Decades of declassification have opened much of the Cold War intelligence record: covert operations, coup planning, crisis decision-making, and the internal assessments behind them.",
+      "This collection draws together those released records — CIA histories, State Department volumes, and archival releases — each linked to its source.",
+    ],
+    documentIds: [],
   },
   {
     slug: "history",
