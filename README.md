@@ -40,15 +40,23 @@ npm run dev      # http://localhost:3000
 
 ```sh
 cd apps/web
-npm run ingest                              # Internet Archive (filtered to U.S. gov) + GovInfo (DEMO_KEY)
+npm run ingest                              # Federal Register + GovInfo (official U.S. gov sources)
 DATA_GOV_API_KEY=your_key npm run ingest    # higher GovInfo limits (free key: api.data.gov/signup)
 NARA_API_KEY=your_key  npm run ingest       # also pull the National Archives Catalog (separate free NARA key)
 ```
 
-Sources: **Internet Archive** (keyless, filtered to U.S.-government material), **GovInfo /
-U.S. GPO** (via api.data.gov; works on the public `DEMO_KEY` at low limits), and **NARA**
-(only when `NARA_API_KEY` is set). Ingested records carry real metadata and a working
-link to the original; full OCR text and entity extraction arrive with the Phase 2 backend.
+**Official U.S. government sources only** — every record comes from a government publisher
+of the document itself, not a third-party aggregator or user-upload host:
+
+- **Federal Register** (federalregister.gov) — the official daily journal; executive
+  orders, proclamations, and presidential memoranda. Keyless.
+- **GovInfo** (U.S. Government Publishing Office) — congressional hearings and reports and
+  other published records. Uses `api.data.gov` (`DEMO_KEY` by default; set
+  `DATA_GOV_API_KEY` — a free key — for real volume, since `DEMO_KEY` is heavily throttled).
+- **NARA Catalog** (National Archives) — only when `NARA_API_KEY` is set.
+
+Records carry real metadata and a working link to the original; full OCR text and entity
+extraction arrive with the Phase 2 backend.
 
 ---
 

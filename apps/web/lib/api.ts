@@ -126,8 +126,18 @@ export async function getDocument(id: string): Promise<GovDocument | null> {
   return DOCUMENTS.find((d) => d.id === id) ?? null;
 }
 
+function collectionSize(slug: string): number {
+  const collection = COLLECTIONS.find((c) => c.slug === slug);
+  const ids = new Set(collection?.documentIds ?? []);
+  let n = 0;
+  for (const d of DOCUMENTS) if (ids.has(d.id) || d.topics.includes(slug)) n++;
+  return n;
+}
+
 export async function listCollections(): Promise<Collection[]> {
-  return COLLECTIONS;
+  // Only surface topics that actually have documents, so a topic never renders an
+  // empty page. Empty ones reappear automatically once ingestion fills them.
+  return COLLECTIONS.filter((c) => collectionSize(c.slug) > 0);
 }
 
 export async function getCollection(slug: string): Promise<Collection | null> {
