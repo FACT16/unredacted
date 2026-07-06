@@ -3713,58 +3713,6 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-GOVPUB-GP3-c5659289aa34e3584ea51ffe643baf2d",
-    "title": "Instructions to Depository Libraries",
-    "agency": "OTHER",
-    "collection": "fbi-files",
-    "topics": [
-      "fbi-files"
-    ],
-    "docDate": "1988-12-31",
-    "releaseDate": "1988-12-31",
-    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-GP3-c5659289aa34e3584ea51ffe643baf2d",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Instructions to Depository Libraries. A record published by the U.S. Government Publishing Office (collection GOVPUB).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Instructions to Depository Libraries. Published by the U.S. Government Publishing Office, collection GOVPUB. Read the full document at the source."
-      }
-    ],
-    "entities": [],
-    "tags": [
-      "GOVPUB"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
-    "id": "gov-GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
-    "title": "Federal Depository Library Manual",
-    "agency": "OTHER",
-    "collection": "fbi-files",
-    "topics": [
-      "fbi-files"
-    ],
-    "docDate": "1993-11-01",
-    "releaseDate": "1993-11-01",
-    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Federal Depository Library Manual. A record published by the U.S. Government Publishing Office (collection GOVPUB).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Federal Depository Library Manual. Published by the U.S. Government Publishing Office, collection GOVPUB. Read the full document at the source."
-      }
-    ],
-    "entities": [],
-    "tags": [
-      "GOVPUB"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
     "id": "gov-CMR-PREX26-00185055",
     "title": "High Intensity Drug Trafficking Areas Program 2023 Report to Congress",
     "agency": "SENATE",
@@ -3787,6 +3735,32 @@
     "entities": [],
     "tags": [
       "CMR"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-GOVPUB-GP3-c5659289aa34e3584ea51ffe643baf2d",
+    "title": "Instructions to Depository Libraries",
+    "agency": "OTHER",
+    "collection": "fbi-files",
+    "topics": [
+      "fbi-files"
+    ],
+    "docDate": "1988-12-31",
+    "releaseDate": "1988-12-31",
+    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-GP3-c5659289aa34e3584ea51ffe643baf2d",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Instructions to Depository Libraries. A record published by the U.S. Government Publishing Office (collection GOVPUB).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Instructions to Depository Libraries. Published by the U.S. Government Publishing Office, collection GOVPUB. Read the full document at the source."
+      }
+    ],
+    "entities": [],
+    "tags": [
+      "GOVPUB"
     ],
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
@@ -3816,6 +3790,32 @@
     ],
     "tags": [
       "GOVPUB;ANNUALREP"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
+    "title": "Federal Depository Library Manual",
+    "agency": "OTHER",
+    "collection": "fbi-files",
+    "topics": [
+      "fbi-files"
+    ],
+    "docDate": "1993-11-01",
+    "releaseDate": "1993-11-01",
+    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Federal Depository Library Manual. A record published by the U.S. Government Publishing Office (collection GOVPUB).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Federal Depository Library Manual. Published by the U.S. Government Publishing Office, collection GOVPUB. Read the full document at the source."
+      }
+    ],
+    "entities": [],
+    "tags": [
+      "GOVPUB"
     ],
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
@@ -4130,36 +4130,35 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-GOVPUB-J-cd7b522292bbff67e605220b771457f0",
-    "title": "Annual Report of the Attorney General of the United States 1984",
-    "agency": "OTHER",
+    "id": "gov-CHRG-109shrg46051",
+    "title": "Federal Bureau of Investigation Oversight",
+    "agency": "FBI",
     "collection": "fbi-files",
     "topics": [
       "fbi-files"
     ],
-    "docDate": "1984-01-01",
-    "releaseDate": "1984-01-01",
-    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-J-cd7b522292bbff67e605220b771457f0",
+    "docDate": "2005-07-27",
+    "releaseDate": "2005-07-27",
+    "originalUrl": "https://www.govinfo.gov/app/details/CHRG-109shrg46051",
     "sourceName": "GovInfo (U.S. GPO)",
     "language": "English",
-    "summary": "Annual Report of the Attorney General of the United States 1984. A record published by the U.S. Government Publishing Office (collection GOVPUB;ANNUALREP).",
+    "summary": "Federal Bureau of Investigation Oversight. A record published by the U.S. Government Publishing Office (collection CHRG).",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Annual Report of the Attorney General of the United States 1984. Published by the U.S. Government Publishing Office, collection GOVPUB;ANNUALREP. Read the full document at the source."
+        "text": "Federal Bureau of Investigation Oversight. Published by the U.S. Government Publishing Office, collection CHRG. Read the full document at the source."
       }
     ],
     "entities": [
-      "John F. Kennedy",
-      "J. Edgar Hoover",
+      "Osama bin Laden",
+      "Central Intelligence Agency",
       "Federal Bureau of Investigation",
       "Department of Defense",
       "Department of Justice",
-      "September 11 attacks",
-      "Mexico City"
+      "September 11 attacks"
     ],
     "tags": [
-      "GOVPUB;ANNUALREP"
+      "CHRG"
     ],
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
@@ -7466,7 +7465,9 @@
         "text": "National Fallen Firefighters Memorial Weekend, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [],
+    "entities": [
+      "Donald Trump"
+    ],
     "tags": [
       "presidential document"
     ],
@@ -8008,7 +8009,9 @@
         "text": "Day of Celebration in Honor of the Life of Henry Clay, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [],
+    "entities": [
+      "Donald Trump"
+    ],
     "tags": [
       "presidential document"
     ],
@@ -8201,7 +8204,9 @@
         "text": "Ensuring Citizenship Verification and Integrity in Federal Elections. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [],
+    "entities": [
+      "Department of Justice"
+    ],
     "tags": [
       "presidential document"
     ],
@@ -8228,7 +8233,9 @@
         "text": "Addressing DEI Discrimination by Federal Contractors. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [],
+    "entities": [
+      "Department of Justice"
+    ],
     "tags": [
       "presidential document"
     ],
@@ -8390,7 +8397,9 @@
         "text": "National Agriculture Day, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [],
+    "entities": [
+      "Donald Trump"
+    ],
     "tags": [
       "presidential document"
     ],
