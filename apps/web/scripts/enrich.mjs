@@ -101,9 +101,55 @@ async function fullText(doc) {
     const html = await fetchText(
       `https://www.govinfo.gov/content/pkg/${pkg}/html/${pkg}.htm`,
     );
-    return html ? stripHtml(html) : "";
+    // GovInfo serves its 404 page with HTTP 200 — detect and treat as no text.
+    if (!html || /<title>\s*Page Not Found/i.test(html) || /Page Not Found \| GovInfo/i.test(html)) {
+      return "";
+    }
+    return stripHtml(html);
   }
   return "";
+}
+
+// ── Extractive descriptions (the document's own words — never generated) ─────
+const clampWord = (s, n) => (s.length <= n ? s : s.slice(0, n).replace(/\s+\S*$/, "") + "…");
+
+// GPO boilerplate that opens many renditions — skip past it to the substance.
+const BOILERPLATE =
+  /^(?:\[?\s*)?(?:U\.?S\.? GOVERNMENT (?:PUBLISHING|PRINTING) OFFICE|GPO|FR Doc\.|Federal Register\s*\/|Vol\. \d+|No\. \d+|\[\d+|Pages? \d+|DEPOSITED BY|For sale by|VerDate|Jkt \d+|PO 0+|Frm 0+|Fmt \d+|Sfmt \d+)/i;
+
+/**
+ * Pull the first substantive sentences out of the raw text: skip headers/boilerplate,
+ * keep sentences of sane length, join the first few. Returns "" if nothing decent.
+ */
+function extractDescription(fullTextStr) {
+  const cleaned = fullTextStr.replace(/\s+/g, " ").trim();
+  if (cleaned.length < 200) return "";
+  const sentences = cleaned
+    .split(/(?<=[.!?])\s+(?=[A-Z0-9“"(])/)
+    .map((s) => s.trim())
+    .filter(
+      (s) =>
+        s.length >= 50 &&
+        s.length <= 500 &&
+        !BOILERPLATE.test(s) &&
+        // Prose only: no JSON/markup junk, no site chrome, no dot leaders,
+        // not mostly-uppercase headings.
+        !/[{}\\<>]|Page Not Found|Skip to main content/i.test(s) &&
+        s.replace(/[^A-Z]/g, "").length / Math.max(1, s.replace(/[^A-Za-z]/g, "").length) < 0.6 &&
+        !/\.{4,}/.test(s),
+    );
+  return clampWord(sentences.slice(0, 3).join(" "), 460);
+}
+
+/** First ~1,500 chars of substantive text — becomes the on-site excerpt. */
+function extractExcerpt(fullTextStr) {
+  const cleaned = fullTextStr.replace(/\s+/g, " ").trim();
+  if (cleaned.length < 300) return "";
+  // Start at the first substantive sentence rather than the masthead.
+  const desc = extractDescription(fullTextStr);
+  const at = desc ? cleaned.indexOf(desc.slice(0, 40)) : -1;
+  const body = at > 0 ? cleaned.slice(at) : cleaned;
+  return clampWord(body, 1500);
 }
 
 async function mapLimit(items, limit, fn) {
@@ -125,12 +171,43 @@ async function main() {
   console.log(`Enriching ${docs.length} records with full-text entity extraction…`);
 
   let withText = 0;
+  let withDesc = 0;
   let done = 0;
   await mapLimit(docs, 6, async (doc) => {
     const ft = await fullText(doc);
     if (ft) withText++;
     const blob = `${doc.title} ${doc.summary} ${(doc.tags || []).join(" ")} ${ft}`;
     doc.entities = extractEntities(blob);
+
+    // Real information on each record, not just a link: replace templated
+    // summaries with the document's own opening text, and put a genuine excerpt
+    // on the document page. Extractive only — nothing is generated. Idempotent:
+    // when no usable text exists, REBUILD the clean template rather than trusting
+    // whatever a previous run may have written.
+    const desc = ft ? extractDescription(ft) : "";
+    const excerpt = ft ? extractExcerpt(ft) : "";
+    const isIngested = doc.id.startsWith("gov-") || doc.id.startsWith("fr-") || doc.id.startsWith("nara-");
+
+    if (desc.length > 120) {
+      doc.summary = desc;
+      withDesc++;
+    } else if (isIngested) {
+      const coll = (doc.tags || [])[0];
+      doc.summary = clampWord(
+        `${doc.title}. A record published by ${doc.sourceName}${coll ? ` (${coll})` : ""}.`,
+        360,
+      );
+    }
+
+    if (excerpt.length > 300) {
+      doc.pages = [{ pageNumber: 1, text: excerpt }];
+      doc.sourceNote =
+        "Beginning of the official document text, as published by the source; read the full document at the source.";
+    } else if (isIngested) {
+      doc.pages = [{ pageNumber: 1, text: doc.summary }];
+      doc.sourceNote =
+        "This is the official catalog record; read the full document at the source.";
+    }
     if (++done % 40 === 0) console.log(`  …${done}/${docs.length}`);
   });
 
@@ -142,6 +219,7 @@ async function main() {
   const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 12);
   const cooccur = (a, b) => docs.filter((d) => d.entities.includes(a) && d.entities.includes(b)).length;
   console.log(`\nFull text pulled for ${withText}/${docs.length} records.`);
+  console.log(`Real extracted descriptions for ${withDesc}/${docs.length} records.`);
   console.log("Top entities:", top.map(([e, n]) => `${e} (${n})`).join(", "));
   console.log("\nSample connections (docs mentioning BOTH):");
   for (const [a, b] of [

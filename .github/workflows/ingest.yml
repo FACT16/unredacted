@@ -41,9 +41,18 @@ jobs:
           NARA_API_KEY: ${{ secrets.NARA_API_KEY }}
 
       # Pull each document's full text from the source (server-side, no CORS) and
-      # bake in the people/orgs it names — powers connection search, no backend.
-      - name: Enrich with full-text entity extraction
+      # bake in the people/orgs it names + a real extracted description/excerpt —
+      # powers connection search and per-doc info, no backend.
+      - name: Enrich with full-text entities + descriptions
         run: node scripts/enrich.mjs
+        working-directory: apps/web
+
+      - name: Refresh official imagery (Library of Congress)
+        run: node scripts/images.mjs
+        working-directory: apps/web
+
+      - name: Audit source links
+        run: node scripts/audit-links.mjs
         working-directory: apps/web
 
       - name: Commit refreshed corpus if changed
@@ -51,15 +60,16 @@ jobs:
         run: |
           git config user.name "Anderson Davis"
           git config user.email "amdavis2024@icloud.com"
-          if git diff --quiet -- apps/web/lib/generated-documents.json; then
+          if git diff --quiet -- apps/web/lib/generated-documents.json apps/web/lib/generated-images.json; then
             echo "No corpus changes today."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             count=$(node -e "console.log(require('./apps/web/lib/generated-documents.json').length)")
-            git add apps/web/lib/generated-documents.json
-            git commit -m "chore(corpus): nightly ingest — ${count} records"
+            imgs=$(node -e "console.log(require('./apps/web/lib/generated-images.json').length)")
+            git add apps/web/lib/generated-documents.json apps/web/lib/generated-images.json
+            git commit -m "chore(corpus): nightly ingest — ${count} records, ${imgs} images"
             git push
-            echo "Pushed refreshed corpus (${count} records)."
+            echo "Pushed refreshed corpus (${count} records, ${imgs} images)."
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 

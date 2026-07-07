@@ -54,9 +54,14 @@ of the document itself, not a third-party aggregator or user-upload host:
   other published records. Uses `api.data.gov` (`DEMO_KEY` by default; set
   `DATA_GOV_API_KEY` — a free key — for real volume, since `DEMO_KEY` is heavily throttled).
 - **NARA Catalog** (National Archives) — only when `NARA_API_KEY` is set.
+- **Library of Congress** (loc.gov, keyless) — digitized imagery for the photo galleries
+  (`scripts/images.mjs`); images are hotlinked from LOC and every caption links to the
+  original catalog record.
 
-Records carry real metadata and a working link to the original; full OCR text and entity
-extraction arrive with the Phase 2 backend.
+Every record carries real metadata, a **description/excerpt extracted from the official
+document text itself** (`scripts/enrich.mjs` — extractive only, nothing generated), the
+people/organizations it names (powers connection search), and a working link to the
+original. `scripts/audit-links.mjs` re-verifies every source link in the nightly job.
 
 ---
 

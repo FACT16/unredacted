@@ -7,6 +7,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { AGENCIES, COLLECTIONS, DOCUMENTS, ENTITIES, TIMELINES } from "./data";
+import generatedImages from "./generated-images.json";
 import { buildSnippet, scoreDocument, tokenize } from "./search";
 import { findEntitiesInQuery } from "./entities";
 import type {
@@ -157,6 +158,30 @@ export function getConnectionSync(entities: string[]): Connection | null {
 
 /** Re-exported for the search UI so it can detect entities in the query. */
 export { findEntitiesInQuery };
+
+// ── Images (official digitized imagery, hotlinked from the source archive) ────
+const IMAGES = generatedImages as unknown as import("./types").GalleryImage[];
+
+export function listImagesSync(topic?: string): import("./types").GalleryImage[] {
+  return topic ? IMAGES.filter((i) => i.topics.includes(topic)) : IMAGES;
+}
+
+export async function listImages(topic?: string) {
+  return listImagesSync(topic);
+}
+
+/** Topic slugs that actually have imagery, with counts (for filter chips). */
+export function imageTopicsSync(): { slug: string; title: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const img of IMAGES) for (const t of img.topics) counts.set(t, (counts.get(t) ?? 0) + 1);
+  return [...counts.entries()]
+    .map(([slug, count]) => ({
+      slug,
+      title: COLLECTIONS.find((c) => c.slug === slug)?.title ?? slug,
+      count,
+    }))
+    .sort((a, b) => b.count - a.count);
+}
 
 export async function getDocument(id: string): Promise<GovDocument | null> {
   return DOCUMENTS.find((d) => d.id === id) ?? null;

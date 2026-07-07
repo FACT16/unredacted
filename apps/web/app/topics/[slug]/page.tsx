@@ -9,6 +9,7 @@ import {
   getCollectionDocuments,
   getTimeline,
   listCollections,
+  listImages,
 } from "@/lib/api";
 import type { SearchHit } from "@/lib/types";
 
@@ -40,9 +41,10 @@ export default async function TopicPage({
   const collection = await getCollection(slug);
   if (!collection) notFound();
 
-  const [docs, timeline] = await Promise.all([
+  const [docs, timeline, images] = await Promise.all([
     getCollectionDocuments(slug),
     getTimeline(slug),
+    listImages(slug),
   ]);
 
   const docTitleById = Object.fromEntries(docs.map((d) => [d.id, d.title]));
@@ -75,6 +77,39 @@ export default async function TopicPage({
           <p key={i}>{para}</p>
         ))}
       </div>
+
+      {images.length > 0 && (
+        <div className="mt-8">
+          <div className="flex items-baseline justify-between">
+            <h2 className="text-sm font-semibold uppercase tracking-wide text-faint">
+              Images ({images.length})
+            </h2>
+            <Link href={`/images?topic=${collection.slug}`} className="text-sm">
+              All images →
+            </Link>
+          </div>
+          <ul className="mt-2 grid grid-cols-3 gap-3 sm:grid-cols-6">
+            {images.slice(0, 6).map((img) => (
+              <li key={img.id} className="rounded border border-line bg-paper">
+                <Link
+                  href={`/images?topic=${collection.slug}`}
+                  className="block hover:no-underline"
+                  title={img.title}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element -- hotlinked archive media */}
+                  <img
+                    src={img.thumbUrl}
+                    alt={img.title}
+                    loading="lazy"
+                    className="h-24 w-full rounded-t object-cover"
+                  />
+                  <div className="truncate px-1.5 py-1 text-[11px] text-muted">{img.title}</div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_18rem]">
         <div className="min-w-0">

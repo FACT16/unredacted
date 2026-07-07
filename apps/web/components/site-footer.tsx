@@ -1,11 +1,12 @@
 import Link from "next/link";
 
 const SOURCES = [
+  "Federal Register",
+  "govinfo (GPO)",
+  "Library of Congress",
   "National Archives (NARA)",
   "ODNI",
-  "AARO",
-  "CourtListener",
-  "govinfo (GPO)",
+  "FBI Records: The Vault",
   "U.S. Dept. of State",
   "CIA FOIA Reading Room",
 ];

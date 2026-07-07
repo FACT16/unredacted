@@ -110,6 +110,21 @@ export interface Entity {
   blurb?: string;
 }
 
+export interface GalleryImage {
+  /** Stable id, e.g. "loc-2007680837". */
+  id: string;
+  title: string;
+  /** The source archive's own caption/description, when it has one. */
+  description?: string;
+  date?: string;
+  thumbUrl: string;
+  imageUrl: string;
+  /** The official catalog record for this image. */
+  recordUrl: string;
+  source: string;
+  topics: string[];
+}
+
 export interface SearchHit {
   document: GovDocument;
   score: number;

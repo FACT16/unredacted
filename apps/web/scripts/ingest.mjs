@@ -124,6 +124,7 @@ const LATEST_COLLECTIONS = [
   ["CRPT", "committee report"],
   ["CHRG", "congressional hearing"],
   ["PLAW", "public law"],
+  ["CDOC", "congressional document"],
 ];
 
 async function ingestLatest(daysBack = 45, perCollection = 14) {

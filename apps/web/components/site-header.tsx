@@ -25,6 +25,9 @@ export function SiteHeader() {
             <Link href="/topics" className="text-muted hover:text-ink hover:no-underline">
               Topics
             </Link>
+            <Link href="/images" className="text-muted hover:text-ink hover:no-underline">
+              Images
+            </Link>
             <Link href="/about" className="text-muted hover:text-ink hover:no-underline">
               About
             </Link>
@@ -32,12 +35,12 @@ export function SiteHeader() {
         </div>
       </div>
 
-      {/* Honest, low-key notice: early corpus, excerpts pending full-text ingestion. */}
+      {/* Honest, low-key notice about what this is. */}
       <div className="border-t border-line-soft bg-canvas">
         <div className="mx-auto max-w-6xl px-4 py-1.5 text-xs text-muted">
-          Early build · a growing corpus of real government records. Excerpts are
-          catalog-level pending full-text ingestion — every document links to its original
-          source.
+          Early build · a growing archive of real government records, refreshed nightly.
+          Descriptions are drawn from each document&rsquo;s own official text, and every
+          record links to its original source.
         </div>
       </div>
     </header>
