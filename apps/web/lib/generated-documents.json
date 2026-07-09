@@ -26,38 +26,6 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-DCPD-2026DIGEST",
-    "title": "Digest of Other White House Announcements",
-    "agency": "WH",
-    "collection": "uap",
-    "topics": [
-      "uap"
-    ],
-    "docDate": "2026-06-19",
-    "releaseDate": "2026-06-19",
-    "originalUrl": "https://www.govinfo.gov/app/details/DCPD-2026DIGEST",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Trump, 2026 Digest of Other White House Announcements June 19, 2026 The following list includes the President&#39;s public schedule and other items of general interest announced by the Office of Communications and Office of the Press Secretary and not included elsewhere in this Compilation. January 1 In the morning, the President traveled to the Trump International Golf Club West Palm Beach in West Palm Beach, FL. In the afternoon, the President traveled…",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Trump, 2026 Digest of Other White House Announcements June 19, 2026 The following list includes the President&#39;s public schedule and other items of general interest announced by the Office of Communications and Office of the Press Secretary and not included elsewhere in this Compilation. January 1 In the morning, the President traveled to the Trump International Golf Club West Palm Beach in West Palm Beach, FL. In the afternoon, the President traveled to Palm Beach, FL, where, at his residence at the Mar-a-Lago Club, he remained overnight. The White House announced that the President will return to Washington, DC, on January 4. January 2 In the morning, the President traveled to Lake Worth, FL, where, at the Arc Stone and Tile store, he purchased marble and onyx for the new White House Ballroom under construction. Then, he traveled to the Trump International Golf Club West Palm Beach in West Palm Beach, FL In the afternoon, the President traveled to Palm Beach, FL, where, he had an intelligence briefing. In the evening, at the Mar-a-Lago Club, the President met with U.S. Ambassador to China David A. Perdue, Jr. He also gave the order to begin a U.S military operation to capture President Nicolas Maduro Moros of Venezuela in Caracas, Venezuela. He remained overnight at his residence at the Mar-a-Lago Club. The President announced that White House doctors had reported that he was in &quot;perfect health&quot; following his third successful completion of a cognitive…"
-      }
-    ],
-    "entities": [
-      "Donald Trump",
-      "John F. Kennedy",
-      "Robert F. Kennedy",
-      "Central Intelligence Agency",
-      "Federal Bureau of Investigation"
-    ],
-    "tags": [
-      "CPD"
-    ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
-  },
-  {
     "id": "gov-CRPT-117srpt37",
     "title": "INTELLIGENCE AUTHORIZATION ACT FOR FISCAL YEAR 2022",
     "agency": "SENATE",
@@ -679,6 +647,39 @@
       "CREC"
     ],
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-DCPD-2026DIGEST",
+    "title": "Digest of Other White House Announcements",
+    "agency": "WH",
+    "collection": "uap",
+    "topics": [
+      "uap"
+    ],
+    "docDate": "2026-06-26",
+    "releaseDate": "2026-06-26",
+    "originalUrl": "https://www.govinfo.gov/app/details/DCPD-2026DIGEST",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Trump, 2026 Digest of Other White House Announcements June 26, 2026 The following list includes the President&#39;s public schedule and other items of general interest announced by the Office of Communications and Office of the Press Secretary and not included elsewhere in this Compilation. January 1 In the morning, the President traveled to the Trump International Golf Club West Palm Beach in West Palm Beach, FL. In the afternoon, the President traveled…",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Trump, 2026 Digest of Other White House Announcements June 26, 2026 The following list includes the President&#39;s public schedule and other items of general interest announced by the Office of Communications and Office of the Press Secretary and not included elsewhere in this Compilation. January 1 In the morning, the President traveled to the Trump International Golf Club West Palm Beach in West Palm Beach, FL. In the afternoon, the President traveled to Palm Beach, FL, where, at his residence at the Mar-a-Lago Club, he remained overnight. The White House announced that the President will return to Washington, DC, on January 4. January 2 In the morning, the President traveled to Lake Worth, FL, where, at the Arc Stone and Tile store, he purchased marble and onyx for the new White House Ballroom under construction. Then, he traveled to the Trump International Golf Club West Palm Beach in West Palm Beach, FL In the afternoon, the President traveled to Palm Beach, FL, where, he had an intelligence briefing. In the evening, at the Mar-a-Lago Club, the President met with U.S. Ambassador to China David A. Perdue, Jr. He also gave the order to begin a U.S military operation to capture President Nicolas Maduro Moros of Venezuela in Caracas, Venezuela. He remained overnight at his residence at the Mar-a-Lago Club. The President announced that White House doctors had reported that he was in &quot;perfect health&quot; following his third successful completion of a cognitive…"
+      }
+    ],
+    "entities": [
+      "Donald Trump",
+      "John F. Kennedy",
+      "Robert F. Kennedy",
+      "Central Intelligence Agency",
+      "Federal Bureau of Investigation",
+      "Department of Justice"
+    ],
+    "tags": [
+      "CPD"
+    ],
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "gov-CRPT-118hrpt972",
@@ -3081,6 +3082,58 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
+    "id": "gov-USCOURTS-ca2-11-03506",
+    "title": "In Re: Terrorist Attacks on Se",
+    "agency": "OTHER",
+    "collection": "sept-11",
+    "topics": [
+      "sept-11"
+    ],
+    "docDate": "2013-04-16",
+    "releaseDate": "2013-04-16",
+    "originalUrl": "https://www.govinfo.gov/app/details/USCOURTS-ca2-11-03506",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "In Re: Terrorist Attacks on Se. A record published by the U.S. Government Publishing Office (collection USCOURTS).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "In Re: Terrorist Attacks on Se. Published by the U.S. Government Publishing Office, collection USCOURTS. Read the full document at the source."
+      }
+    ],
+    "entities": [],
+    "tags": [
+      "USCOURTS"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-USCOURTS-ca2-11-03407",
+    "title": "In re: Terrorist Attacks on Se",
+    "agency": "OTHER",
+    "collection": "sept-11",
+    "topics": [
+      "sept-11"
+    ],
+    "docDate": "2013-04-16",
+    "releaseDate": "2013-04-16",
+    "originalUrl": "https://www.govinfo.gov/app/details/USCOURTS-ca2-11-03407",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "In re: Terrorist Attacks on Se. A record published by the U.S. Government Publishing Office (collection USCOURTS).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "In re: Terrorist Attacks on Se. Published by the U.S. Government Publishing Office, collection USCOURTS. Read the full document at the source."
+      }
+    ],
+    "entities": [],
+    "tags": [
+      "USCOURTS"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
     "id": "gov-USCOURTS-ca2-11-03510",
     "title": "In Re: Terrorist Attacks on Se",
     "agency": "OTHER",
@@ -3176,58 +3229,6 @@
       {
         "pageNumber": 1,
         "text": "In Re: Terrorist Attacks on S. Published by the U.S. Government Publishing Office, collection USCOURTS. Read the full document at the source."
-      }
-    ],
-    "entities": [],
-    "tags": [
-      "USCOURTS"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
-    "id": "gov-USCOURTS-ca2-11-03506",
-    "title": "In Re: Terrorist Attacks on Se",
-    "agency": "OTHER",
-    "collection": "sept-11",
-    "topics": [
-      "sept-11"
-    ],
-    "docDate": "2013-04-16",
-    "releaseDate": "2013-04-16",
-    "originalUrl": "https://www.govinfo.gov/app/details/USCOURTS-ca2-11-03506",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "In Re: Terrorist Attacks on Se. A record published by the U.S. Government Publishing Office (collection USCOURTS).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "In Re: Terrorist Attacks on Se. Published by the U.S. Government Publishing Office, collection USCOURTS. Read the full document at the source."
-      }
-    ],
-    "entities": [],
-    "tags": [
-      "USCOURTS"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
-    "id": "gov-USCOURTS-ca2-11-03407",
-    "title": "In re: Terrorist Attacks on Se",
-    "agency": "OTHER",
-    "collection": "sept-11",
-    "topics": [
-      "sept-11"
-    ],
-    "docDate": "2013-04-16",
-    "releaseDate": "2013-04-16",
-    "originalUrl": "https://www.govinfo.gov/app/details/USCOURTS-ca2-11-03407",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "In re: Terrorist Attacks on Se. A record published by the U.S. Government Publishing Office (collection USCOURTS).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "In re: Terrorist Attacks on Se. Published by the U.S. Government Publishing Office, collection USCOURTS. Read the full document at the source."
       }
     ],
     "entities": [],
@@ -7484,20 +7485,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/05/05/2026-08899/national-fallen-firefighters-memorial-weekend-2026",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "We carry their memories forward in gratitude along with the enduring promise of a Nation forever changed by their sacrifice. Every day across our great country, firefighters answer the call when it matters most, rushing into danger to protect lives, homes, and communities. Through fires, disasters, and emergencies, they demonstrate an unwavering commitment to the safety and well-being of their fellow Americans.",
+    "summary": "National Fallen Firefighters Memorial Weekend, 2026. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "We carry their memories forward in gratitude along with the enduring promise of a Nation forever changed by their sacrifice. Every day across our great country, firefighters answer the call when it matters most, rushing into danger to protect lives, homes, and communities. Through fires, disasters, and emergencies, they demonstrate an unwavering commitment to the safety and well-being of their fellow Americans. Their bravery and dedication make our Nation stronger, and we are safer because of them. This weekend, we hold the families, friends, and loved ones of our fallen fire heroes--many of whom are gathered on the beautiful campus of the National Fire Academy at the National Fallen Firefighters Memorial Park in Emmitsburg, Maryland--to grieve together, share cherished memories, and find strength in the enduring legacies of those they have lost. Their grief is truly immeasurable, and we reaffirm our solemn mission to ensure that the names and memories of their loved ones remain forever enshrined in the hearts of our citizens. As we reflect on the lives of our Nation's fallen firefighters, we are reminded that gratitude must be matched by action. It remains our country's solemn obligation to provide the heroes of emergency response with the training, equipment, and resources they need to do their jobs well and return home safely to the peace and comfort of those who love them. My Administration remains steadfast in our commitment to unequivocally supporting those who protect…"
+        "text": "National Fallen Firefighters Memorial Weekend, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [
-      "Donald Trump"
-    ],
+    "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-08898",
@@ -7513,20 +7512,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/05/05/2026-08898/national-foster-care-month-2026",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "This National Foster Care Month, the First Lady and I join with countless Americans in celebrating the foster families whose devotion carries our youngest citizens forward by helping them realize the full potential of their unique American Dream. In communities around the country, ordinary Americans rise to an extraordinary calling by opening their homes to children who have endured immense challenges that no child should ever know. These caregivers,…",
+    "summary": "National Foster Care Month, 2026. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "This National Foster Care Month, the First Lady and I join with countless Americans in celebrating the foster families whose devotion carries our youngest citizens forward by helping them realize the full potential of their unique American Dream. In communities around the country, ordinary Americans rise to an extraordinary calling by opening their homes to children who have endured immense challenges that no child should ever know. These caregivers, alongside the social workers, clergy, educators, and countless volunteers who stand beside them, offer stability, belonging, and hope where once there was only uncertainty. My Administration will accept nothing less than excellence for the children in foster care who depend upon us. In November 2025, I signed an Executive Order on Fostering the Future for American Children and Families--a revolutionary commitment championed by First Lady Melania Trump to strengthen foster care, support families, and improve outcomes for children across our Nation. Under my leadership as well as the First Lady's, we are opening new public and private sector pathways for young people who have experienced foster care, improving data sharing among those who depend on it to increase efficiency, and enacting stronger accountability throughout the foster care system nationwide. Through the incredible work of our First Lady, the Melania Trump Fostering Youth to Independence Program has expanded its reach, devoting $30 million to supporting housing…"
+        "text": "National Foster Care Month, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [
-      "Donald Trump"
-    ],
+    "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-08126",
@@ -7650,18 +7647,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/23/2026-08011/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21929]] Presidential Determination No. 2026-09 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Development, Manufacturing, and Deployment of Large- Scale Energy and Energy Related Infrastructure Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy…",
+    "summary": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Development, Manufacturing, and Deployment of Large- Scale Energy and…. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21929]] Presidential Determination No. 2026-09 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Development, Manufacturing, and Deployment of Large- Scale Energy and Energy Related Infrastructure Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy Emergency), under the National Emergencies Act. That order found that America's inadequate energy production, transportation, refining, and generation constitutes an unusual and extraordinary threat to the Nation's economy, national security, and foreign policy. It emphasized that our Nation's current inadequate and intermittent energy supply leaves us vulnerable to hostile foreign actors and poses an imminent and growing threat to the United States' prosperity and national security. Consistent with that declaration, I find that ensuring the domestic capability for development, manufacturing, and deployment of large-scale energy and energy-related infrastructure is essential to United States national defense, yet due to financing risks, regulatory delays, and market barriers, these cannot be met in full under existing market conditions. Therefore, by the authority vested in me as President by the Constitution and the laws of the United States of America, including section 303 of the Defense Production Act of 1950, as amended (the…"
+        "text": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Development, Manufacturing, and Deployment of Large- Scale Energy and…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-08010",
@@ -7677,18 +7674,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/23/2026-08010/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21927]] Presidential Determination No. 2026-08 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Coal Supply Chains and Baseload Power Generation Capacity Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy Emergency), under the National Emergencies Act.…",
+    "summary": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Coal Supply Chains and Baseload Power Generation Capacity. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21927]] Presidential Determination No. 2026-08 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Coal Supply Chains and Baseload Power Generation Capacity Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy Emergency), under the National Emergencies Act. That order found that America's inadequate energy production, transportation, refining, and generation capacity constitutes an unusual and extraordinary threat to the Nation's economy, national security, and foreign policy. It emphasized that our Nation's current inadequate and intermittent energy supply leaves us vulnerable to hostile foreign actors and poses an imminent and growing threat to the United States' prosperity and national security. Consistent with that declaration, I find that ensuring reliable coal supply chains and baseload power generation capacity is essential to United States national defense. Coal mining and logistics, terminals, stockpile, and power generation facilities provide indispensable resilience to our power grids that cannot be replaced. Without sufficient coal-fired baseload power, the United States will lack the stable electricity required to support defense installations, industrial expansion, and the high-energy demands of emerging technologies, such as artificial intelligence. Therefore,…"
+        "text": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Coal Supply Chains and Baseload Power Generation Capacity. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-08009",
@@ -7758,18 +7755,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07731/authorizing-enbridge-pipelines-southern-lights-llc-to-operate-and-maintain-existing-pipeline",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Enbridge Pipelines (Southern Lights) L.L.C. To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between…. A presidential document published in the Federal Register.",
+    "summary": "75 / Monday, April 20, 2026 / Presidential Documents\u0000\u0000 [[Page 21241]] Presidential Permit of April 15, 2026 Authorizing Enbridge Pipelines (Southern Lights) L.L.C. To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Canada By virtue of the authority vested in me as President of the United States of America (the ``President''), I hereby grant this Presidential…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Enbridge Pipelines (Southern Lights) L.L.C. To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "75 / Monday, April 20, 2026 / Presidential Documents\u0000\u0000 [[Page 21241]] Presidential Permit of April 15, 2026 Authorizing Enbridge Pipelines (Southern Lights) L.L.C. To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Canada By virtue of the authority vested in me as President of the United States of America (the ``President''), I hereby grant this Presidential permit, subject to the conditions herein set forth to Enbridge Pipelines (Southern Lights) L.L.C. (the ``permittee''). The permittee is a limited liability company, organized under the laws of the State of Delaware and an indirectly owned subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain existing pipeline Border facilities, as described herein, at the international border of the United States and Canada in Neche, Pembina County, North Dakota, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated June 10, 2008. This permit does not affect…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07730",
@@ -7785,18 +7782,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07730/authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-existing-pipeline-facilities",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "75 / Monday, April 20, 2026 / Presidential Documents\u0000\u0000 [[Page 21237]] Presidential Permit of April 15, 2026 Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada By virtue of the authority vested in me as President of the United States of America (the ``President''), I hereby grant this Presidential permit,…",
+    "summary": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the…. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "75 / Monday, April 20, 2026 / Presidential Documents\u0000\u0000 [[Page 21237]] Presidential Permit of April 15, 2026 Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada By virtue of the authority vested in me as President of the United States of America (the ``President''), I hereby grant this Presidential permit, subject to the conditions herein set forth to Enbridge Energy, Limited Partnership (the ``permittee''). The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain existing pipeline Border facilities, as described herein, at the international border of the United States and Canada in St. Clair County, Michigan, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated December 12, 1991. This permit does not affect the applicability of any…"
+        "text": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-07729",
@@ -7812,18 +7809,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07729/authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-three-existing-pipeline",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. This permit supersedes and revokes the Presidential permit issued previously, dated December 12, 1991. This permit does not affect the applicability of any otherwise-relevant laws and regulations.",
+    "summary": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Three Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between…. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain existing pipeline Border facilities, as described herein, at the international border of the United States and Canada in Pembina County, North Dakota, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated December 12, 1991. This permit does not affect the applicability of any otherwise-relevant laws and regulations. As confirmed in Article 2 of this permit, the Border facilities shall remain subject to all such laws and regulations. The term ``Facilities'' as used in this permit means the portion in the United States of the international pipeline project associated with the permittee's January 16, 2026, application for an amendment to its existing permit, and any land, structures, installations, or equipment appurtenant thereto. The term ``Border facilities'' as used in this permit means those parts of the Facilities consisting…"
+        "text": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Three Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-07725",
@@ -7839,18 +7836,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07725/authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-existing-pipeline-facilities",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the…. A presidential document published in the Federal Register.",
+    "summary": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. This permit supersedes and revokes the Presidential permit issued previously, dated October 13, 2017. 16, 2017) (Notice of Issuance of a Presidential Permit to Enbridge Energy, Limited Partnership).",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain existing pipeline Border facilities, as described herein, at the international border of the United States and Canada near Neche, Pembina County, North Dakota, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated October 13, 2017. See 82 Fed. Reg. 53553 (Nov. 16, 2017) (Notice of Issuance of a Presidential Permit to Enbridge Energy, Limited Partnership). This permit does not affect the applicability of any otherwise-relevant laws and regulations. As confirmed in Article 2 of this permit, the Border facilities shall remain subject to all such laws and regulations. The term ``Facilities'' as used in this permit means the portion in the United States of the international pipeline project associated with the permittee's January 16, 2026, application for an amendment to its existing permit, and any land, structures, installations, or…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07724",
@@ -7920,18 +7917,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07718/authorizing-enbridge-energy-company-inc-to-operate-and-maintain-existing-pipeline-facilities-at-st",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Enbridge Energy Company, Inc. To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United…. A presidential document published in the Federal Register.",
+    "summary": "75 / Monday, April 20, 2026 / Presidential Documents\u0000\u0000 [[Page 21217]] Presidential Permit of April 15, 2026 Authorizing Enbridge Energy Company, Inc. To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada By virtue of the authority vested in me as President of the United States of America (the ``President''), I hereby grant this Presidential permit, subject to…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Enbridge Energy Company, Inc. To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "75 / Monday, April 20, 2026 / Presidential Documents\u0000\u0000 [[Page 21217]] Presidential Permit of April 15, 2026 Authorizing Enbridge Energy Company, Inc. To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada By virtue of the authority vested in me as President of the United States of America (the ``President''), I hereby grant this Presidential permit, subject to the conditions herein set forth to Enbridge Energy Company, Inc. (the ``permittee''). The permittee is a company formed under the laws of the State of Delaware and is a subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain existing pipeline Border facilities, as described herein, at the international border of the United States and Canada in St. Clair County, Michigan between the cities of Port Huron and Marysville, Michigan, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated April 28, 1953. This permit does not affect the…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07717",
@@ -7947,18 +7944,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07717/authorizing-bakken-pipeline-company-lp-to-operate-and-maintain-existing-pipeline-facilities-at-burke",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Bakken Pipeline Company LP To Operate and Maintain Existing Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the United States…. A presidential document published in the Federal Register.",
+    "summary": "The permittee is a limited partnership organized under the laws of the State of Delaware and is a subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. This permit supersedes and revokes the Presidential permit issued previously, dated April 8, 1996. This permit does not affect the applicability of any otherwise-relevant laws and regulations.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Bakken Pipeline Company LP To Operate and Maintain Existing Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the United States…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "The permittee is a limited partnership organized under the laws of the State of Delaware and is a subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain pipeline Border facilities, as described herein, at the international border of the United States and Canada near Portal, North Dakota, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated April 8, 1996. This permit does not affect the applicability of any otherwise-relevant laws and regulations. As confirmed in Article 2 of this permit, the Border facilities shall remain subject to all such laws and regulations. The term ``Facilities'' as used in this permit means the portion in the United States of the international pipeline project associated with the permittee's January 16, 2026, application for an amendment to its existing permit, and any land, structures, installations, or equipment appurtenant thereto. The term ``Border facilities'' as used in this permit means those parts of the Facilities consisting of a 12- inch diameter…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07716",
@@ -7974,18 +7971,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07716/authorizing-bakken-pipeline-company-lp-to-construct-connect-operate-and-maintain-pipeline-facilities",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Bakken Pipeline Company LP To Construct, Connect, Operate, and Maintain Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the…. A presidential document published in the Federal Register.",
+    "summary": "To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada Presidential Permit of April 15, 2026--Authorizing Enbridge Pipelines (Southern Lights) L.L.C. To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Canada \u0000 \u0000 \u0000 Presidential Documents \u0000 \u0000 \u0000\u0000Federal Register / Vol.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Bakken Pipeline Company LP To Construct, Connect, Operate, and Maintain Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "To Operate and Maintain Existing Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the United States and Canada Presidential Permit of April 15, 2026--Authorizing Enbridge Energy Company, Inc. To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada Presidential Permit of April 15, 2026--Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Canada Presidential Permit of April 15, 2026--Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Canada Presidential Permit of April 15, 2026--Authorizing Enbridge Energy, Limited [[Page 21208]] Partnership To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Canada Presidential Permit of April 15, 2026--Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Three Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the United States and Canada Presidential Permit of April 15, 2026--Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07645",
@@ -8028,18 +8025,20 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/16/2026-07524/day-of-celebration-in-honor-of-the-life-of-henry-clay-2026",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Day of Celebration in Honor of the Life of Henry Clay, 2026. A presidential document published in the Federal Register.",
+    "summary": "Born in the midst of the Revolutionary War on April 12, 1777, Clay rose from humble beginnings in Virginia to stand among the most consequential statesmen this country has ever produced. He represented the Commonwealth of Kentucky in the United States Congress, where he became the driving force behind what became known as the American System, championing strong protective tariffs to defend and develop domestic industry, a sound national financial…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Day of Celebration in Honor of the Life of Henry Clay, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "Born in the midst of the Revolutionary War on April 12, 1777, Clay rose from humble beginnings in Virginia to stand among the most consequential statesmen this country has ever produced. He represented the Commonwealth of Kentucky in the United States Congress, where he became the driving force behind what became known as the American System, championing strong protective tariffs to defend and develop domestic industry, a sound national financial structure to support growth and commerce, and Federal investment in roads, canals, and other internal improvements to bind the Nation together. The American System served as a practical blueprint for national strength, national unity, and national self-reliance. Henry Clay understood that our Nation's political independence must rest on a firm foundation of economic independence. He knew that sovereignty is never merely political. It is industrial. It is financial. It is commercial. He understood that when a Nation can no longer make what it needs, move what it makes, or defend the workers who sustain it, that Nation risks losing not only prosperity, but independence itself. Throughout his time in public office, he never wavered in his fight for America's economic independence during the most formative years of our country. Clay would go on to wield the gavel as Speaker of the House and serve with distinction in the Senate, and in 1825, he assumed the office of Secretary of State under President John Quincy Adams. Throughout his…"
       }
     ],
-    "entities": [],
+    "entities": [
+      "Donald Trump"
+    ],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07069",
@@ -8055,18 +8054,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/10/2026-07069/continuation-of-the-national-emergency-with-respect-to-somalia",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "1701 et seq.) to deal with the unusual and extraordinary threat to the national security and foreign policy of the United States constituted by the deterioration of the security situation and the persistence of violence in Somalia; acts of piracy and armed robbery at sea off the coast of Somalia, which have been the subject of United Nations Security Council resolutions; and violations of the arms embargo imposed by the United Nations Security Council.…",
+    "summary": "Continuation of the National Emergency With Respect to Somalia. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "1701 et seq.) to deal with the unusual and extraordinary threat to the national security and foreign policy of the United States constituted by the deterioration of the security situation and the persistence of violence in Somalia; acts of piracy and armed robbery at sea off the coast of Somalia, which have been the subject of United Nations Security Council resolutions; and violations of the arms embargo imposed by the United Nations Security Council. On July 20, 2012, the President issued Executive Order 13620 to take additional steps to deal with the national emergency declared in Executive Order 13536 in view of United Nations Security Council Resolution 2036 of February 22, 2012, and Resolution 2002 of July 29, 2011, and to address: exports of charcoal from Somalia, which generate significant revenue for al-Shabaab; the misappropriation of Somali public assets; and certain acts of violence committed against civilians in Somalia, all of which contribute to the deterioration of the security situation and the persistence of violence in Somalia. The situation with respect to Somalia continues to pose an unusual and extraordinary threat to the national security and foreign policy of the United States. For this reason, the national emergency declared on April 12, 2010, and the measures adopted on that date and on July 20, 2012, to deal with that threat, must continue in effect beyond April 12, 2026. Therefore, in accordance with section 202(d) of the National Emergencies Act…"
+        "text": "Continuation of the National Emergency With Respect to Somalia. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-R1-2026-03829",
@@ -8082,18 +8081,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/09/R1-2026-03829/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries. A presidential document published in the Federal Register.",
+    "summary": "In that publication, the document did not include the accompanying annex. The corrected document is republished in its entirety with the accompanying annex.] By the authority vested in me as President by the Constitution and the laws of the United States of America, including the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "In that publication, the document did not include the accompanying annex. The corrected document is republished in its entirety with the accompanying annex.] By the authority vested in me as President by the Constitution and the laws of the United States of America, including the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C. 1601 et seq.), section 604 of the Trade Act of 1974, as amended (19 U.S.C. 2483), and section 301 of title 3, United States Code, it is hereby ordered: Section 1. Background. In several Executive Orders, including Executive Order 14193 of February 1, 2025 (Imposing Duties To Address the Flow of Illicit Drugs Across Our Northern Border), as amended; Executive Order 14194 of February 1, 2025 (Imposing Duties To Address the Situation at Our Southern Border), as amended; Executive Order 14195 of February 1, 2025 (Imposing Duties To Address the Synthetic Opioid Supply Chain in the People's Republic of China), as amended; Executive Order 14257 of April 2, 2025 (Regulating Imports With a Reciprocal Tariff To Rectify Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits), as amended; and Executive Order 14324 of July 30, 2025 (Suspending Duty-Free De Minimis Treatment for All Countries), I declared or described national emergencies with respect to unusual and extraordinary threats to the national security, foreign policy, or economy of the United…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06962",
@@ -8109,18 +8108,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/09/2026-06962/sequestration-order-for-fiscal-year-2027-pursuant-to-section-251a-of-the-balanced-budget-and",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Sequestration Order for Fiscal Year 2027 Pursuant to Section 251A of the Balanced Budget and Emergency Deficit Control Act, as Amended. A presidential document published in the Federal Register.",
+    "summary": "68 / Thursday, April 9, 2026 / Presidential Documents\u0000\u0000 [[Page 18273]] Order of April 3, 2026 Sequestration Order for Fiscal Year 2027 Pursuant to Section 251A of the Balanced Budget and Emergency Deficit Control Act, as Amended By the authority vested in me as President by the laws of the United States of America, and in accordance with section 251A of the Balanced Budget and Emergency Deficit Control Act (the ``Act''), as amended, 2 U.S.C. 901a, I…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Sequestration Order for Fiscal Year 2027 Pursuant to Section 251A of the Balanced Budget and Emergency Deficit Control Act, as Amended. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "68 / Thursday, April 9, 2026 / Presidential Documents\u0000\u0000 [[Page 18273]] Order of April 3, 2026 Sequestration Order for Fiscal Year 2027 Pursuant to Section 251A of the Balanced Budget and Emergency Deficit Control Act, as Amended By the authority vested in me as President by the laws of the United States of America, and in accordance with section 251A of the Balanced Budget and Emergency Deficit Control Act (the ``Act''), as amended, 2 U.S.C. 901a, I hereby order that, on October 1, 2026, direct spending budgetary resources for fiscal year 2027 in each non-exempt budget account be reduced by the amount calculated by the Office of Management and Budget in its report to the Congress of April 3, 2026. All sequestrations shall be made in strict accordance with the requirements of section 251A of the Act and the specifications of the Office of Management and Budget's report of April 3, 2026, prepared pursuant to section 251A(9) of the Act. <GRAPHIC(S) NOT AVAILABLE IN TIFF FORMAT> (Presidential Sig.) THE WHITE HOUSE, April 3, 2026. [FR Doc. 2026-06962 Filed 4-8-26; 11:15 am] Billing code 3395-F4-P </pre></body> </html>"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06961",
@@ -8192,20 +8191,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/09/2026-06956/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "The Secretary of Commerce (Secretary) recently transmitted to me a report on his investigation into the effects of imports of pharmaceuticals and pharmaceutical ingredients on the national security of the United States under section 232 of the Trade Expansion Act of 1962, as amended, 19 U.S.C. Based on the facts considered in that investigation, and taking into account the close relation of the economic welfare of the Nation to our national security and…",
+    "summary": "Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "The Secretary of Commerce (Secretary) recently transmitted to me a report on his investigation into the effects of imports of pharmaceuticals and pharmaceutical ingredients on the national security of the United States under section 232 of the Trade Expansion Act of 1962, as amended, 19 U.S.C. 1862 (section 232). Based on the facts considered in that investigation, and taking into account the close relation of the economic welfare of the Nation to our national security and other relevant factors, see 19 U.S.C. 1862(d), the Secretary found and advised me of his opinion that pharmaceuticals and associated active pharmaceutical ingredients (APIs), including key starting materials, are being imported into the United States in such quantities and under such circumstances as to threaten to impair the national security of the United States. 2. The Secretary found that the present quantities and circumstances of imports of pharmaceuticals and pharmaceutical ingredients threaten to impair the national security and economy. Despite being the world leader in research and development (R&D) for most innovative pharmaceuticals (those that are typically patented and branded, as compared to generic pharmaceuticals or pharmaceuticals approved pursuant to section 505(j) of the Federal Food, Drug, and Cosmetic Act, 21 U.S.C. 355(j)), the United States is heavily reliant on imports, threatening to limit United States access to life-saving medications in the event of global supply chain…"
+        "text": "Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [
-      "Donald Trump"
-    ],
+    "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-06601",
@@ -8221,18 +8218,20 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/03/2026-06601/ensuring-citizenship-verification-and-integrity-in-federal-elections",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Ensuring Citizenship Verification and Integrity in Federal Elections. A presidential document published in the Federal Register.",
+    "summary": "20901 et seq.), the National Voter Registration Act of 1993 (52 U.S.C. 20501 et seq.), and the Federal Government's constitutional obligation to guarantee a republican form of Government to every State in the Union, U.S. The right to vote in Federal elections is reserved exclusively for citizens of the United States under the Constitution and Federal law.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Ensuring Citizenship Verification and Integrity in Federal Elections. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "20901 et seq.), the National Voter Registration Act of 1993 (52 U.S.C. 20501 et seq.), and the Federal Government's constitutional obligation to guarantee a republican form of Government to every State in the Union, U.S. Const. Art. IV, Sec. 4, it is hereby ordered: Section 1. Purpose and Policy. The right to vote in Federal elections is reserved exclusively for citizens of the United States under the Constitution and Federal law. Federal statutes explicitly prohibit non-citizens from registering to vote or voting in Federal elections and impose criminal penalties for violations. (18 U.S.C. 241; 18 U.S.C. 611; 18 U.S.C. 1015; and 52 U.S.C. 20511). The Social Security Administration (SSA) maintains records that, in conjunction with the Department of Homeland Security's (DHS) Systematic Alien Verification for Entitlements (SAVE) program under 42 U.S.C. 1320b-7, can assist in verifying identity and Federal election voter eligibility. The Federal Government has an unavoidable duty under Article II of the Constitution of the United States to enforce Federal law, which includes preventing violations of Federal criminal law and maintaining public confidence in election outcomes. To enhance election integrity via the United States Mail, additional measures are necessary. Secure ballot envelope identifiers provide a reliable, auditable mechanism to enforce Federal law without unduly burdening or infringing on the rights of eligible voters. Unique ballot envelope identifiers, such as…"
       }
     ],
-    "entities": [],
+    "entities": [
+      "Department of Justice"
+    ],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06286",
@@ -8248,18 +8247,20 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/31/2026-06286/addressing-dei-discrimination-by-federal-contractors",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Addressing DEI Discrimination by Federal Contractors. A presidential document published in the Federal Register.",
+    "summary": "101 et seq.) (FPASA), it is hereby ordered: Section 1. My Administration has made significant progress in ending racial discrimination in American society, including so-called ``diversity, equity, and inclusion'' (DEI) activities in which employees, applicants, or contracting parties are treated differently, separated, or singled out based on their race or ethnicity, rather than treated equally and objectively based on their merit and without regard to…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Addressing DEI Discrimination by Federal Contractors. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "101 et seq.) (FPASA), it is hereby ordered: Section 1. Policy and Purpose. My Administration has made significant progress in ending racial discrimination in American society, including so-called ``diversity, equity, and inclusion'' (DEI) activities in which employees, applicants, or contracting parties are treated differently, separated, or singled out based on their race or ethnicity, rather than treated equally and objectively based on their merit and without regard to their immutable characteristics. Despite this progress, some entities continue to engage in DEI activities and often attempt to conceal their efforts to do so. DEI activities are not only unethical and often illegal, but also cause inefficiencies, waste, and abuse within entities that engage in such practices. Specifically, DEI activities impose artificial costs in hiring, promotion, and operations by precluding implementation of merit-based principles; creating excessive workforce turnover by elevating immutable characteristics over job performance; and jeopardizing the sort of employee collaboration and problem-solving that is essential to fostering efficient and high- quality work. DEI activities also create unnecessary costs by reducing the pool of available labor by artificially limiting companies to hiring or promoting certain individuals, suppliers, or intermediaries based on their race or ethnicity. These costs are inevitably passed on to the Federal Government when it contracts with companies who…"
       }
     ],
-    "entities": [],
+    "entities": [
+      "Department of Justice"
+    ],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06079",
@@ -8275,18 +8276,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-06079/continuation-of-the-national-emergency-with-respect-to-trade-practices-that-contribute-to-large-and",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits. A presidential document published in the Federal Register.",
+    "summary": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15517]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits On April 2, 2025, by Executive Order 14257, I declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15517]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits On April 2, 2025, by Executive Order 14257, I declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security and economy of the United States involving conditions reflected in large and persistent annual U.S. goods trade deficits, including the consequences of those deficits. The President took additional steps pursuant to this national emergency, including in Executive Order 14259 of April 8, 2025; Executive Order 14266 of April 9, 2025; Executive Order 14309 of June 16, 2025; Executive Order 14316 of July 7, 2025; Executive Order 14324 of July 30, 2025; Executive Order 14326 of July 31, 2025; Executive Order 14334 of August 11, 2025; Executive Order 14345 of September 4, 2025; Executive Order 14346 of September 5, 2025; and Executive Order 14360 of November 14, 2025. The circumstances related to this emergency continue to pose an unusual and extraordinary threat, which has its source in whole or in substantial part outside the United States, to the national security and economy of the United States. For this reason, the national emergency declared in Executive Order 14257 of April 2, 2025, must continue…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06078",
@@ -8302,18 +8303,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-06078/continuation-of-the-national-emergency-with-respect-to-specified-harmful-foreign-activities-of-the",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15515]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation On April 15, 2021, by Executive Order 14024, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to…",
+    "summary": "Continuation of the National Emergency With Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15515]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation On April 15, 2021, by Executive Order 14024, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security, foreign policy, and economy of the United States constituted by specified harmful foreign activities of the Government of the Russian Federation. On March 8, 2022, the President issued Executive Order 14066 to expand the scope of the national emergency declared in Executive Order 14024. On August 20, 2021, March 11, 2022, April 6, 2022, December 22, 2023, August 6, 2025, and February 6, 2026, the President issued Executive Orders 14039, 14068, 14071, 14114, 14329, and 14384, respectively, to take additional steps with respect to the national emergency declared in Executive Order 14024. Specified harmful foreign activities of the Government of the Russian Federation--in particular, efforts to undermine the conduct of free and fair democratic elections and democratic institutions in the United States and its allies and partners; to engage in and facilitate malicious cyber-enabled activities against the United States and its allies and partners; to foster and use transnational corruption to influence…"
+        "text": "Continuation of the National Emergency With Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-06077",
@@ -8329,18 +8330,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-06077/continuation-of-the-national-emergency-with-respect-to-south-sudan",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Continuation of the National Emergency With Respect to South Sudan. A presidential document published in the Federal Register.",
+    "summary": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15513]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to South Sudan On April 3, 2014, by Executive Order 13664, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security and foreign policy of the United States…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Continuation of the National Emergency With Respect to South Sudan. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15513]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to South Sudan On April 3, 2014, by Executive Order 13664, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security and foreign policy of the United States constituted by the situation in and in relation to South Sudan, which has been marked by activities that threaten the peace, security, or stability of South Sudan and the surrounding region, including widespread violence and atrocities, human rights abuses, recruitment and use of child soldiers, attacks on peacekeepers, and obstruction of humanitarian operations. The situation in and in relation to South Sudan continues to pose an unusual and extraordinary threat to the national security and foreign policy of the United States. For this reason, the national emergency declared on April 3, 2014, must continue in effect beyond April 3, 2026. Therefore, in accordance with section 202(d) of the National Emergencies Act (50 U.S.C. 1622(d)), I am continuing for 1 year the national emergency declared in Executive Order 13664. This notice shall be published in the Federal Register and transmitted to the Congress. <GRAPHIC(S) NOT AVAILABLE IN TIFF FORMAT> (Presidential Sig.) THE WHITE HOUSE, March 24, 2026. [FR Doc. 2026-06077 Filed 3-26-26;…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06076",
@@ -8356,18 +8357,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-06076/continuation-of-the-national-emergency-with-respect-to-significant-malicious-cyber-enabled",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15511]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities On April 1, 2015, by Executive Order 13694, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security, foreign…",
+    "summary": "Continuation of the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15511]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities On April 1, 2015, by Executive Order 13694, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security, foreign policy, and economy of the United States constituted by the increasing prevalence and severity of malicious cyber-enabled activities originating from, or directed by persons located, in whole or in substantial part, outside the United States. The President issued Executive Order 13757 of December 28, 2016, Executive Order 13984 of January 19, 2021, Executive Order 14110 of October 30, 2023 (in relevant part), Executive Order 14144 of January 16, 2025 (in relevant part), and Executive Order 14306 of June 6, 2025, to take additional steps to address the national emergency declared in Executive Order 13694. Executive Order 14148 of January 20, 2025 (in relevant part), revoked Executive Order 14110. These significant malicious cyber-enabled activities continue to pose an unusual and extraordinary threat to the national security, foreign policy, and economy of the United States. For this reason, the national emergency declared in Executive Order 13694, and with respect to which additional steps were taken in Executive Order 13757,…"
+        "text": "Continuation of the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-06075",
@@ -8468,18 +8469,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/25/2026-05867/preserving-americas-game",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "For over a century, the Army-Navy Game, known as ``America's Game,'' has stood as a symbol of excellence and the American spirit. Now, the recent and potentially ongoing expansion of the College Football Playoffs (CFP) and other postseason college football games threatens to encroach upon the second Saturday in December--a date traditionally reserved exclusively for ``America's Game.'' Such scheduling conflicts weaken the national focus on our Military…",
+    "summary": "Preserving America's Game. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "For over a century, the Army-Navy Game, known as ``America's Game,'' has stood as a symbol of excellence and the American spirit. Now, the recent and potentially ongoing expansion of the College Football Playoffs (CFP) and other postseason college football games threatens to encroach upon the second Saturday in December--a date traditionally reserved exclusively for ``America's Game.'' Such scheduling conflicts weaken the national focus on our Military Service Academies and detract from a morale-building event of vital interest to the Department of War. Accordingly, it is the policy of the United States that no college football game, specifically college football's CFP or other postseason games, be broadcast in a manner that directly conflicts with the Army-Navy Game. Sec. 2. Implementation. (a) The Secretary of Commerce and the Chairman of the Federal Communications Commission (FCC) shall coordinate with the CFP Committee, the National Collegiate Athletic Association, related organizations, other appropriate Government agencies, and the playoffs' broadcast and media rights partners with the goal of establishing an exclusive window for the Army-Navy Game, during which no other college football game is broadcast. (b) The Chairman of the FCC shall consider reviewing the public interest obligations of broadcast licensees to determine whether those obligations would require that the Army-Navy Game remain a national service event. Sec. 3. General Provisions. (a) Nothing in this…"
+        "text": "Preserving America's Game. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-05497",
@@ -8524,17 +8525,17 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/18/2026-05388/removing-regulatory-barriers-to-affordable-home-construction",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Removing Regulatory Barriers to Affordable Home Construction. A presidential document published in the Federal Register.",
+    "summary": "52 / Wednesday, March 18, 2026 / Presidential Documents\u0000\u0000 [[Page 13207]] Executive Order 14394 of March 13, 2026 Removing Regulatory Barriers to Affordable Home Construction By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. The American dream of homeownership depends on a dynamic housing market in which a varied inventory of new homes is built and renovated each…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Removing Regulatory Barriers to Affordable Home Construction. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "52 / Wednesday, March 18, 2026 / Presidential Documents\u0000\u0000 [[Page 13207]] Executive Order 14394 of March 13, 2026 Removing Regulatory Barriers to Affordable Home Construction By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose. The American dream of homeownership depends on a dynamic housing market in which a varied inventory of new homes is built and renovated each year. Layers of unnecessary regulatory barriers, slow permitting processes, and onerous mandates at all levels of government have delayed construction, restricted development, and driven up the costs of new housing. These constraints have made housing less affordable for many Americans. It is the policy of my Administration to reduce regulatory barriers to building homes and to steward taxpayer dollars in a manner that promotes housing affordability. Sec. 2. Targeting Federal Regulatory Barriers to Residential Development. (a) The Secretary of the Army, acting through the Assistant Secretary of the Army for Civil Works, and the Administrator of the Environmental Protection Agency shall review and revise requirements related to stormwater, wetlands, lakes, rivers, and other bodies of water to reduce housing construction and ownership costs, streamline regulatory and agency decision-making processes, reduce property tax burdens, and increase insurability, as appropriate and consistent with applicable law. Such…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   }
 ]
