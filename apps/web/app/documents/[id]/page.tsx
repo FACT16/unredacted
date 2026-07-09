@@ -6,10 +6,12 @@ import { AgencyBadge, agencyName } from "@/components/agency-badge";
 import {
   getCollection,
   getDocument,
-  getRelatedDocuments,
+  getDocumentContext,
   listDocumentIds,
 } from "@/lib/api";
+import { docTypeLabel, displayTitle } from "@/lib/doc-meta";
 import { formatDate } from "@/lib/format";
+import type { GovDocument } from "@/lib/types";
 
 // Static export: pre-render every document page at build time. Unknown ids 404.
 export const dynamicParams = false;
@@ -26,7 +28,39 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const doc = await getDocument((await params).id);
   if (!doc) return { title: "Document not found" };
-  return { title: doc.title, description: doc.summary };
+  return { title: displayTitle(doc.title), description: doc.summary };
+}
+
+function docDateLabel(doc: GovDocument): string {
+  return doc.docDateLabel ?? (doc.docDate ? formatDate(doc.docDate) : "Date unknown");
+}
+
+function TimelineRow({
+  doc,
+  current = false,
+}: {
+  doc: GovDocument;
+  current?: boolean;
+}) {
+  return (
+    <li className="grid grid-cols-[6.5rem_1fr] gap-3">
+      <div className="pt-0.5 font-mono text-xs text-muted">{docDateLabel(doc)}</div>
+      <div className={`border-l pl-3 ${current ? "border-ink" : "border-line"}`}>
+        {current ? (
+          <div className="text-sm font-medium text-ink">
+            {displayTitle(doc.title)}
+            <span className="ml-2 rounded-sm border border-line bg-canvas px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wide text-muted">
+              This document
+            </span>
+          </div>
+        ) : (
+          <Link href={`/documents/${doc.id}`} className="text-sm text-link">
+            {displayTitle(doc.title)}
+          </Link>
+        )}
+      </div>
+    </li>
+  );
 }
 
 export default async function DocumentPage({
@@ -38,10 +72,14 @@ export default async function DocumentPage({
   const doc = await getDocument(id);
   if (!doc) notFound();
 
-  const [related, collection] = await Promise.all([
-    getRelatedDocuments(doc),
+  const [context, collection] = await Promise.all([
+    getDocumentContext(doc),
     getCollection(doc.collection),
   ]);
+  const title = displayTitle(doc.title);
+  const typeLabel = docTypeLabel(doc);
+  const hasTimeline = context.before.length + context.after.length > 0;
+  const topEntities = context.entityCounts.slice(0, 2).map((e) => e.name);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6">
@@ -60,6 +98,8 @@ export default async function DocumentPage({
       <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted">
         <AgencyBadge code={doc.agency} />
         <span>{agencyName(doc.agency)}</span>
+        <span aria-hidden>·</span>
+        <span className="font-medium text-ink-soft">{typeLabel}</span>
         {doc.classificationEra && (
           <>
             <span aria-hidden>·</span>
@@ -69,25 +109,103 @@ export default async function DocumentPage({
       </div>
 
       <h1 className="mt-2 max-w-3xl text-2xl font-semibold leading-tight tracking-tight text-ink">
-        {doc.title}
+        {title}
       </h1>
       <div className="mt-1 text-sm text-muted">
-        {doc.docDateLabel ?? (doc.docDate ? formatDate(doc.docDate) : "Date unknown")}
+        {docDateLabel(doc)}
         {" · "}Released {formatDate(doc.releaseDate)}
       </div>
 
       <div className="mt-6 grid gap-8 lg:grid-cols-[1fr_20rem]">
         {/* Reading column */}
         <article className="min-w-0">
+          {/* What this document says about itself — the extracted purpose text. */}
           <p className="max-w-2xl text-[0.95rem] leading-relaxed text-ink-soft">{doc.summary}</p>
 
+          {/* At a glance: hard facts, no interpretation. */}
+          <div className="mt-5 rounded border border-line bg-paper">
+            <div className="border-b border-line px-4 py-2 text-xs font-semibold uppercase tracking-wide text-faint">
+              At a glance
+            </div>
+            <dl className="divide-y divide-line-soft text-sm">
+              <div className="flex gap-3 px-4 py-2">
+                <dt className="w-28 shrink-0 text-muted">What it is</dt>
+                <dd className="text-ink-soft">
+                  {typeLabel} · {agencyName(doc.agency)}
+                </dd>
+              </div>
+              {collection && (
+                <div className="flex gap-3 px-4 py-2">
+                  <dt className="w-28 shrink-0 text-muted">Collection</dt>
+                  <dd className="text-ink-soft">
+                    <Link href={`/topics/${collection.slug}`}>{collection.title}</Link>{" "}
+                    <span className="text-faint">
+                      — one of {context.topicSize.toLocaleString()} documents
+                    </span>
+                  </dd>
+                </div>
+              )}
+              {context.entityCounts.length > 0 && (
+                <div className="flex gap-3 px-4 py-2">
+                  <dt className="w-28 shrink-0 text-muted">Names</dt>
+                  <dd className="flex flex-wrap gap-1.5">
+                    {context.entityCounts.map((e) => (
+                      <Link
+                        key={e.name}
+                        href={`/search?q=${encodeURIComponent(e.name)}`}
+                        className="rounded-sm border border-line bg-paper px-2 py-0.5 text-xs text-muted hover:border-accent hover:text-ink hover:no-underline"
+                        title={`${e.name} appears in ${e.count} documents`}
+                      >
+                        {e.name} <span className="text-faint">({e.count})</span>
+                      </Link>
+                    ))}
+                  </dd>
+                </div>
+              )}
+              {topEntities.length >= 2 && (
+                <div className="flex gap-3 px-4 py-2">
+                  <dt className="w-28 shrink-0 text-muted">Connections</dt>
+                  <dd className="text-ink-soft">
+                    <Link href={`/search?q=${encodeURIComponent(topEntities.join(" "))}`}>
+                      See every document naming {topEntities[0]} and {topEntities[1]} →
+                    </Link>
+                  </dd>
+                </div>
+              )}
+            </dl>
+          </div>
+
+          {/* Where it fits: chronological neighbors within its collection. */}
+          {hasTimeline && (
+            <div className="mt-8">
+              <h2 className="text-xs font-semibold uppercase tracking-wide text-faint">
+                Where it fits{collection ? ` in ${collection.title}` : ""}
+              </h2>
+              <ol className="mt-3 space-y-3">
+                {context.before.map((d) => (
+                  <TimelineRow key={d.id} doc={d} />
+                ))}
+                <TimelineRow doc={doc} current />
+                {context.after.map((d) => (
+                  <TimelineRow key={d.id} doc={d} />
+                ))}
+              </ol>
+              {collection && (
+                <div className="mt-2 pl-[6.5rem]">
+                  <Link href={`/topics/${collection.slug}`} className="pl-3 text-xs">
+                    Full {collection.title} timeline →
+                  </Link>
+                </div>
+              )}
+            </div>
+          )}
+
           {doc.sourceNote ? (
-            <div className="mt-4 rounded border border-line bg-canvas px-3 py-2 text-xs leading-relaxed text-muted">
-              {doc.sourceNote} Use <span className="font-medium">View original</span> to read the
-              full document at the source.
+            <div className="mt-8 rounded border border-line bg-canvas px-3 py-2 text-xs leading-relaxed text-muted">
+              {doc.sourceNote}
             </div>
           ) : doc.textIsIllustrative ? (
-            <div className="mt-4 rounded border border-line bg-canvas px-3 py-2 text-xs leading-relaxed text-muted">
+            <div className="mt-8 rounded border border-line bg-canvas px-3 py-2 text-xs leading-relaxed text-muted">
               <span className="font-medium text-ink-soft">Sample text.</span> The excerpts below
               are illustrative representations of this record for the demo — not verbatim OCR. Use{" "}
               <span className="font-medium">View original</span> to read the authoritative document
@@ -95,61 +213,56 @@ export default async function DocumentPage({
             </div>
           ) : null}
 
-          <div className="mt-6 space-y-6">
+          <div className="mt-4 space-y-6">
             {doc.pages.map((p) => (
               <section
                 key={p.pageNumber}
                 id={`page-${p.pageNumber}`}
                 className="scroll-mt-24 border-t border-line-soft pt-4"
               >
-                <div className="mb-1.5 font-mono text-xs text-faint">Page {p.pageNumber}</div>
+                <div className="mb-1.5 font-mono text-xs text-faint">
+                  From the document — page {p.pageNumber}
+                </div>
                 <p className="doc-prose">{p.text}</p>
               </section>
             ))}
           </div>
 
-          {doc.entities.length > 0 && (
-            <div className="mt-8 border-t border-line-soft pt-4">
-              <h2 className="text-xs font-semibold uppercase tracking-wide text-faint">
-                People &amp; entities in this document
-              </h2>
-              <ul className="mt-2 flex flex-wrap gap-2">
-                {doc.entities.map((e) => (
-                  <li key={e}>
-                    <Link
-                      href={`/search?q=${encodeURIComponent(e)}`}
-                      className="rounded-sm border border-line bg-paper px-2 py-0.5 text-xs text-muted hover:border-accent hover:text-ink hover:no-underline"
-                    >
-                      {e}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-2 text-xs text-faint">
-                Select a name to find every document that mentions it.
-              </p>
-            </div>
-          )}
+          <div className="mt-6">
+            <a
+              href={doc.originalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded bg-ink px-4 py-2 text-sm font-medium text-paper hover:bg-ink-soft hover:no-underline"
+            >
+              Read the full document at {doc.sourceName} ↗
+            </a>
+          </div>
         </article>
 
         {/* Sidebar */}
         <div className="space-y-6">
           <ProvenancePanel doc={doc} />
 
-          {related.length > 0 && (
+          {context.related.length > 0 && (
             <div className="rounded border border-line bg-paper">
               <div className="border-b border-line px-4 py-2 text-xs font-semibold uppercase tracking-wide text-faint">
                 Related documents
               </div>
               <ul className="divide-y divide-line-soft">
-                {related.map((r) => (
-                  <li key={r.id} className="px-4 py-3">
-                    <Link href={`/documents/${r.id}`} className="text-sm text-link">
-                      {r.title}
+                {context.related.map((r) => (
+                  <li key={r.doc.id} className="px-4 py-3">
+                    <Link href={`/documents/${r.doc.id}`} className="text-sm text-link">
+                      {displayTitle(r.doc.title)}
                     </Link>
                     <div className="mt-0.5 text-xs text-faint">
-                      {agencyName(r.agency)} · {formatDate(r.releaseDate)}
+                      {agencyName(r.doc.agency)} · {formatDate(r.doc.releaseDate)}
                     </div>
+                    {r.shared.length > 0 && (
+                      <div className="mt-0.5 text-xs text-muted">
+                        Also names {r.shared.slice(0, 3).join(", ")}
+                      </div>
+                    )}
                   </li>
                 ))}
               </ul>

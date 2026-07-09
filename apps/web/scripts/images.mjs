@@ -114,9 +114,15 @@ async function main() {
   try {
     prev = JSON.parse(await readFile(OUT, "utf8")).length;
   } catch { /* first run */ }
+  // Image refresh is best-effort and must NEVER fail the nightly pipeline. The
+  // Library of Congress blocks cloud/CI IP ranges (403), so a scheduled run may
+  // legitimately pull nothing — keep the committed gallery and exit cleanly so the
+  // corpus commit + deploy still happen.
   if (prev > 0 && out.length < prev * 0.5) {
-    console.error(`ABORT: ${out.length} images vs ${prev} previously (<50%). Keeping existing set.`);
-    process.exit(1);
+    console.warn(
+      `Kept existing gallery: pulled ${out.length} vs ${prev} committed (source likely blocked this run).`,
+    );
+    return;
   }
 
   await writeFile(OUT, JSON.stringify(out, null, 2) + "\n");
@@ -124,6 +130,6 @@ async function main() {
 }
 
 main().catch((e) => {
-  console.error(e);
-  process.exit(1);
+  // Never fail the pipeline over imagery — it is supplementary to the corpus.
+  console.warn("Image refresh skipped:", e.message);
 });

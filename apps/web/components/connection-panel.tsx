@@ -3,6 +3,7 @@
 import { Fragment } from "react";
 import Link from "next/link";
 import { getConnectionSync } from "@/lib/api";
+import { displayTitle } from "@/lib/doc-meta";
 import { formatDate } from "@/lib/format";
 
 // Shown when a search names 2+ known entities. Displays the documents whose text
@@ -75,7 +76,7 @@ export function ConnectionPanel({ entities }: { entities: string[] }) {
         {documents.slice(0, 8).map((d) => (
           <li key={d.id} className="py-2">
             <Link href={`/documents/${d.id}`} className="text-sm text-link">
-              {d.title}
+              {displayTitle(d.title)}
             </Link>
             <div className="mt-0.5 text-xs text-faint">
               {d.sourceName} · {formatDate(d.releaseDate)}

@@ -1,11 +1,12 @@
-name: Nightly ingest
+name: Daily ingest
 
 # Re-pull all public sources every day and commit the refreshed corpus. The commit
 # to main triggers the Pages deploy workflow, so new government drops appear on the
 # site automatically. Also runnable on demand from the Actions tab.
+# 07:00 UTC — roughly overnight in the U.S. (3am ET / midnight PT).
 on:
   schedule:
-    - cron: "17 9 * * *" # 09:17 UTC daily
+    - cron: "0 7 * * *"
   workflow_dispatch:
 
 permissions:
@@ -67,7 +68,7 @@ jobs:
             count=$(node -e "console.log(require('./apps/web/lib/generated-documents.json').length)")
             imgs=$(node -e "console.log(require('./apps/web/lib/generated-images.json').length)")
             git add apps/web/lib/generated-documents.json apps/web/lib/generated-images.json
-            git commit -m "chore(corpus): nightly ingest — ${count} records, ${imgs} images"
+            git commit -m "chore(corpus): daily ingest — ${count} records, ${imgs} images"
             git push
             echo "Pushed refreshed corpus (${count} records, ${imgs} images)."
             echo "changed=true" >> "$GITHUB_OUTPUT"

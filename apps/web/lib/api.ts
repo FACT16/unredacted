@@ -245,6 +245,59 @@ export async function getRecentReleases(limit = 6): Promise<GovDocument[]> {
     .slice(0, limit);
 }
 
+export interface DocumentContext {
+  /** How many documents in the archive name each entity this doc names. */
+  entityCounts: { name: string; count: number }[];
+  /** Chronological neighbors within the doc's primary topic (by document date). */
+  before: GovDocument[];
+  after: GovDocument[];
+  /** Related documents plus the concrete reason (shared entities / topic). */
+  related: { doc: GovDocument; shared: string[] }[];
+  /** Total documents in the primary topic (for "one of N" framing). */
+  topicSize: number;
+}
+
+/**
+ * Everything the document page needs to place a record in context — who it names
+ * (with archive-wide counts), where it sits in its topic's chronology, and what
+ * it connects to. All computed from real data; nothing editorialized.
+ */
+export async function getDocumentContext(doc: GovDocument): Promise<DocumentContext> {
+  const entityCounts = doc.entities
+    .map((name) => ({
+      name,
+      count: DOCUMENTS.reduce((n, d) => n + (d.entities.includes(name) ? 1 : 0), 0),
+    }))
+    .sort((a, b) => b.count - a.count);
+
+  const topicDocs = DOCUMENTS.filter(
+    (d) => d.id !== doc.id && d.topics.includes(doc.collection) && (d.docDate ?? d.releaseDate),
+  ).sort((a, b) => (a.docDate ?? a.releaseDate).localeCompare(b.docDate ?? b.releaseDate));
+  const anchor = doc.docDate ?? doc.releaseDate;
+  const before = topicDocs.filter((d) => (d.docDate ?? d.releaseDate) <= anchor).slice(-2);
+  const after = topicDocs.filter((d) => (d.docDate ?? d.releaseDate) > anchor).slice(0, 2);
+
+  const entitySet = new Set(doc.entities);
+  const related = DOCUMENTS.filter((d) => d.id !== doc.id)
+    .map((d) => {
+      const shared = d.entities.filter((e) => entitySet.has(e));
+      const sharedTopics = d.topics.filter((t) => doc.topics.includes(t)).length;
+      return { doc: d, shared, relevance: sharedTopics * 2 + shared.length };
+    })
+    .filter((r) => r.relevance > 0)
+    .sort((a, b) => b.relevance - a.relevance)
+    .slice(0, 5)
+    .map(({ doc: d, shared }) => ({ doc: d, shared }));
+
+  return {
+    entityCounts,
+    before,
+    after,
+    related,
+    topicSize: DOCUMENTS.filter((d) => d.topics.includes(doc.collection)).length,
+  };
+}
+
 /** Related = shares a topic or a named entity. Used in the document viewer. */
 export async function getRelatedDocuments(doc: GovDocument, limit = 4): Promise<GovDocument[]> {
   const entitySet = new Set(doc.entities);

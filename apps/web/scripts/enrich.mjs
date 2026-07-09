@@ -117,14 +117,19 @@ const clampWord = (s, n) => (s.length <= n ? s : s.slice(0, n).replace(/\s+\S*$/
 const BOILERPLATE =
   /^(?:\[?\s*)?(?:U\.?S\.? GOVERNMENT (?:PUBLISHING|PRINTING) OFFICE|GPO|FR Doc\.|Federal Register\s*\/|Vol\. \d+|No\. \d+|\[\d+|Pages? \d+|DEPOSITED BY|For sale by|VerDate|Jkt \d+|PO 0+|Frm 0+|Fmt \d+|Sfmt \d+)/i;
 
-/**
- * Pull the first substantive sentences out of the raw text: skip headers/boilerplate,
- * keep sentences of sane length, join the first few. Returns "" if nothing decent.
- */
-function extractDescription(fullTextStr) {
+// Sentences that state a government document's PURPOSE — committee reports,
+// executive orders, laws, and hearings all open their substance with one of these.
+const PURPOSE_OPENERS =
+  /^(?:The (?:Select |Permanent )?Committee (?:on|met)|This (?:report|Act|act|resolution|document|order|memorandum|proclamation|determination)\b|By the authority vested in me|Memorandum for the|The purpose of|To (?:provide|authorize|amend|direct|require|establish|improve)\b|Resolved, That|Be it enacted|In accordance with|Pursuant to (?:section|the))/;
+
+// Purpose statements live at the top of a document; a match deeper than this many
+// substantive sentences is directive language, not the document's purpose.
+const PURPOSE_WINDOW = 12;
+
+function substantiveSentences(fullTextStr) {
   const cleaned = fullTextStr.replace(/\s+/g, " ").trim();
-  if (cleaned.length < 200) return "";
-  const sentences = cleaned
+  if (cleaned.length < 200) return [];
+  return cleaned
     .split(/(?<=[.!?])\s+(?=[A-Z0-9“"(])/)
     .map((s) => s.trim())
     .filter(
@@ -135,10 +140,27 @@ function extractDescription(fullTextStr) {
         // Prose only: no JSON/markup junk, no site chrome, no dot leaders,
         // not mostly-uppercase headings.
         !/[{}\\<>]|Page Not Found|Skip to main content/i.test(s) &&
+        // Front-matter that survives the sentence splitter: rules of dashes or
+        // underscores, print-office lines, "Available on:" listings, part headers.
+        !/-{5,}|_{4,}|Printed for the use of|Available on:|GRAPHIC(S)? NOT AVAILABLE|^Part [IVXLC\d]+\b/i.test(s) &&
         s.replace(/[^A-Z]/g, "").length / Math.max(1, s.replace(/[^A-Za-z]/g, "").length) < 0.6 &&
         !/\.{4,}/.test(s),
     );
-  return clampWord(sentences.slice(0, 3).join(" "), 460);
+}
+
+/**
+ * The document's own statement of what it is: prefer the first PURPOSE sentence
+ * ("The Committee on X, to whom was referred…", "By the authority vested in me…")
+ * over masthead front-matter; fall back to the first substantive sentences.
+ */
+function extractDescription(fullTextStr) {
+  const sentences = substantiveSentences(fullTextStr);
+  if (sentences.length === 0) return "";
+  const purposeAt = sentences
+    .slice(0, PURPOSE_WINDOW)
+    .findIndex((s) => PURPOSE_OPENERS.test(s));
+  const start = purposeAt >= 0 ? purposeAt : 0;
+  return clampWord(sentences.slice(start, start + 3).join(" "), 460);
 }
 
 /** First ~1,500 chars of substantive text — becomes the on-site excerpt. */
@@ -187,23 +209,29 @@ async function main() {
     const desc = ft ? extractDescription(ft) : "";
     const excerpt = ft ? extractExcerpt(ft) : "";
     const isIngested = doc.id.startsWith("gov-") || doc.id.startsWith("fr-") || doc.id.startsWith("nara-");
+    // Junk a previous buggy run may have written (soft-404 pages, site chrome).
+    const poisoned = (s) => /[{}]|Page Not Found|Skip to main content/i.test(s || "");
 
     if (desc.length > 120) {
       doc.summary = desc;
       withDesc++;
-    } else if (isIngested) {
+    } else if (isIngested && poisoned(doc.summary)) {
+      // Rebuild the clean template ONLY when the current summary is junk.
+      // A failed fetch must never downgrade a good summary from a prior run.
       const coll = (doc.tags || [])[0];
       doc.summary = clampWord(
         `${doc.title}. A record published by ${doc.sourceName}${coll ? ` (${coll})` : ""}.`,
         360,
       );
+    } else if (isIngested && !poisoned(doc.summary)) {
+      withDesc++; // kept a good summary from a previous run
     }
 
     if (excerpt.length > 300) {
       doc.pages = [{ pageNumber: 1, text: excerpt }];
       doc.sourceNote =
         "Beginning of the official document text, as published by the source; read the full document at the source.";
-    } else if (isIngested) {
+    } else if (isIngested && poisoned(doc.pages?.[0]?.text)) {
       doc.pages = [{ pageNumber: 1, text: doc.summary }];
       doc.sourceNote =
         "This is the official catalog record; read the full document at the source.";
