@@ -173,6 +173,36 @@
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
+    "id": "gov-DCPD-202600290",
+    "title": "Remarks During a Greeting With Artemis II Astronauts and an Exchange With Reporters",
+    "agency": "OTHER",
+    "collection": "uap",
+    "topics": [
+      "uap"
+    ],
+    "docDate": "2026-04-29",
+    "releaseDate": "2026-04-29",
+    "originalUrl": "https://www.govinfo.gov/app/details/DCPD-202600290",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Trump, 2026 Remarks During a Greeting With Artemis II Astronauts and an Exchange With Reporters April 29, 2026 The President. We have some people that have captivated the attention of the whole world, not just our country, the whole world. And that was a lot of rocket under them. [ Laughter ] I never saw anything like that.",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Trump, 2026 Remarks During a Greeting With Artemis II Astronauts and an Exchange With Reporters April 29, 2026 The President. Hello, everybody. Well, thank you very much. We have some people that have captivated the attention of the whole world, not just our country, the whole world. And they&#39;re very brave. And that was a lot of rocket under them. [ Laughter ] I never saw anything like that. We were talking about it. It&#39;s—I don&#39;t know how they do it. I wouldn&#39;t want to do it. But it takes people like this to make our country great, and, again, I&#39;ve never seen anything—everybody I knew, they wanted to see the launch, and they especially wanted to see a successful landing. And, Jared, I want to congratulate you—what you&#39;ve done at NASA. That was—I made a great choice. [ Applause ] I made a great choice. And do you have any questions for any of us? Feel free to ask. But we&#39;re very proud of these people. They have unbelievable courage. Unbelievable. Lot of other things too, by the way. To get in there, you have to be very smart, you have to do a lot of things physically good. So I would have had no trouble making it. I&#39;m physically very, very good. Maybe a little bit of a problem. I don&#39;t know. I&#39;m sure I—we&#39;ll have to try it sometime. Is the President allowed to go up in one of these missions? Administrator of the National Aeronautics and Space Administration Jared Isaacman. We can get working on that, Mr. President. The President.…"
+      }
+    ],
+    "entities": [
+      "Donald Trump",
+      "Hillary Clinton",
+      "Federal Bureau of Investigation"
+    ],
+    "tags": [
+      "CPD"
+    ],
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+  },
+  {
     "id": "gov-CHRG-119hhrg61718",
     "title": "Restoring Public Trust Through Uap Transparency and Whistleblower Protection",
     "agency": "SENATE",
@@ -205,36 +235,6 @@
     ],
     "tags": [
       "CHRG"
-    ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
-  },
-  {
-    "id": "gov-DCPD-202600290",
-    "title": "Remarks During a Greeting With Artemis II Astronauts and an Exchange With Reporters",
-    "agency": "OTHER",
-    "collection": "uap",
-    "topics": [
-      "uap"
-    ],
-    "docDate": "2026-04-29",
-    "releaseDate": "2026-04-29",
-    "originalUrl": "https://www.govinfo.gov/app/details/DCPD-202600290",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Trump, 2026 Remarks During a Greeting With Artemis II Astronauts and an Exchange With Reporters April 29, 2026 The President. We have some people that have captivated the attention of the whole world, not just our country, the whole world. And that was a lot of rocket under them. [ Laughter ] I never saw anything like that.",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Trump, 2026 Remarks During a Greeting With Artemis II Astronauts and an Exchange With Reporters April 29, 2026 The President. Hello, everybody. Well, thank you very much. We have some people that have captivated the attention of the whole world, not just our country, the whole world. And they&#39;re very brave. And that was a lot of rocket under them. [ Laughter ] I never saw anything like that. We were talking about it. It&#39;s—I don&#39;t know how they do it. I wouldn&#39;t want to do it. But it takes people like this to make our country great, and, again, I&#39;ve never seen anything—everybody I knew, they wanted to see the launch, and they especially wanted to see a successful landing. And, Jared, I want to congratulate you—what you&#39;ve done at NASA. That was—I made a great choice. [ Applause ] I made a great choice. And do you have any questions for any of us? Feel free to ask. But we&#39;re very proud of these people. They have unbelievable courage. Unbelievable. Lot of other things too, by the way. To get in there, you have to be very smart, you have to do a lot of things physically good. So I would have had no trouble making it. I&#39;m physically very, very good. Maybe a little bit of a problem. I don&#39;t know. I&#39;m sure I—we&#39;ll have to try it sometime. Is the President allowed to go up in one of these missions? Administrator of the National Aeronautics and Space Administration Jared Isaacman. We can get working on that, Mr. President. The President.…"
-      }
-    ],
-    "entities": [
-      "Donald Trump",
-      "Hillary Clinton",
-      "Federal Bureau of Investigation"
-    ],
-    "tags": [
-      "CPD"
     ],
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
@@ -2381,34 +2381,6 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-USCOURTS-njd-3_14-cr-00287",
-    "title": "USA v. EPSTEIN et al",
-    "agency": "OTHER",
-    "collection": "epstein",
-    "topics": [
-      "epstein"
-    ],
-    "docDate": "2015-03-19",
-    "releaseDate": "2015-03-19",
-    "originalUrl": "https://www.govinfo.gov/app/details/USCOURTS-njd-3_14-cr-00287",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "USA v. EPSTEIN et al. A record published by the U.S. Government Publishing Office (collection USCOURTS).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "USA v. EPSTEIN et al. Published by the U.S. Government Publishing Office, collection USCOURTS. Read the full document at the source."
-      }
-    ],
-    "entities": [
-      "Jeffrey Epstein"
-    ],
-    "tags": [
-      "USCOURTS"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
     "id": "gov-CREC-2026-02-10",
     "title": "DECODING EPSTEIN FILES",
     "agency": "OTHER",
@@ -2433,6 +2405,34 @@
     ],
     "tags": [
       "CREC"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-USCOURTS-njd-3_14-cr-00287",
+    "title": "USA v. EPSTEIN et al",
+    "agency": "OTHER",
+    "collection": "epstein",
+    "topics": [
+      "epstein"
+    ],
+    "docDate": "2015-03-19",
+    "releaseDate": "2015-03-19",
+    "originalUrl": "https://www.govinfo.gov/app/details/USCOURTS-njd-3_14-cr-00287",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "USA v. EPSTEIN et al. A record published by the U.S. Government Publishing Office (collection USCOURTS).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "USA v. EPSTEIN et al. Published by the U.S. Government Publishing Office, collection USCOURTS. Read the full document at the source."
+      }
+    ],
+    "entities": [
+      "Jeffrey Epstein"
+    ],
+    "tags": [
+      "USCOURTS"
     ],
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
@@ -2924,6 +2924,34 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
+    "id": "gov-GPO-911REPORT",
+    "title": "The 9/11 Commission Report: Final Report of the National Commission on Terrorist Attacks Upon the United States (9/11 Report)",
+    "agency": "COMMISSION",
+    "collection": "sept-11",
+    "topics": [
+      "sept-11"
+    ],
+    "docDate": "2004-07-22",
+    "releaseDate": "2004-07-22",
+    "originalUrl": "https://www.govinfo.gov/app/details/GPO-911REPORT",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "The 9/11 Commission Report: Final Report of the National Commission on Terrorist Attacks Upon the United States (9/11 Report). A record published by the U.S. Government Publishing Office (collection GPO).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "The 9/11 Commission Report: Final Report of the National Commission on Terrorist Attacks Upon the United States (9/11 Report). Published by the U.S. Government Publishing Office, collection GPO. Read the full document at the source."
+      }
+    ],
+    "entities": [
+      "September 11 attacks"
+    ],
+    "tags": [
+      "GPO"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
     "id": "gov-USCOURTS-ca2-11-03511",
     "title": "In Re: Terrorist Attacks on Se",
     "agency": "OTHER",
@@ -2998,34 +3026,6 @@
     "entities": [],
     "tags": [
       "USCOURTS"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
-    "id": "gov-GPO-911REPORT",
-    "title": "The 9/11 Commission Report: Final Report of the National Commission on Terrorist Attacks Upon the United States (9/11 Report)",
-    "agency": "COMMISSION",
-    "collection": "sept-11",
-    "topics": [
-      "sept-11"
-    ],
-    "docDate": "2004-07-22",
-    "releaseDate": "2004-07-22",
-    "originalUrl": "https://www.govinfo.gov/app/details/GPO-911REPORT",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "The 9/11 Commission Report: Final Report of the National Commission on Terrorist Attacks Upon the United States (9/11 Report). A record published by the U.S. Government Publishing Office (collection GPO).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "The 9/11 Commission Report: Final Report of the National Commission on Terrorist Attacks Upon the United States (9/11 Report). Published by the U.S. Government Publishing Office, collection GPO. Read the full document at the source."
-      }
-    ],
-    "entities": [
-      "September 11 attacks"
-    ],
-    "tags": [
-      "GPO"
     ],
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
@@ -3740,6 +3740,32 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
+    "id": "gov-CMR-PREX26-00187500",
+    "title": "National Drug Control Strategy May 2024",
+    "agency": "OTHER",
+    "collection": "fbi-files",
+    "topics": [
+      "fbi-files"
+    ],
+    "docDate": "2024-05-06",
+    "releaseDate": "2024-05-06",
+    "originalUrl": "https://www.govinfo.gov/app/details/CMR-PREX26-00187500",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "National Drug Control Strategy May 2024. A record published by the U.S. Government Publishing Office (collection CMR).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "National Drug Control Strategy May 2024. Published by the U.S. Government Publishing Office, collection CMR. Read the full document at the source."
+      }
+    ],
+    "entities": [],
+    "tags": [
+      "CMR"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
     "id": "gov-CMR-PREX26-00185055",
     "title": "High Intensity Drug Trafficking Areas Program 2023 Report to Congress",
     "agency": "SENATE",
@@ -3762,32 +3788,6 @@
     "entities": [],
     "tags": [
       "CMR"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
-    "id": "gov-GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
-    "title": "Federal Depository Library Manual",
-    "agency": "OTHER",
-    "collection": "fbi-files",
-    "topics": [
-      "fbi-files"
-    ],
-    "docDate": "1993-11-01",
-    "releaseDate": "1993-11-01",
-    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Federal Depository Library Manual. A record published by the U.S. Government Publishing Office (collection GOVPUB).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Federal Depository Library Manual. Published by the U.S. Government Publishing Office, collection GOVPUB. Read the full document at the source."
-      }
-    ],
-    "entities": [],
-    "tags": [
-      "GOVPUB"
     ],
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
@@ -3819,6 +3819,32 @@
       "GOVPUB;ANNUALREP"
     ],
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+  },
+  {
+    "id": "gov-GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
+    "title": "Federal Depository Library Manual",
+    "agency": "OTHER",
+    "collection": "fbi-files",
+    "topics": [
+      "fbi-files"
+    ],
+    "docDate": "1993-11-01",
+    "releaseDate": "1993-11-01",
+    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Federal Depository Library Manual. A record published by the U.S. Government Publishing Office (collection GOVPUB).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Federal Depository Library Manual. Published by the U.S. Government Publishing Office, collection GOVPUB. Read the full document at the source."
+      }
+    ],
+    "entities": [],
+    "tags": [
+      "GOVPUB"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
     "id": "gov-CMR-PREX26-00191764",
@@ -3933,32 +3959,6 @@
       "GOVPUB;ANNUALREP"
     ],
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
-  },
-  {
-    "id": "gov-CMR-PREX26-00187500",
-    "title": "National Drug Control Strategy May 2024",
-    "agency": "OTHER",
-    "collection": "fbi-files",
-    "topics": [
-      "fbi-files"
-    ],
-    "docDate": "2024-05-06",
-    "releaseDate": "2024-05-06",
-    "originalUrl": "https://www.govinfo.gov/app/details/CMR-PREX26-00187500",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "National Drug Control Strategy May 2024. A record published by the U.S. Government Publishing Office (collection CMR).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "National Drug Control Strategy May 2024. Published by the U.S. Government Publishing Office, collection CMR. Read the full document at the source."
-      }
-    ],
-    "entities": [],
-    "tags": [
-      "CMR"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
     "id": "gov-CHRG-115hhrg33359",
@@ -4095,6 +4095,36 @@
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
+    "id": "gov-GOVPUB-VA-871e115325c2eae69d58f53b05365c72",
+    "title": "Administrator of Veterans Affairs, Annual Report, 1984",
+    "agency": "OTHER",
+    "collection": "fbi-files",
+    "topics": [
+      "fbi-files"
+    ],
+    "docDate": "1985-01-01",
+    "releaseDate": "1985-01-01",
+    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-VA-871e115325c2eae69d58f53b05365c72",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Administrator of Veterans Affairs, Annual Report, 1984 [Administrator of Veterans Affairs, Annual Report, 1984] [From the U.S. Our Nation's veterans have served us for many generations. They have borne the battles, manned the defenses, and made great sacrifices - for us.",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Administrator of Veterans Affairs, Annual Report, 1984 [Administrator of Veterans Affairs, Annual Report, 1984] [From the U.S. Government Publishing Office, www.gpo.gov ] Veterans Administration VA l-|: Annual Report 1984 **' Wo lww fCc 01 y America is #1 Thanks to our Veterans Administrator of Veterans Affairs Veterans Vw Administration Annual Report 1984 America is #X Thanks to our Veterans Administrator of Veterans Affairs 3 1336 08668 0718 Letter of Transmittal To the President of the Senate and the Speaker of the House of Representatives of the 99th Congress: In accordance with the provisions of section 214, title 38, U.S.C., I have the honor of submitting a report on the activities of the Veterans Administration for the fiscal year ending September 30, 1 984. Our Nation's veterans have served us for many generations. They have borne the battles, manned the defenses, and made great sacrifices - for us. It is our duty to serve them as they enter the personal battles of disability, illness and old age. That is the Veterans Administration's mission. This past year has been an important and an eventful one for the Veterans Administration and for those whom it serves. This Annual Report illustrates the extent of our commitment to provide number one care - and number one service - to every eligible veteran or family member who comes to our Agency. America is #1 Thanks to our Veterans! HARRY N. WALTERS Administrator of Veterans Affairs iii \"...at this place, for all time, it…"
+      }
+    ],
+    "entities": [
+      "Martin Luther King Jr.",
+      "Department of Defense",
+      "Department of Justice"
+    ],
+    "tags": [
+      "GOVPUB;ANNUALREP"
+    ],
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+  },
+  {
     "id": "gov-CHRG-118hhrg56425",
     "title": "Oversight of the Federal Bureau of Investigation",
     "agency": "FBI",
@@ -4127,36 +4157,6 @@
     ],
     "tags": [
       "CHRG"
-    ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
-  },
-  {
-    "id": "gov-GOVPUB-VA-871e115325c2eae69d58f53b05365c72",
-    "title": "Administrator of Veterans Affairs, Annual Report, 1984",
-    "agency": "OTHER",
-    "collection": "fbi-files",
-    "topics": [
-      "fbi-files"
-    ],
-    "docDate": "1985-01-01",
-    "releaseDate": "1985-01-01",
-    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-VA-871e115325c2eae69d58f53b05365c72",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Administrator of Veterans Affairs, Annual Report, 1984 [Administrator of Veterans Affairs, Annual Report, 1984] [From the U.S. Our Nation's veterans have served us for many generations. They have borne the battles, manned the defenses, and made great sacrifices - for us.",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Administrator of Veterans Affairs, Annual Report, 1984 [Administrator of Veterans Affairs, Annual Report, 1984] [From the U.S. Government Publishing Office, www.gpo.gov ] Veterans Administration VA l-|: Annual Report 1984 **' Wo lww fCc 01 y America is #1 Thanks to our Veterans Administrator of Veterans Affairs Veterans Vw Administration Annual Report 1984 America is #X Thanks to our Veterans Administrator of Veterans Affairs 3 1336 08668 0718 Letter of Transmittal To the President of the Senate and the Speaker of the House of Representatives of the 99th Congress: In accordance with the provisions of section 214, title 38, U.S.C., I have the honor of submitting a report on the activities of the Veterans Administration for the fiscal year ending September 30, 1 984. Our Nation's veterans have served us for many generations. They have borne the battles, manned the defenses, and made great sacrifices - for us. It is our duty to serve them as they enter the personal battles of disability, illness and old age. That is the Veterans Administration's mission. This past year has been an important and an eventful one for the Veterans Administration and for those whom it serves. This Annual Report illustrates the extent of our commitment to provide number one care - and number one service - to every eligible veteran or family member who comes to our Agency. America is #1 Thanks to our Veterans! HARRY N. WALTERS Administrator of Veterans Affairs iii \"...at this place, for all time, it…"
-      }
-    ],
-    "entities": [
-      "Martin Luther King Jr.",
-      "Department of Defense",
-      "Department of Justice"
-    ],
-    "tags": [
-      "GOVPUB;ANNUALREP"
     ],
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
@@ -6175,32 +6175,6 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-GPO-CRECB-1976-pt3",
-    "title": "Senate: February 18, 1976",
-    "agency": "SENATE",
-    "collection": "history",
-    "topics": [
-      "history"
-    ],
-    "docDate": "1976-02-18",
-    "releaseDate": "1976-02-18",
-    "originalUrl": "https://www.govinfo.gov/app/details/GPO-CRECB-1976-pt3",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Senate: February 18, 1976. A record published by the U.S. Government Publishing Office (collection GPO;CRECB).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Senate: February 18, 1976. Published by the U.S. Government Publishing Office, collection GPO;CRECB. Read the full document at the source."
-      }
-    ],
-    "entities": [],
-    "tags": [
-      "GPO;CRECB"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
     "id": "gov-GPO-CRECB-1978-pt3",
     "title": "Volume 124, Part 3 (February 8, 1978 to February 21, 1978)",
     "agency": "OTHER",
@@ -6218,6 +6192,32 @@
       {
         "pageNumber": 1,
         "text": "Volume 124, Part 3 (February 8, 1978 to February 21, 1978). Published by the U.S. Government Publishing Office, collection GPO;CRECB. Read the full document at the source."
+      }
+    ],
+    "entities": [],
+    "tags": [
+      "GPO;CRECB"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-GPO-CRECB-1976-pt3",
+    "title": "Senate: February 18, 1976",
+    "agency": "SENATE",
+    "collection": "history",
+    "topics": [
+      "history"
+    ],
+    "docDate": "1976-02-18",
+    "releaseDate": "1976-02-18",
+    "originalUrl": "https://www.govinfo.gov/app/details/GPO-CRECB-1976-pt3",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Senate: February 18, 1976. A record published by the U.S. Government Publishing Office (collection GPO;CRECB).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Senate: February 18, 1976. Published by the U.S. Government Publishing Office, collection GPO;CRECB. Read the full document at the source."
       }
     ],
     "entities": [],
@@ -7238,18 +7238,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/05/11/2026-09385/continuation-of-the-national-emergency-with-respect-to-yemen",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Continuation of the National Emergency With Respect to Yemen. A presidential document published in the Federal Register.",
+    "summary": "1701 et seq.) to deal with the unusual and extraordinary threat to the national security and foreign policy of the United States constituted by the actions and policies of certain members of the Government of Yemen and others that threatened Yemen's peace, security, and stability. These actions include obstructing the political process in Yemen and blocking the implementation of the agreement of November 23, 2011, between the Government of Yemen and those…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Continuation of the National Emergency With Respect to Yemen. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "1701 et seq.) to deal with the unusual and extraordinary threat to the national security and foreign policy of the United States constituted by the actions and policies of certain members of the Government of Yemen and others that threatened Yemen's peace, security, and stability. These actions include obstructing the political process in Yemen and blocking the implementation of the agreement of November 23, 2011, between the Government of Yemen and those in opposition to it, which provided for a peaceful transition of power that meets the legitimate demands and aspirations of the Yemeni people. The actions and policies of Ansar Allah, also known as the Houthis, in threatening Yemen's peace, security, and stability continue to pose an unusual and extraordinary threat to the national security and foreign policy of the United States. For this reason, the national emergency declared in Executive Order 13611 must continue in effect beyond May 16, 2026. Therefore, in accordance with section 202(d) of the National Emergencies Act (50 U.S.C. 1622(d)), I am continuing for 1 year the national emergency declared in Executive Order 13611 with respect to Yemen. This notice shall be published in the Federal Register and transmitted to the Congress. <GRAPHIC(S) NOT AVAILABLE IN TIFF FORMAT> (Presidential Sig.) THE WHITE HOUSE, May 7, 2026. [FR Doc. 2026-09385 Filed 5-8-26; 11:15 am] Billing code 3395-F4-P </pre></body> </html>"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-09277",
@@ -7348,20 +7348,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/05/07/2026-09174/jewish-american-heritage-month-2026",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "88 / Thursday, May 7, 2026 / Presidential Documents\u0000\u0000 [[Page 25067]] Proclamation 11025 of May 4, 2026 Jewish American Heritage Month, 2026 By the President of the United States of America A Proclamation This Jewish American Heritage Month, we honor the countless contributions of Jewish Americans throughout our Nation's 250 glorious years of independence, and we celebrate their unwavering commitment to the values that make our country great--faith,…",
+    "summary": "Jewish American Heritage Month, 2026. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "88 / Thursday, May 7, 2026 / Presidential Documents\u0000\u0000 [[Page 25067]] Proclamation 11025 of May 4, 2026 Jewish American Heritage Month, 2026 By the President of the United States of America A Proclamation This Jewish American Heritage Month, we honor the countless contributions of Jewish Americans throughout our Nation's 250 glorious years of independence, and we celebrate their unwavering commitment to the values that make our country great--faith, family, and freedom. In his letter to the Hebrew Congregation in Newport, Rhode Island, in 1790, President George Washington beautifully said, ``May the Children of the Stock of Abraham, who dwell in this land, continue to merit and enjoy the good will of the other Inhabitants; while everyone shall sit in safety under his own vine and fig tree, and there shall be none to make him afraid.'' Since the earliest days of our Republic, Jewish Americans have helped build the cause of liberty and sustain the greatness of our Nation. Among them was the iconic Haym Salomon, an early supporter of the war for independence. As stories tell us, Salomon was instrumental in the success of our Continental Congress and Founding Fathers, and rallied support for freedom. He was a zealous advocate against tyranny, and even after imprisonment by the British Crown, he continued his work in defense of freedom. In the end, he gave everything to the success of the American Revolution. Like so many Jewish Americans who follow in his footsteps, Salomon's…"
+        "text": "Jewish American Heritage Month, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [
-      "Donald Trump"
-    ],
+    "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-09173",
@@ -7377,18 +7375,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/05/07/2026-09173/imposing-sanctions-on-those-responsible-for-repression-in-cuba-and-for-threats-to-united-states",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Imposing Sanctions on Those Responsible for Repression in Cuba and for Threats to United States National Security and Foreign Policy. A presidential document published in the Federal Register.",
+    "summary": "1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C. 1601 et seq.) (NEA), section 212(f) of the Immigration and Nationality Act of 1952 (8 U.S.C. 1182(f)), and section 301 of title 3, United States Code, and in order to take further steps with respect to the national emergency declared in Executive Order 14380 of January 29, 2026 (Addressing Threats to the United States by the Government of Cuba), I hereby determine and order: Section 1.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Imposing Sanctions on Those Responsible for Repression in Cuba and for Threats to United States National Security and Foreign Policy. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C. 1601 et seq.) (NEA), section 212(f) of the Immigration and Nationality Act of 1952 (8 U.S.C. 1182(f)), and section 301 of title 3, United States Code, and in order to take further steps with respect to the national emergency declared in Executive Order 14380 of January 29, 2026 (Addressing Threats to the United States by the Government of Cuba), I hereby determine and order: Section 1. Policy. The policies, practices, and actions of the Government of Cuba, as described in Executive Order 14380, continue to constitute an unusual and extraordinary threat, which has its source in whole or substantial part outside the United States, to the national security and foreign policy of the United States. Not only are these policies, practices, and actions designed to harm the United States, but they are also repugnant to the moral and political values of free and democratic societies. Sec. 2. Sanctionable Conduct. (a) All property and interests in property that are in the United States, that hereafter come within the United States, or that are or hereafter come within the possession or control of any United States persons of the following persons are blocked and may not be transferred, paid, exported, withdrawn, or otherwise dealt in: (i) any foreign person determined by the Secretary of State, in consultation with the Secretary of the Treasury; or by the Secretary of the Treasury, in consultation with the Secretary of…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-08909",
@@ -7485,18 +7483,20 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/05/05/2026-08899/national-fallen-firefighters-memorial-weekend-2026",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "National Fallen Firefighters Memorial Weekend, 2026. A presidential document published in the Federal Register.",
+    "summary": "We carry their memories forward in gratitude along with the enduring promise of a Nation forever changed by their sacrifice. Every day across our great country, firefighters answer the call when it matters most, rushing into danger to protect lives, homes, and communities. Through fires, disasters, and emergencies, they demonstrate an unwavering commitment to the safety and well-being of their fellow Americans.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "National Fallen Firefighters Memorial Weekend, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "We carry their memories forward in gratitude along with the enduring promise of a Nation forever changed by their sacrifice. Every day across our great country, firefighters answer the call when it matters most, rushing into danger to protect lives, homes, and communities. Through fires, disasters, and emergencies, they demonstrate an unwavering commitment to the safety and well-being of their fellow Americans. Their bravery and dedication make our Nation stronger, and we are safer because of them. This weekend, we hold the families, friends, and loved ones of our fallen fire heroes--many of whom are gathered on the beautiful campus of the National Fire Academy at the National Fallen Firefighters Memorial Park in Emmitsburg, Maryland--to grieve together, share cherished memories, and find strength in the enduring legacies of those they have lost. Their grief is truly immeasurable, and we reaffirm our solemn mission to ensure that the names and memories of their loved ones remain forever enshrined in the hearts of our citizens. As we reflect on the lives of our Nation's fallen firefighters, we are reminded that gratitude must be matched by action. It remains our country's solemn obligation to provide the heroes of emergency response with the training, equipment, and resources they need to do their jobs well and return home safely to the peace and comfort of those who love them. My Administration remains steadfast in our commitment to unequivocally supporting those who protect…"
       }
     ],
-    "entities": [],
+    "entities": [
+      "Donald Trump"
+    ],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-08898",
@@ -7512,18 +7512,20 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/05/05/2026-08898/national-foster-care-month-2026",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "National Foster Care Month, 2026. A presidential document published in the Federal Register.",
+    "summary": "This National Foster Care Month, the First Lady and I join with countless Americans in celebrating the foster families whose devotion carries our youngest citizens forward by helping them realize the full potential of their unique American Dream. In communities around the country, ordinary Americans rise to an extraordinary calling by opening their homes to children who have endured immense challenges that no child should ever know. These caregivers,…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "National Foster Care Month, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "This National Foster Care Month, the First Lady and I join with countless Americans in celebrating the foster families whose devotion carries our youngest citizens forward by helping them realize the full potential of their unique American Dream. In communities around the country, ordinary Americans rise to an extraordinary calling by opening their homes to children who have endured immense challenges that no child should ever know. These caregivers, alongside the social workers, clergy, educators, and countless volunteers who stand beside them, offer stability, belonging, and hope where once there was only uncertainty. My Administration will accept nothing less than excellence for the children in foster care who depend upon us. In November 2025, I signed an Executive Order on Fostering the Future for American Children and Families--a revolutionary commitment championed by First Lady Melania Trump to strengthen foster care, support families, and improve outcomes for children across our Nation. Under my leadership as well as the First Lady's, we are opening new public and private sector pathways for young people who have experienced foster care, improving data sharing among those who depend on it to increase efficiency, and enacting stronger accountability throughout the foster care system nationwide. Through the incredible work of our First Lady, the Melania Trump Fostering Youth to Independence Program has expanded its reach, devoting $30 million to supporting housing…"
       }
     ],
-    "entities": [],
+    "entities": [
+      "Donald Trump"
+    ],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-08126",
@@ -7593,18 +7595,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/23/2026-08016/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Domestic Petroleum Production, Refining, and Logistics Capacity. A presidential document published in the Federal Register.",
+    "summary": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21933]] Presidential Determination No. 2026-11 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Domestic Petroleum Production, Refining, and Logistics Capacity Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy Emergency), under the National…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Domestic Petroleum Production, Refining, and Logistics Capacity. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21933]] Presidential Determination No. 2026-11 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Domestic Petroleum Production, Refining, and Logistics Capacity Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy Emergency), under the National Emergencies Act. That order found that America's inadequate energy production, transportation, refining, and generation capacity constitutes an unusual and extraordinary threat to the Nation's economy, national security, and foreign policy. It emphasized that our Nation's current inadequate and intermittent energy supply leaves us vulnerable to hostile foreign actors and poses an imminent and growing threat to the United States' prosperity and national security. Consistent with that declaration, I find that ensuring resilient domestic petroleum production, refining, and logistics capacity is central to United States defense readiness. Petroleum fuels the Nation's Armed Forces, industrial base, and crucial infrastructure. Without immediate Federal action, United States defense capabilities will remain vulnerable to disruption. Therefore, by the authority vested in me as President by the Constitution and the laws of the United States of America, including section 303 of the Defense Production Act of 1950, as amended (the ``Act'') (50…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-08013",
@@ -7647,18 +7649,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/23/2026-08011/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Development, Manufacturing, and Deployment of Large- Scale Energy and…. A presidential document published in the Federal Register.",
+    "summary": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21929]] Presidential Determination No. 2026-09 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Development, Manufacturing, and Deployment of Large- Scale Energy and Energy Related Infrastructure Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Development, Manufacturing, and Deployment of Large- Scale Energy and…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21929]] Presidential Determination No. 2026-09 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Development, Manufacturing, and Deployment of Large- Scale Energy and Energy Related Infrastructure Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy Emergency), under the National Emergencies Act. That order found that America's inadequate energy production, transportation, refining, and generation constitutes an unusual and extraordinary threat to the Nation's economy, national security, and foreign policy. It emphasized that our Nation's current inadequate and intermittent energy supply leaves us vulnerable to hostile foreign actors and poses an imminent and growing threat to the United States' prosperity and national security. Consistent with that declaration, I find that ensuring the domestic capability for development, manufacturing, and deployment of large-scale energy and energy-related infrastructure is essential to United States national defense, yet due to financing risks, regulatory delays, and market barriers, these cannot be met in full under existing market conditions. Therefore, by the authority vested in me as President by the Constitution and the laws of the United States of America, including section 303 of the Defense Production Act of 1950, as amended (the…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-08010",
@@ -7674,18 +7676,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/23/2026-08010/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Coal Supply Chains and Baseload Power Generation Capacity. A presidential document published in the Federal Register.",
+    "summary": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21927]] Presidential Determination No. 2026-08 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Coal Supply Chains and Baseload Power Generation Capacity Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy Emergency), under the National Emergencies Act.…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Coal Supply Chains and Baseload Power Generation Capacity. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "78 / Thursday, April 23, 2026 / Presidential Documents\u0000\u0000 [[Page 21927]] Presidential Determination No. 2026-08 of April 20, 2026 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Coal Supply Chains and Baseload Power Generation Capacity Memorandum for the Secretary of Energy On January 20, 2025, I issued Executive Order 14156 (Declaring a National Energy Emergency), under the National Emergencies Act. That order found that America's inadequate energy production, transportation, refining, and generation capacity constitutes an unusual and extraordinary threat to the Nation's economy, national security, and foreign policy. It emphasized that our Nation's current inadequate and intermittent energy supply leaves us vulnerable to hostile foreign actors and poses an imminent and growing threat to the United States' prosperity and national security. Consistent with that declaration, I find that ensuring reliable coal supply chains and baseload power generation capacity is essential to United States national defense. Coal mining and logistics, terminals, stockpile, and power generation facilities provide indispensable resilience to our power grids that cannot be replaced. Without sufficient coal-fired baseload power, the United States will lack the stable electricity required to support defense installations, industrial expansion, and the high-energy demands of emerging technologies, such as artificial intelligence. Therefore,…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-08009",
@@ -7863,18 +7865,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07724/authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-existing-pipeline-facilities",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the…. A presidential document published in the Federal Register.",
+    "summary": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. This permit supersedes and revokes the Presidential permit issued previously, dated July 23, 1998. This permit does not affect the applicability of any otherwise-relevant laws and regulations.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain existing pipeline Border facilities, as described herein, at the international border of the United States and Canada in Pembina County, North Dakota, near Neche, North Dakota, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated July 23, 1998. This permit does not affect the applicability of any otherwise-relevant laws and regulations. As confirmed in Article 2 of this permit, the Border facilities shall remain subject to all such laws and regulations. The term ``Facilities'' as used in this permit means the portion in the United States of the international pipeline project associated with the permittee's January 16, 2026, application for an amendment to its existing permit, and any land, structures, installations, or equipment appurtenant thereto. The term ``Border facilities'' as used in this permit means those parts of the…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07719",
@@ -7944,18 +7946,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07717/authorizing-bakken-pipeline-company-lp-to-operate-and-maintain-existing-pipeline-facilities-at-burke",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Bakken Pipeline Company LP To Operate and Maintain Existing Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the United States…. A presidential document published in the Federal Register.",
+    "summary": "The permittee is a limited partnership organized under the laws of the State of Delaware and is a subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. This permit supersedes and revokes the Presidential permit issued previously, dated April 8, 1996. This permit does not affect the applicability of any otherwise-relevant laws and regulations.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Bakken Pipeline Company LP To Operate and Maintain Existing Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the United States…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "The permittee is a limited partnership organized under the laws of the State of Delaware and is a subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain pipeline Border facilities, as described herein, at the international border of the United States and Canada near Portal, North Dakota, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated April 8, 1996. This permit does not affect the applicability of any otherwise-relevant laws and regulations. As confirmed in Article 2 of this permit, the Border facilities shall remain subject to all such laws and regulations. The term ``Facilities'' as used in this permit means the portion in the United States of the international pipeline project associated with the permittee's January 16, 2026, application for an amendment to its existing permit, and any land, structures, installations, or equipment appurtenant thereto. The term ``Border facilities'' as used in this permit means those parts of the Facilities consisting of a 12- inch diameter…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07716",
@@ -8025,18 +8027,20 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/16/2026-07524/day-of-celebration-in-honor-of-the-life-of-henry-clay-2026",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Day of Celebration in Honor of the Life of Henry Clay, 2026. A presidential document published in the Federal Register.",
+    "summary": "Born in the midst of the Revolutionary War on April 12, 1777, Clay rose from humble beginnings in Virginia to stand among the most consequential statesmen this country has ever produced. He represented the Commonwealth of Kentucky in the United States Congress, where he became the driving force behind what became known as the American System, championing strong protective tariffs to defend and develop domestic industry, a sound national financial…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Day of Celebration in Honor of the Life of Henry Clay, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "Born in the midst of the Revolutionary War on April 12, 1777, Clay rose from humble beginnings in Virginia to stand among the most consequential statesmen this country has ever produced. He represented the Commonwealth of Kentucky in the United States Congress, where he became the driving force behind what became known as the American System, championing strong protective tariffs to defend and develop domestic industry, a sound national financial structure to support growth and commerce, and Federal investment in roads, canals, and other internal improvements to bind the Nation together. The American System served as a practical blueprint for national strength, national unity, and national self-reliance. Henry Clay understood that our Nation's political independence must rest on a firm foundation of economic independence. He knew that sovereignty is never merely political. It is industrial. It is financial. It is commercial. He understood that when a Nation can no longer make what it needs, move what it makes, or defend the workers who sustain it, that Nation risks losing not only prosperity, but independence itself. Throughout his time in public office, he never wavered in his fight for America's economic independence during the most formative years of our country. Clay would go on to wield the gavel as Speaker of the House and serve with distinction in the Senate, and in 1825, he assumed the office of Secretary of State under President John Quincy Adams. Throughout his…"
       }
     ],
-    "entities": [],
+    "entities": [
+      "Donald Trump"
+    ],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07069",
@@ -8079,18 +8083,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/09/R1-2026-03829/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "In that publication, the document did not include the accompanying annex. The corrected document is republished in its entirety with the accompanying annex.] By the authority vested in me as President by the Constitution and the laws of the United States of America, including the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C.",
+    "summary": "Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "In that publication, the document did not include the accompanying annex. The corrected document is republished in its entirety with the accompanying annex.] By the authority vested in me as President by the Constitution and the laws of the United States of America, including the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C. 1601 et seq.), section 604 of the Trade Act of 1974, as amended (19 U.S.C. 2483), and section 301 of title 3, United States Code, it is hereby ordered: Section 1. Background. In several Executive Orders, including Executive Order 14193 of February 1, 2025 (Imposing Duties To Address the Flow of Illicit Drugs Across Our Northern Border), as amended; Executive Order 14194 of February 1, 2025 (Imposing Duties To Address the Situation at Our Southern Border), as amended; Executive Order 14195 of February 1, 2025 (Imposing Duties To Address the Synthetic Opioid Supply Chain in the People's Republic of China), as amended; Executive Order 14257 of April 2, 2025 (Regulating Imports With a Reciprocal Tariff To Rectify Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits), as amended; and Executive Order 14324 of July 30, 2025 (Suspending Duty-Free De Minimis Treatment for All Countries), I declared or described national emergencies with respect to unusual and extraordinary threats to the national security, foreign policy, or economy of the United…"
+        "text": "Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-06962",
@@ -8187,20 +8191,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/09/2026-06956/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "The Secretary of Commerce (Secretary) recently transmitted to me a report on his investigation into the effects of imports of pharmaceuticals and pharmaceutical ingredients on the national security of the United States under section 232 of the Trade Expansion Act of 1962, as amended, 19 U.S.C. Based on the facts considered in that investigation, and taking into account the close relation of the economic welfare of the Nation to our national security and…",
+    "summary": "Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "The Secretary of Commerce (Secretary) recently transmitted to me a report on his investigation into the effects of imports of pharmaceuticals and pharmaceutical ingredients on the national security of the United States under section 232 of the Trade Expansion Act of 1962, as amended, 19 U.S.C. 1862 (section 232). Based on the facts considered in that investigation, and taking into account the close relation of the economic welfare of the Nation to our national security and other relevant factors, see 19 U.S.C. 1862(d), the Secretary found and advised me of his opinion that pharmaceuticals and associated active pharmaceutical ingredients (APIs), including key starting materials, are being imported into the United States in such quantities and under such circumstances as to threaten to impair the national security of the United States. 2. The Secretary found that the present quantities and circumstances of imports of pharmaceuticals and pharmaceutical ingredients threaten to impair the national security and economy. Despite being the world leader in research and development (R&D) for most innovative pharmaceuticals (those that are typically patented and branded, as compared to generic pharmaceuticals or pharmaceuticals approved pursuant to section 505(j) of the Federal Food, Drug, and Cosmetic Act, 21 U.S.C. 355(j)), the United States is heavily reliant on imports, threatening to limit United States access to life-saving medications in the event of global supply chain…"
+        "text": "Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
-    "entities": [
-      "Donald Trump"
-    ],
+    "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-06601",
@@ -8274,18 +8276,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-06079/continuation-of-the-national-emergency-with-respect-to-trade-practices-that-contribute-to-large-and",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15517]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits On April 2, 2025, by Executive Order 14257, I declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat…",
+    "summary": "Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15517]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits On April 2, 2025, by Executive Order 14257, I declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security and economy of the United States involving conditions reflected in large and persistent annual U.S. goods trade deficits, including the consequences of those deficits. The President took additional steps pursuant to this national emergency, including in Executive Order 14259 of April 8, 2025; Executive Order 14266 of April 9, 2025; Executive Order 14309 of June 16, 2025; Executive Order 14316 of July 7, 2025; Executive Order 14324 of July 30, 2025; Executive Order 14326 of July 31, 2025; Executive Order 14334 of August 11, 2025; Executive Order 14345 of September 4, 2025; Executive Order 14346 of September 5, 2025; and Executive Order 14360 of November 14, 2025. The circumstances related to this emergency continue to pose an unusual and extraordinary threat, which has its source in whole or in substantial part outside the United States, to the national security and economy of the United States. For this reason, the national emergency declared in Executive Order 14257 of April 2, 2025, must continue…"
+        "text": "Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-06078",
@@ -8328,18 +8330,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-06077/continuation-of-the-national-emergency-with-respect-to-south-sudan",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15513]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to South Sudan On April 3, 2014, by Executive Order 13664, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security and foreign policy of the United States…",
+    "summary": "Continuation of the National Emergency With Respect to South Sudan. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15513]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to South Sudan On April 3, 2014, by Executive Order 13664, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security and foreign policy of the United States constituted by the situation in and in relation to South Sudan, which has been marked by activities that threaten the peace, security, or stability of South Sudan and the surrounding region, including widespread violence and atrocities, human rights abuses, recruitment and use of child soldiers, attacks on peacekeepers, and obstruction of humanitarian operations. The situation in and in relation to South Sudan continues to pose an unusual and extraordinary threat to the national security and foreign policy of the United States. For this reason, the national emergency declared on April 3, 2014, must continue in effect beyond April 3, 2026. Therefore, in accordance with section 202(d) of the National Emergencies Act (50 U.S.C. 1622(d)), I am continuing for 1 year the national emergency declared in Executive Order 13664. This notice shall be published in the Federal Register and transmitted to the Congress. <GRAPHIC(S) NOT AVAILABLE IN TIFF FORMAT> (Presidential Sig.) THE WHITE HOUSE, March 24, 2026. [FR Doc. 2026-06077 Filed 3-26-26;…"
+        "text": "Continuation of the National Emergency With Respect to South Sudan. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-06076",
@@ -8355,18 +8357,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-06076/continuation-of-the-national-emergency-with-respect-to-significant-malicious-cyber-enabled",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Continuation of the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities. A presidential document published in the Federal Register.",
+    "summary": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15511]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities On April 1, 2015, by Executive Order 13694, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security, foreign…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Continuation of the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15511]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities On April 1, 2015, by Executive Order 13694, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security, foreign policy, and economy of the United States constituted by the increasing prevalence and severity of malicious cyber-enabled activities originating from, or directed by persons located, in whole or in substantial part, outside the United States. The President issued Executive Order 13757 of December 28, 2016, Executive Order 13984 of January 19, 2021, Executive Order 14110 of October 30, 2023 (in relevant part), Executive Order 14144 of January 16, 2025 (in relevant part), and Executive Order 14306 of June 6, 2025, to take additional steps to address the national emergency declared in Executive Order 13694. Executive Order 14148 of January 20, 2025 (in relevant part), revoked Executive Order 14110. These significant malicious cyber-enabled activities continue to pose an unusual and extraordinary threat to the national security, foreign policy, and economy of the United States. For this reason, the national emergency declared in Executive Order 13694, and with respect to which additional steps were taken in Executive Order 13757,…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06075",
@@ -8523,17 +8525,17 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/18/2026-05388/removing-regulatory-barriers-to-affordable-home-construction",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "52 / Wednesday, March 18, 2026 / Presidential Documents\u0000\u0000 [[Page 13207]] Executive Order 14394 of March 13, 2026 Removing Regulatory Barriers to Affordable Home Construction By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. The American dream of homeownership depends on a dynamic housing market in which a varied inventory of new homes is built and renovated each…",
+    "summary": "Removing Regulatory Barriers to Affordable Home Construction. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "52 / Wednesday, March 18, 2026 / Presidential Documents\u0000\u0000 [[Page 13207]] Executive Order 14394 of March 13, 2026 Removing Regulatory Barriers to Affordable Home Construction By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose. The American dream of homeownership depends on a dynamic housing market in which a varied inventory of new homes is built and renovated each year. Layers of unnecessary regulatory barriers, slow permitting processes, and onerous mandates at all levels of government have delayed construction, restricted development, and driven up the costs of new housing. These constraints have made housing less affordable for many Americans. It is the policy of my Administration to reduce regulatory barriers to building homes and to steward taxpayer dollars in a manner that promotes housing affordability. Sec. 2. Targeting Federal Regulatory Barriers to Residential Development. (a) The Secretary of the Army, acting through the Assistant Secretary of the Army for Civil Works, and the Administrator of the Environmental Protection Agency shall review and revise requirements related to stormwater, wetlands, lakes, rivers, and other bodies of water to reduce housing construction and ownership costs, streamline regulatory and agency decision-making processes, reduce property tax burdens, and increase insurability, as appropriate and consistent with applicable law. Such…"
+        "text": "Removing Regulatory Barriers to Affordable Home Construction. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   }
 ]
