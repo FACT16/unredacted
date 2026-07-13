@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const SOURCES = [
+  "war.gov/UFO (PURSUE)",
   "Federal Register",
   "govinfo (GPO)",
   "Library of Congress",
@@ -38,6 +39,7 @@ export function SiteFooter() {
             <ul className="mt-2 space-y-1 text-sm">
               <li><Link href="/search">Search</Link></li>
               <li><Link href="/topics">Topics</Link></li>
+              <li><Link href="/sources">Sources &amp; monitoring</Link></li>
               <li><Link href="/about">About &amp; method</Link></li>
               <li>
                 <a
@@ -53,7 +55,7 @@ export function SiteFooter() {
 
           <div>
             <div className="text-xs font-semibold uppercase tracking-wide text-faint">
-              Sources
+              <Link href="/sources" className="text-faint hover:text-ink">Sources</Link>
             </div>
             <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm text-muted">
               {SOURCES.map((s) => (

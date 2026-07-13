@@ -114,7 +114,7 @@ async function main() {
   try {
     prev = JSON.parse(await readFile(OUT, "utf8")).length;
   } catch { /* first run */ }
-  // Image refresh is best-effort and must NEVER fail the nightly pipeline. The
+  // Image refresh is best-effort and must NEVER fail the ingest pipeline. The
   // Library of Congress blocks cloud/CI IP ranges (403), so a scheduled run may
   // legitimately pull nothing — keep the committed gallery and exit cleanly so the
   // corpus commit + deploy still happen.

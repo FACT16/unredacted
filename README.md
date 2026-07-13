@@ -48,20 +48,39 @@ NARA_API_KEY=your_key  npm run ingest       # also pull the National Archives Ca
 **Official U.S. government sources only** — every record comes from a government publisher
 of the document itself, not a third-party aggregator or user-upload host:
 
+- **war.gov/UFO — PURSUE** (Department of War) — the UAP disclosure portal launched
+  May 8, 2026; declassified documents, videos, audio, and images posted in tranches.
+  No API exists, so the ingester watches the public listing page itself and extracts
+  every hosted file link. Keyless.
 - **Federal Register** (federalregister.gov) — the official daily journal; executive
   orders, proclamations, and presidential memoranda. Keyless.
 - **GovInfo** (U.S. Government Publishing Office) — congressional hearings and reports and
   other published records. Uses `api.data.gov` (`DEMO_KEY` by default; set
   `DATA_GOV_API_KEY` — a free key — for real volume, since `DEMO_KEY` is heavily throttled).
-- **NARA Catalog** (National Archives) — only when `NARA_API_KEY` is set.
+- **NARA Catalog** (National Archives) — only when `NARA_API_KEY` is set. With the key,
+  the ingester also pulls the **UAP Records Collection (Record Group 615)** — the
+  records every agency must transfer to NARA under the 2024 NDAA — directly by record
+  group, so rolling transfers are captured even when titles don't match topic keywords.
 - **Library of Congress** (loc.gov, keyless) — digitized imagery for the photo galleries
   (`scripts/images.mjs`); images are hotlinked from LOC and every caption links to the
   original catalog record.
 
+**Coverage is auditable.** `lib/sources.ts` is the registry of every release channel we
+watch (or plan to); each ingest run writes a per-source health report to
+`lib/generated-ingest-report.json`, and the **/sources** page renders both — which
+channels are monitored, how, and whether the last check succeeded — so a silently
+broken source never looks like a quiet news day. Page-watch sources (PURSUE) carry
+previously captured records forward when the portal is unreachable, and the run report
+flags the failure.
+
 Every record carries real metadata, a **description/excerpt extracted from the official
 document text itself** (`scripts/enrich.mjs` — extractive only, nothing generated), the
 people/organizations it names (powers connection search), and a working link to the
-original. `scripts/audit-links.mjs` re-verifies every source link in the nightly job.
+original. `scripts/audit-links.mjs` re-verifies every source link on each run.
+
+The whole pipeline runs on a schedule (`.github/workflows/ingest.yml`, every 6 hours),
+so a new government drop — a war.gov/UFO tranche, an executive order, a committee
+report — is cataloged and live on the site within hours of publication.
 
 ---
 

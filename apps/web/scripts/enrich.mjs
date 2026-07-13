@@ -1,6 +1,6 @@
 // Entity enrichment — the "no separate backend" path.
 //
-// Runs server-side (locally or in the nightly GitHub Action), where browser CORS
+// Runs server-side (locally or in the scheduled GitHub Action), where browser CORS
 // rules don't apply. For each record it pulls the document's FULL TEXT from the
 // government source (Federal Register raw text; GovInfo HTML rendition), scans it
 // for a dictionary of notable people/orgs/programs, and writes the matches into
@@ -39,7 +39,7 @@ const ENTITIES = {
   "Central Intelligence Agency": ["central intelligence agency", "cia"],
   "Federal Bureau of Investigation": ["federal bureau of investigation", "fbi"],
   "National Security Agency": ["national security agency"],
-  "Department of Defense": ["department of defense", "pentagon"],
+  "Department of Defense": ["department of defense", "department of war", "pentagon"],
   "Department of Justice": ["department of justice"],
   "MKUltra": ["mkultra", "mk-ultra", "mk ultra"],
   "COINTELPRO": ["cointelpro"],
@@ -208,7 +208,11 @@ async function main() {
     // whatever a previous run may have written.
     const desc = ft ? extractDescription(ft) : "";
     const excerpt = ft ? extractExcerpt(ft) : "";
-    const isIngested = doc.id.startsWith("gov-") || doc.id.startsWith("fr-") || doc.id.startsWith("nara-");
+    const isIngested =
+      doc.id.startsWith("gov-") ||
+      doc.id.startsWith("fr-") ||
+      doc.id.startsWith("nara-") ||
+      doc.id.startsWith("pursue-");
     // Junk a previous buggy run may have written (soft-404 pages, site chrome).
     const poisoned = (s) => /[{}]|Page Not Found|Skip to main content/i.test(s || "");
 

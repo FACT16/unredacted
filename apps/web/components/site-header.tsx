@@ -28,6 +28,9 @@ export function SiteHeader() {
             <Link href="/images" className="text-muted hover:text-ink hover:no-underline">
               Images
             </Link>
+            <Link href="/sources" className="hidden text-muted hover:text-ink hover:no-underline sm:inline">
+              Sources
+            </Link>
             <Link href="/about" className="text-muted hover:text-ink hover:no-underline">
               About
             </Link>
@@ -38,9 +41,11 @@ export function SiteHeader() {
       {/* Honest, low-key notice about what this is. */}
       <div className="border-t border-line-soft bg-canvas">
         <div className="mx-auto max-w-6xl px-4 py-1.5 text-xs text-muted">
-          Early build · a growing archive of real government records, refreshed nightly.
-          Descriptions are drawn from each document&rsquo;s own official text, and every
-          record links to its original source.
+          Early build · a growing archive of real government records, refreshed several
+          times a day from the release channels we{" "}
+          <Link href="/sources">monitor</Link>. Descriptions are drawn from each
+          document&rsquo;s own official text, and every record links to its original
+          source.
         </div>
       </div>
     </header>

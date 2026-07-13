@@ -1,7 +1,7 @@
 // Link audit — "confirm the sourcing is always correct."
 //
 // Verifies that every document's originalUrl (and a sample of image record URLs)
-// actually resolves at the source. Runs in the nightly workflow after ingest, so a
+// actually resolves at the source. Runs in the scheduled workflow after ingest, so a
 // source that moves or dies is caught within a day. Report-only unless failures are
 // widespread (>20%), in which case it exits non-zero so the workflow flags it.
 //
@@ -19,6 +19,9 @@ const BOT_WALLED = [
   /^https:\/\/vault\.fbi\.gov\//,
   /^https:\/\/www\.courtlistener\.com\//,
   /^https?:\/\/www\.loc\.gov\/item\//,
+  // war.gov sits behind a CDN that intermittently 403s non-browser clients; the
+  // PURSUE ingester's page-watch (with carry-forward) is the real health signal.
+  /^https:\/\/www\.war\.gov\//,
 ];
 
 async function headOk(url) {

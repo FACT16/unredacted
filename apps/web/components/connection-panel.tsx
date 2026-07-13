@@ -23,7 +23,7 @@ export function ConnectionPanel({ entities }: { entities: string[] }) {
           No document in the archive names <span className="font-medium">{names}</span> together — yet.
         </p>
         <p className="mt-1 text-xs text-faint">
-          Connections are drawn from the full text of released documents; the archive grows nightly.
+          Connections are drawn from the full text of released documents; the archive grows with every scheduled ingest.
         </p>
       </section>
     );
