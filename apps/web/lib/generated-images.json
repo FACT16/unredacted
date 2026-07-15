@@ -27,9 +27,9 @@
   },
   {
     "id": "loc-2012631886",
-    "title": "\"You say you see flying secrets?\"",
-    "description": "1 drawing.",
-    "date": "1947-01-01",
+    "title": "You say you see flying secrets?\"",
+    "description": "Forms part of: Herbert L. Block (Herblock) collection (Library of Congress).",
+    "date": "1947",
     "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/hlb/01700/01733_150px.jpg#h=150&w=97",
     "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/hlb/01700/01733_150px.jpg#h=150&w=97",
     "recordUrl": "http://www.loc.gov/item/2012631886/",
@@ -925,13 +925,12 @@
     ]
   },
   {
-    "id": "loc-19000869",
-    "title": "The book of Philadelphia,",
-    "description": "5 p. l., 413 p. col. front., illus., plates. 21 cm.",
-    "date": "1918",
-    "thumbUrl": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:bookofphiladelph00shac:bookofphiladelph00shac_0009/full/pct:100.0/0/default.jpg#h=2719&w=1773",
-    "imageUrl": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:bookofphiladelph00shac:bookofphiladelph00shac_0009/full/pct:100.0/0/default.jpg#h=2719&w=1773",
-    "recordUrl": "http://www.loc.gov/item/19000869/",
+    "id": "loc-sn86090491/resource/gdc.0051979861A",
+    "title": "Frank Leslie's Illustrated Newspaper (New York, N.Y.) 1855-1891",
+    "date": "1862",
+    "thumbUrl": "https://tile.loc.gov/image-services/iiif/public:gdc:0051979861A:0003/full/pct:100.0/0/default.jpg#h=4824&w=3275",
+    "imageUrl": "https://tile.loc.gov/image-services/iiif/public:gdc:0051979861A:0003/full/pct:100.0/0/default.jpg#h=4824&w=3275",
+    "recordUrl": "http://www.loc.gov/item/sn86090491/resource/gdc.0051979861A",
     "source": "Library of Congress",
     "topics": [
       "mkultra"
