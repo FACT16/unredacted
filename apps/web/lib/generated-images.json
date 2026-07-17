@@ -776,7 +776,8 @@
     "recordUrl": "http://www.loc.gov/item/08019399/",
     "source": "Library of Congress",
     "topics": [
-      "mkultra"
+      "mkultra",
+      "watergate"
     ]
   },
   {
@@ -841,7 +842,8 @@
     "recordUrl": "http://www.loc.gov/item/afc2001001.10596/",
     "source": "Library of Congress",
     "topics": [
-      "mkultra"
+      "mkultra",
+      "watergate"
     ]
   },
   {
@@ -865,19 +867,6 @@
     "thumbUrl": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:daviddubosegaill00unit:daviddubosegaill00unit_0009/full/pct:100.0/0/default.jpg#h=3347&w=2150",
     "imageUrl": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:daviddubosegaill00unit:daviddubosegaill00unit_0009/full/pct:100.0/0/default.jpg#h=3347&w=2150",
     "recordUrl": "http://www.loc.gov/item/16017892/",
-    "source": "Library of Congress",
-    "topics": [
-      "mkultra"
-    ]
-  },
-  {
-    "id": "loc-54060020",
-    "title": "Guide to the special collections of prints & photographs in the Library of Congress,",
-    "description": "v, 200 p. 26 cm.",
-    "date": "1955",
-    "thumbUrl": "https://tile.loc.gov/image-services/iiif/service:gdc:gdclccn:54:06:00:20:54060020:00000001/full/pct:100/0/default.jpg#h=6600&w=5100",
-    "imageUrl": "https://tile.loc.gov/image-services/iiif/service:gdc:gdclccn:54:06:00:20:54060020:00000001/full/pct:100/0/default.jpg#h=6600&w=5100",
-    "recordUrl": "http://www.loc.gov/item/54060020/",
     "source": "Library of Congress",
     "topics": [
       "mkultra"
@@ -929,6 +918,19 @@
     "thumbUrl": "https://tile.loc.gov/image-services/iiif/public:gdc:0051979861A:0003/full/pct:100.0/0/default.jpg#h=4824&w=3275",
     "imageUrl": "https://tile.loc.gov/image-services/iiif/public:gdc:0051979861A:0003/full/pct:100.0/0/default.jpg#h=4824&w=3275",
     "recordUrl": "http://www.loc.gov/item/sn86090491/resource/gdc.0051979861A",
+    "source": "Library of Congress",
+    "topics": [
+      "mkultra"
+    ]
+  },
+  {
+    "id": "loc-19000869",
+    "title": "The book of Philadelphia,",
+    "description": "5 p. l., 413 p. col. front., illus., plates. 21 cm.",
+    "date": "1918",
+    "thumbUrl": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:bookofphiladelph00shac:bookofphiladelph00shac_0009/full/pct:100.0/0/default.jpg#h=2719&w=1773",
+    "imageUrl": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:bookofphiladelph00shac:bookofphiladelph00shac_0009/full/pct:100.0/0/default.jpg#h=2719&w=1773",
+    "recordUrl": "http://www.loc.gov/item/19000869/",
     "source": "Library of Congress",
     "topics": [
       "mkultra"
@@ -1559,312 +1561,286 @@
     ]
   },
   {
-    "id": "loc-2010646087",
-    "title": "[Shirley Temple Black with Vice President Richard Nixon]",
-    "description": "1 photographic print. | Photograph shows Shirley Temple Black laughing at something Vice President Richard Nixon has told her in his office for the 1960 MS Hope Chest campaign announcement of fellowships for Multiple Sclerosis research.",
-    "date": "1960-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/24300/24323_150px.jpg#h=118&w=150",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/24300/24323_150px.jpg#h=118&w=150",
-    "recordUrl": "http://www.loc.gov/item/2010646087/",
+    "id": "loc-2018648374",
+    "title": "1973 Watergate hearings",
+    "description": "1 photograph : color transparency ; 35 mm (slide format). | Photograph shows a hearing of the U.S. Senate Watergate Committee viewed from the back of the Senate Caucus Room showing U.S. senators, media and television cameras. The hearings took place in the Russell Senate Office Building,…",
+    "date": "1973-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/55800/55866_150px.jpg#h=106&w=150",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/55800/55866_150px.jpg#h=106&w=150",
+    "recordUrl": "http://www.loc.gov/item/2018648374/",
     "source": "Library of Congress",
     "topics": [
       "watergate"
     ]
   },
   {
-    "id": "loc-2005684659",
-    "title": "Activities of Vice President Richard M. Nixon",
-    "description": "22 photographic prints ; 8 x 10 in. | Photographs show Nixon in Latin America and the Soviet Union; meetings with Adenauer, Ben-Gurion, Queen Elizabeth, and Khrushchev, etc. The Nixon birthplace in Yorba Linda, Calif. Studio portraits of Nixon's wife and two daughters.",
-    "date": "1943",
+    "id": "loc-2018648373",
+    "title": "1973 Watergate hearings",
+    "description": "1 photograph : color transparency ; 35 mm (slide format). | Photograph shows members of the U.S. Senate Watergate Committee including senators Lowell Weicker (left) and Edward J. Gurney, and minority counsel to the committee, Fred D. Thompson, seated during hearings. The hearings took place in the…",
+    "date": "1973-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/55800/55865_150px.jpg#h=104&w=150",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/55800/55865_150px.jpg#h=104&w=150",
+    "recordUrl": "http://www.loc.gov/item/2018648373/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2017659345",
+    "title": "[Senate Watergate hearing-senator points a finger]",
+    "description": "1 drawing : porous point pen ; sheet 28 x 36 cm. | Drawing shows Senator Sam J. Ervin, during the Watergate hearings, Washington, D.C.",
+    "date": "1973-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53335r.jpg#h=513&w=640",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53335v.jpg#h=820&w=1024",
+    "recordUrl": "http://www.loc.gov/item/2017659345/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2020631032",
+    "title": "House Banking Committee hearing on Watergate Incident",
+    "description": "1 photograph : negative; film width 35mm (roll format) | Photograph shows the witness table at a House Banking Committee hearing on Watergate, with name plates for \"Mr. MacGregor\", \"Mr. Dean\", \"Mr. Stans\" and \"Mr. Mitchell\".",
+    "date": "1972-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/67900/67923r.jpg#h=431&w=640",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/67900/67923v.jpg#h=690&w=1024",
+    "recordUrl": "http://www.loc.gov/item/2020631032/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2017659348",
+    "title": "[Fred Thompson and other senators during the Senate Watergate hearings]",
+    "description": "1 drawing : India ink ; sheet 28 x 36 cm. | Drawing shows members of the Senate Watergate Committee and attorneys during the Watergate hearings, Washington, D.C.  Left to right: Senator Edward Gurney, Minority Counsel Fred Thompson, Senator Howard Baker, Senator Sam Ervin and Majority Counsel Sam…",
+    "date": "1973-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53338r.jpg#h=512&w=640",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53338v.jpg#h=819&w=1024",
+    "recordUrl": "http://www.loc.gov/item/2017659348/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2019630790",
+    "title": "House Banking Committee hearing on Watergate incident",
+    "description": "21 photographs on 1 contact sheet : gelatin silver print ; sheet 26 x 21 cm (8 x 10 format). | Contact sheet of 21 frames from 35mm film shows empty seats of John Dean, counsel to the President; Clark MacGregor, chairman of the Committee for the Re-election of the President; John N. Mitchell, the…",
+    "date": "1972-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ds/13100/13180r.jpg#h=640&w=612",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ds/13100/13180v.jpg#h=1024&w=979",
+    "recordUrl": "http://www.loc.gov/item/2019630790/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2017658950",
+    "title": "Watergate hearings, dirty tricks inquiry, Senate Caucus Room, Washington, D.C., October 4, 1973",
+    "description": "1 drawing : India ink on paper, mounted on board ; sheet 28 x 36 cm, mount 35 x 46 cm. | Drawing shows Martin Douglas Kelly (Assistant to Donald Segretti) and others testifying during the Watergate hearings, Washington, D.C.",
+    "date": "1973-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53340r.jpg#h=521&w=640",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53340v.jpg#h=833&w=1024",
+    "recordUrl": "http://www.loc.gov/item/2017658950/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2017659343",
+    "title": "[News and television cameras, perhaps related to the Senate Watergate hearings]",
+    "description": "1 drawing : porous point pen ; sheet 28 x 36 cm.",
+    "date": "1973-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53333r.jpg#h=507&w=640",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53333v.jpg#h=812&w=1024",
+    "recordUrl": "http://www.loc.gov/item/2017659343/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2017659349",
+    "title": "[Press room, perhaps in the Senate, during the Watergate hearings]",
+    "description": "1 drawing : India ink ; sheet 28 x 36 cm.",
+    "date": "1973-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53339r.jpg#h=511&w=640",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53339v.jpg#h=817&w=1024",
+    "recordUrl": "http://www.loc.gov/item/2017659349/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2020631033",
+    "title": "House Banking Committee hearing on Watergate Incident. Headshots of Committee, Wright Patman (D-Tex) and Bill Frenzel (R-Minn)",
+    "description": "1 photograph : negative; film width 35mm (roll format) | Photograph shows the hearing room during a House Banking Committee hearing on Watergate, with Chairman Wright Patman and possibly Representative Bill Frenzel.",
+    "date": "1972-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/67900/67924r.jpg#h=426&w=640",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/67900/67924v.jpg#h=682&w=1024",
+    "recordUrl": "http://www.loc.gov/item/2020631033/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2012641105",
+    "title": "\"We were just making confetti to celebrate ten years since Watergate\"",
+    "description": "1 drawing.",
+    "date": "1983",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/hlb/10500/10534_150px.jpg#h=150&w=96",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/hlb/10500/10534_150px.jpg#h=150&w=96",
+    "recordUrl": "http://www.loc.gov/item/2012641105/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2001700469",
+    "title": "[Senators seated around large table in the Senate Caucus Room during Watergate hearings, among those present are Sam Ervin and Lowell Weicker]",
+    "description": "1 photographic print.",
+    "date": "1969-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28979_150px.jpg#h=120&w=150",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28979_150px.jpg#h=120&w=150",
+    "recordUrl": "http://www.loc.gov/item/2001700469/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2017659344",
+    "title": "[Select Committee on Presidential Campaign Activities]",
+    "description": "1 drawing : porous point pen and opaque white ; sheet 36 x 28 cm. | Drawing shows members the Senate Watergate Committee testifying before Congress.",
+    "date": "1973-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53334r.jpg#h=640&w=511",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/53300/53334v.jpg#h=1024&w=817",
+    "recordUrl": "http://www.loc.gov/item/2017659344/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2012638696",
+    "title": "Late returns",
+    "description": "1 drawing : India ink, graphite, and opaque white over graphite underdrawing ; sheet 56.3 x 35.4 cm. | Editorial cartoon drawing shows a despondent couple watching the \"Watergate Hearings\" on television; hanging on the wall above the television is a picture of President Richard Nixon claiming…",
+    "date": "1973-05-18",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/hlb/08200/08225_150px.jpg#h=150&w=96",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/hlb/08200/08225_150px.jpg#h=150&w=96",
+    "recordUrl": "http://www.loc.gov/item/2012638696/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2010646164",
+    "title": "Time to switch priorities",
+    "description": "1 drawing : ink brush, graphite, and opaque white ; on sheet 48 x 32.1 cm. | Editorial cartoon shows a nonchalant man (labeled \"Congress\") leaning against the rail of a ship, absorbed in a large book labeled \"Watergate.\"  Uncle Sam, floundering in the water below, gesticulates frantically as a…",
+    "date": "1973-08-17",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/80300/80389_150px.jpg#h=150&w=102",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/80300/80389_150px.jpg#h=150&w=102",
+    "recordUrl": "http://www.loc.gov/item/2010646164/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2017645106",
+    "title": "Elliot Richardson before Sen. Judiciary",
+    "description": "1 drawing on white paper : inpriomia color crayon ; sheet 45.7 x 61 cm. | Drawing shows Elliot L. Richardson and Archibald Cox appearing before the Senate Committee on the Judiciary, possibly at the time of Richardson's confirmation as Attorney General or Cox's appointment as Special Prosecutor of…",
+    "date": "1973-01-01",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/51100/51123_150px.jpg#h=114&w=150",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/51100/51123_150px.jpg#h=114&w=150",
+    "recordUrl": "http://www.loc.gov/item/2017645106/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-00652241",
+    "title": "[Nixon awash in his office]",
+    "description": "1 drawing on paper : ink, graphite, and opaque white over graphite underdrawing ; 56.4 x 35.9 cm (sheet) | Editorial cartoon showing President Nixon clinging to his desk as the tidal wave of Watergate crashes into the oval office.",
+    "date": "1973-06-26",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsc/03400/03471_150px.jpg#h=150&w=97",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsc/03400/03471_150px.jpg#h=150&w=97",
+    "recordUrl": "http://www.loc.gov/item/00652241/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2009632053",
+    "title": "Bubble dance",
+    "description": "1 drawing : graphite and ink over graphite underdrawing ; 56.4 x 35.5 cm (sheet) | Editorial cartoon shows President Nixon emerging from behind curtains on a stage, in spotlight, dancing naked holding a globe in front of his torso.",
+    "date": "1974-06-06",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/21900/21943_150px.jpg#h=150&w=96",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/21900/21943_150px.jpg#h=150&w=96",
+    "recordUrl": "http://www.loc.gov/item/2009632053/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2004666591",
+    "title": "\"I am authorized to say, 'What whale?'\"",
+    "description": "1 drawing on paper : graphite, ink, opaque white, and overlays over blue pencil and graphite underdrawing ; 56.4 x 35.5 cm (sheet) | Editorial cartoon shows a Nixon White House spokesman, possibly John Dean, addressing a group of reporters, behind him is a whale labeled \"Nixon Scandals\" which he is…",
+    "date": "1973-06-05",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/04800/04895_150px.jpg#h=150&w=96",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/04800/04895_150px.jpg#h=150&w=96",
+    "recordUrl": "http://www.loc.gov/item/2004666591/",
+    "source": "Library of Congress",
+    "topics": [
+      "watergate"
+    ]
+  },
+  {
+    "id": "loc-2018651510",
+    "title": "[Congressional activities file from the CQ Roll Call Photograph Collection (CQ portion)]",
+    "description": "412 items (chiefly photographic prints) : gelatin silver and dye coupler ; 8 x 10 cm or smaller | Photographs include images used in Congressional Quarterly publications on congressional topics such as press conferences, hearings, committee markups, meetings and rallies. A large proportion of the…",
+    "date": "1970",
     "thumbUrl": "https://www.loc.gov/static/images/original-format/group-of-images.svg",
     "imageUrl": "https://www.loc.gov/static/images/original-format/group-of-images.svg",
-    "recordUrl": "http://www.loc.gov/item/2005684659/",
+    "recordUrl": "http://www.loc.gov/item/2018651510/",
     "source": "Library of Congress",
     "topics": [
       "watergate"
     ]
   },
   {
-    "id": "loc-2018697522",
-    "title": "Richard M. Nixon, 37th president of the United States",
-    "description": "1 print : halftone photomechanical print ; sheet 92 x 122 cm. or less.",
-    "date": "1969-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/46900/46908_150px.jpg#h=150&w=150",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/46900/46908_150px.jpg#h=150&w=150",
-    "recordUrl": "http://www.loc.gov/item/2018697522/",
+    "id": "loc-2012638909",
+    "title": "\"It's called separation of powers -- we separate you from your powers\"",
+    "description": "1 drawing : graphite, India ink, opaque white and overlays over graphite and blue pencil underdrawing ; sheet 56.3 cm. x 35.7 cm. | Editorial cartoon shows a startled man representing \"Congress\" sitting in bed watching as a thief labled \"White House\" climbs out his bedroom window carrying his pants…",
+    "date": "1973",
+    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/hlb/08200/08202_150px.jpg#h=150&w=96",
+    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/hlb/08200/08202_150px.jpg#h=150&w=96",
+    "recordUrl": "http://www.loc.gov/item/2012638909/",
     "source": "Library of Congress",
     "topics": [
       "watergate"
     ]
   },
   {
-    "id": "loc-2009616472",
-    "title": "[Richard Nixon and Vietnam soldier]",
-    "description": "1 drawing : India ink over pencil on white wove paper ; 20.5 x 26.5 cm. (sheet) | President Nixon, holding a rifle, pushes a Vietnamese soldier ahead with the butt, causing a slight stirring.",
-    "date": "1969-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3b30000/3b31000/3b31300/3b31397_150px.jpg#h=125&w=150",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3b30000/3b31000/3b31300/3b31397_150px.jpg#h=125&w=150",
-    "recordUrl": "http://www.loc.gov/item/2009616472/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2023630529",
-    "title": "[Senator Lyndon Johnson talking with Vice President Richard Nixon]",
-    "description": "1 photograph : safety negative ; film width 35mm (roll format)",
-    "date": "1958-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/78000/78025r.jpg#h=640&w=435",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/78000/78025v.jpg#h=1024&w=697",
-    "recordUrl": "http://www.loc.gov/item/2023630529/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2009616475",
-    "title": "[Richard Nixon with Vietnamese ballot box]",
-    "description": "1 drawing : India ink over pencil on white wove paper ; 20.9 x 20.5 cm. (sheet) | United States President Richard M. Nixon (born 1913), holding a locked ballot box in his lap.",
-    "date": "1970-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3b30000/3b31000/3b31300/3b31398_150px.jpg#h=150&w=128",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3b30000/3b31000/3b31300/3b31398_150px.jpg#h=150&w=128",
-    "recordUrl": "http://www.loc.gov/item/2009616475/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2002709653",
-    "title": "[Nixon]",
-    "description": "1 drawing on board : ink. | Caricature of President Richard M. Nixon with folded hands, seated before a microphone in front of an American flag, showing the president making one of his talks to the American people attempting to explain the Watergate scandal.",
-    "date": "1970-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsc/07900/07955r.jpg#h=640&w=508",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsc/07900/07955v.jpg#h=1024&w=813",
-    "recordUrl": "http://www.loc.gov/item/2002709653/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2016681747",
-    "title": "[Richard Nixon thinking about the seventh crisis]",
-    "description": "1 drawing. | Cartoon shows a worried former Vice President Richard Nixon imagining a book entitled \"The 7th Crisis.\"  He is seated in front of a folder reading: \"Calif. '62\" and next to a volume labeled \"6 Crises-- Nixon.\"  In 1962, Nixon published a memoir called \"Six Crises\" describing the…",
-    "date": "1962-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/acd/2a09000/2a09000/2a09013_150px.jpg#h=149&w=150",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/acd/2a09000/2a09000/2a09013_150px.jpg#h=149&w=150",
-    "recordUrl": "http://www.loc.gov/item/2016681747/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2009616474",
-    "title": "[Richard Nixon being strangled by tape]",
-    "description": "1 drawing : India ink over pencil on white wove paper ; 28.1 x 14.8 cm. (sheet) | Former U.S. President, Richard M. Nixon (born 1913) with the body of the Republican elephant, is strangled by a tape that resembles a serpent.",
-    "date": "1973-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c16000/3c16400/3c16458_150px.jpg#h=150&w=118",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c16000/3c16400/3c16458_150px.jpg#h=150&w=118",
-    "recordUrl": "http://www.loc.gov/item/2009616474/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-95503010",
-    "title": "[Vice-President Richard Nixon with Argentina's new President Arturo Frondizi, in South America]",
-    "description": "1 photographic print.",
-    "date": "1958-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c13000/3c13100/3c13159_150px.jpg#h=150&w=117",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c13000/3c13100/3c13159_150px.jpg#h=150&w=117",
-    "recordUrl": "http://www.loc.gov/item/95503010/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2015647673",
-    "title": "[Richard Nixon and Dwight D. Eisenhower riding in open convertible during Nixon's campaign for president]",
-    "description": "1 photograph : gelatin silver print ; sheet 22 x 34 cm.",
-    "date": "1960-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/39500/39543r.jpg#h=434&w=640",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/39500/39543v.jpg#h=695&w=1024",
-    "recordUrl": "http://www.loc.gov/item/2015647673/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-97506699",
-    "title": "[Vice President elect Richard Nixon standing behind microphones with wife Pat]",
-    "description": "1 photographic print.",
-    "date": "1952-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c17000/3c17800/3c17868_150px.jpg#h=121&w=150",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c17000/3c17800/3c17868_150px.jpg#h=121&w=150",
-    "recordUrl": "http://www.loc.gov/item/97506699/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2003673981",
-    "title": "[President and Mrs. Richard Nixon visiting the Great Wall of China]",
-    "description": "1 negative : film.",
-    "date": "1972-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/03400/03412_150px.jpg#h=103&w=150",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/03400/03412_150px.jpg#h=103&w=150",
-    "recordUrl": "http://www.loc.gov/item/2003673981/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2012646783",
-    "title": "The President",
-    "description": "1 print (poster). | Political poster for Richard Nixon's 1972 presidential election campaign showing portrait of Richard Nixon and seven vingette's of Nixon.",
-    "date": "1972-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppss/00400/00474_150px.jpg#h=150&w=97",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppss/00400/00474_150px.jpg#h=150&w=97",
-    "recordUrl": "http://www.loc.gov/item/2012646783/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2011635844",
-    "title": "Pat Nixon's beloved rose garden frames the birthplace of her husband, President Richard Nixon in Yorba Linda, California",
-    "description": "1 transparency : color ; 4 x 5 in. or smaller.",
-    "date": "1980-01-01",
-    "thumbUrl": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:17600:17650/full/pct:25/0/default.jpg#h=1201&w=1526",
-    "imageUrl": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:17600:17650/full/pct:25/0/default.jpg#h=1201&w=1526",
-    "recordUrl": "http://www.loc.gov/item/2011635844/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2026160431",
-    "title": "[Vice President-elect Lyndon Johnson and Vice President Richard Nixon leaving the White House on Inauguration Day]",
-    "description": "Title devised by Library staff. Related log book caption from USN&WR COLL - Job no. 5459: \"Kennedys Nixons Johnsons, Eisnehowers, Bridges. 01/20/1961 MST.\" Contact sheet available for reference purposes: USN&WR COLL - Job no. 5459, 15. Forms part of: U.S. News & World Report Magazine Photograph…",
-    "date": "1961",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/99900/99960r.jpg#h=433&w=640",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/99900/99960v.jpg#h=693&w=1024",
-    "recordUrl": "http://www.loc.gov/item/2026160431/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-97506689",
-    "title": "Nixon and wife see returns",
-    "description": "1 photographic print. | Vice-President elect Nixon and Mrs. Nixon examine election results.",
-    "date": "1952-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c17000/3c17800/3c17867_150px.jpg#h=150&w=121",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c17000/3c17800/3c17867_150px.jpg#h=150&w=121",
-    "recordUrl": "http://www.loc.gov/item/97506689/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2005678586",
-    "title": "[House Judiciary Subcommittee questioning President Gerald Ford on pardoning former President Richard Nixon, Washington, D.C.]",
-    "description": "1 negative : film.",
-    "date": "1974-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/08400/08450r.jpg#h=431&w=640",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/08400/08450v.jpg#h=690&w=1024",
-    "recordUrl": "http://www.loc.gov/item/2005678586/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2005678587",
-    "title": "[House Judiciary Subcommittee questioning President Gerald Ford on pardoning former President Richard Nixon, Washington, D.C.]",
-    "description": "1 negative : film.",
-    "date": "1974-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/08400/08451r.jpg#h=272&w=640",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/08400/08451v.jpg#h=435&w=1024",
-    "recordUrl": "http://www.loc.gov/item/2005678587/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2023630293",
-    "title": "[Vice President Richard Nixon, First Lady Pat Nixon, President Eisenhower, and the Nixon daughters, Tricia and Julie, riding in a limousine as they return from…",
-    "description": "1 photograph : safety negative ; film width 35mm (roll format)",
-    "date": "1958",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/77900/77984r.jpg#h=429&w=640",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/77900/77984v.jpg#h=687&w=1024",
-    "recordUrl": "http://www.loc.gov/item/2023630293/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2016681743",
-    "title": "[President Nixon and George Meany divided by jagged tear in the paper]",
-    "description": "1 drawing. | Cartoon shows a rift between President Nixon and AFL-CIO President George Meany.  Comments on Nixon's hostile reception by the delegates to the AFL-CIO convention in Bal Harbour, Fla. on November 19, 1971 and the rejection by Meany of Nixon's economic stabilization policies that…",
-    "date": "1971-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/acd/2a09000/2a09000/2a09009_150px.jpg#h=150&w=142",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/acd/2a09000/2a09000/2a09009_150px.jpg#h=150&w=142",
-    "recordUrl": "http://www.loc.gov/item/2016681743/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2016684754",
-    "title": "[Richard Nixon with Leonid Breshnev and Mao Tse-Tung for ears]",
-    "description": "1 drawing : ink and white out over blue pencil. | Portrait of United States President Richard Nixon with Soviet leader Leonid Brezhnev and Chinese leader Mao Tse-Tung forming his ears, a commentary on Nixon's developing relations with communist leaders during the Cold War.",
-    "date": "1972-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28982_150px.jpg#h=150&w=121",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28982_150px.jpg#h=150&w=121",
-    "recordUrl": "http://www.loc.gov/item/2016684754/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2003673979",
-    "title": "White House wedding. Pres. Nixon with Tricia",
-    "description": "1 negative : film. | Photograph shows President Richard Nixon escorting daughter Tricia Nixon at her wedding at the White House.",
-    "date": "1971-01-01",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/03400/03410r.jpg#h=440&w=640",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/03400/03410v.jpg#h=703&w=1024",
-    "recordUrl": "http://www.loc.gov/item/2003673979/",
-    "source": "Library of Congress",
-    "topics": [
-      "watergate"
-    ]
-  },
-  {
-    "id": "loc-2024634731",
-    "title": "Richard Nixon and others at the Old Executive Office Building grounds",
-    "description": "1 photograph : negative ; sheet 10 x 13 cm (4 x 5 format) | Photograph shows President Richard Nixon and King Hussein of Jordan standing on a raised platform in front of the Old Executive Office Building.",
-    "date": "1969",
-    "thumbUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/89800/89891r.jpg#h=509&w=640",
-    "imageUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/89800/89891v.jpg#h=815&w=1024",
-    "recordUrl": "http://www.loc.gov/item/2024634731/",
+    "id": "loc-15007856",
+    "title": "Laus Veneris, and other poems and ballads.",
+    "description": "vii, [1], 328 p. 19 cm.",
+    "date": "1866",
+    "thumbUrl": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lausvenerisother00swin:lausvenerisother00swin_0007/full/pct:100.0/0/default.jpg#h=2978&w=1900",
+    "imageUrl": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lausvenerisother00swin:lausvenerisother00swin_0007/full/pct:100.0/0/default.jpg#h=2978&w=1900",
+    "recordUrl": "http://www.loc.gov/item/15007856/",
     "source": "Library of Congress",
     "topics": [
       "watergate"
