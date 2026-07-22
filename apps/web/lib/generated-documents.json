@@ -2406,34 +2406,6 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-CREC-2006-08-03",
-    "title": "THE LIFE OF LEON EPSTEIN",
-    "agency": "OTHER",
-    "collection": "epstein",
-    "topics": [
-      "epstein"
-    ],
-    "docDate": "2006-08-03",
-    "releaseDate": "2006-08-03",
-    "originalUrl": "https://www.govinfo.gov/app/details/CREC-2006-08-03",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "THE LIFE OF LEON EPSTEIN. A record published by the U.S. Government Publishing Office (collection CREC).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "THE LIFE OF LEON EPSTEIN. Published by the U.S. Government Publishing Office, collection CREC. Read the full document at the source."
-      }
-    ],
-    "entities": [
-      "Jeffrey Epstein"
-    ],
-    "tags": [
-      "CREC"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
     "id": "gov-CREC-2025-02-05",
     "title": "Jeffrey Epstein (Executive Calendar)",
     "agency": "OTHER",
@@ -2451,6 +2423,34 @@
       {
         "pageNumber": 1,
         "text": "Jeffrey Epstein (Executive Calendar). Published by the U.S. Government Publishing Office, collection CREC. Read the full document at the source."
+      }
+    ],
+    "entities": [
+      "Jeffrey Epstein"
+    ],
+    "tags": [
+      "CREC"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-CREC-2006-08-03",
+    "title": "THE LIFE OF LEON EPSTEIN",
+    "agency": "OTHER",
+    "collection": "epstein",
+    "topics": [
+      "epstein"
+    ],
+    "docDate": "2006-08-03",
+    "releaseDate": "2006-08-03",
+    "originalUrl": "https://www.govinfo.gov/app/details/CREC-2006-08-03",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "THE LIFE OF LEON EPSTEIN. A record published by the U.S. Government Publishing Office (collection CREC).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "THE LIFE OF LEON EPSTEIN. Published by the U.S. Government Publishing Office, collection CREC. Read the full document at the source."
       }
     ],
     "entities": [
@@ -3685,32 +3685,6 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
-    "title": "Federal Depository Library Manual",
-    "agency": "OTHER",
-    "collection": "fbi-files",
-    "topics": [
-      "fbi-files"
-    ],
-    "docDate": "1993-11-01",
-    "releaseDate": "1993-11-01",
-    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Federal Depository Library Manual. A record published by the U.S. Government Publishing Office (collection GOVPUB).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Federal Depository Library Manual. Published by the U.S. Government Publishing Office, collection GOVPUB. Read the full document at the source."
-      }
-    ],
-    "entities": [],
-    "tags": [
-      "GOVPUB"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
     "id": "gov-CMR-PREX26-00187500",
     "title": "National Drug Control Strategy May 2024",
     "agency": "OTHER",
@@ -3733,6 +3707,32 @@
     "entities": [],
     "tags": [
       "CMR"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
+    "title": "Federal Depository Library Manual",
+    "agency": "OTHER",
+    "collection": "fbi-files",
+    "topics": [
+      "fbi-files"
+    ],
+    "docDate": "1993-11-01",
+    "releaseDate": "1993-11-01",
+    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-GP3-097981f9c5defd7850373abf8c810577",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Federal Depository Library Manual. A record published by the U.S. Government Publishing Office (collection GOVPUB).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Federal Depository Library Manual. Published by the U.S. Government Publishing Office, collection GOVPUB. Read the full document at the source."
+      }
+    ],
+    "entities": [],
+    "tags": [
+      "GOVPUB"
     ],
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
@@ -3841,28 +3841,29 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-GOVPUB-L-7d21850ed4bb7c40db41349d6e23a05c",
-    "title": "United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979",
+    "id": "gov-GOVPUB-VA-871e115325c2eae69d58f53b05365c72",
+    "title": "Administrator of Veterans Affairs, Annual Report, 1984",
     "agency": "OTHER",
     "collection": "fbi-files",
     "topics": [
       "fbi-files"
     ],
-    "docDate": "1980-01-01",
-    "releaseDate": "1980-01-01",
-    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-L-7d21850ed4bb7c40db41349d6e23a05c",
+    "docDate": "1985-01-01",
+    "releaseDate": "1985-01-01",
+    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-VA-871e115325c2eae69d58f53b05365c72",
     "sourceName": "GovInfo (U.S. GPO)",
     "language": "English",
-    "summary": "United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979 [United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979] [From the U.S. Government Publishing Office, www.gpo.gov ] United States Department of Labor Sixty-Seventh Annual Report Fiscal Year 1979 pi mi 'C library SAN DIEGO -v Q 1 4 5 5 1 liwuS i United States Department of Labor Sixty-Seventh Annual Report Fiscal Year 1979 Ray Marshall, Secretary 3 1336…",
+    "summary": "Administrator of Veterans Affairs, Annual Report, 1984 [Administrator of Veterans Affairs, Annual Report, 1984] [From the U.S. Our Nation's veterans have served us for many generations. They have borne the battles, manned the defenses, and made great sacrifices - for us.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979 [United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979] [From the U.S. Government Publishing Office, www.gpo.gov ] United States Department of Labor Sixty-Seventh Annual Report Fiscal Year 1979 pi mi 'C library SAN DIEGO -v Q 1 4 5 5 1 liwuS i United States Department of Labor Sixty-Seventh Annual Report Fiscal Year 1979 Ray Marshall, Secretary 3 1336 05750 3600 United States Department of Labor Ray Marshal] Secretary of Labor Paul Jensen Executive Assistant and Counselor to the Secretary John W. Leslie Director, Office of Information, Publications and Reports Alexis Herman Director, Women’s Bureau Marjorie F. Knowles1 Inspector General Vacant2 Under Secretary Willis J. Nordlund3 Executive Assistant to the Under Secretary E. Gerald Lamboley Chariman, Employees’ Compensation Appeals Board Samuel J. Smith Chairman, Benefits Review Board Nahum Litt4 Chief Administrative Law Judge Nik B. Edes Deputy Under Secretary for Legislation and Intergovernmental Relations Vacant5 Deputy Under Secretary for International Affairs Herbert N. Blackman Associate Deputy Under Secretary for International Affairs Darwin M. Bell Associate Deputy Under Secretary for Development Assistance Carin A. Clauss Solicitor Alfred G. Albert Deputy Solicitor Arnold Packer Assistant Secretary for Policy, Evaluation and Research Josephine E. Allen6 Deputy Assistant Secretary for Policy, Evaluation and…"
+        "text": "Administrator of Veterans Affairs, Annual Report, 1984 [Administrator of Veterans Affairs, Annual Report, 1984] [From the U.S. Government Publishing Office, www.gpo.gov ] Veterans Administration VA l-|: Annual Report 1984 **' Wo lww fCc 01 y America is #1 Thanks to our Veterans Administrator of Veterans Affairs Veterans Vw Administration Annual Report 1984 America is #X Thanks to our Veterans Administrator of Veterans Affairs 3 1336 08668 0718 Letter of Transmittal To the President of the Senate and the Speaker of the House of Representatives of the 99th Congress: In accordance with the provisions of section 214, title 38, U.S.C., I have the honor of submitting a report on the activities of the Veterans Administration for the fiscal year ending September 30, 1 984. Our Nation's veterans have served us for many generations. They have borne the battles, manned the defenses, and made great sacrifices - for us. It is our duty to serve them as they enter the personal battles of disability, illness and old age. That is the Veterans Administration's mission. This past year has been an important and an eventful one for the Veterans Administration and for those whom it serves. This Annual Report illustrates the extent of our commitment to provide number one care - and number one service - to every eligible veteran or family member who comes to our Agency. America is #1 Thanks to our Veterans! HARRY N. WALTERS Administrator of Veterans Affairs iii \"...at this place, for all time, it…"
       }
     ],
     "entities": [
-      "Department of Justice",
-      "September 11 attacks"
+      "Martin Luther King Jr.",
+      "Department of Defense",
+      "Department of Justice"
     ],
     "tags": [
       "GOVPUB;ANNUALREP"
@@ -3896,29 +3897,28 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-GOVPUB-VA-871e115325c2eae69d58f53b05365c72",
-    "title": "Administrator of Veterans Affairs, Annual Report, 1984",
+    "id": "gov-GOVPUB-L-7d21850ed4bb7c40db41349d6e23a05c",
+    "title": "United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979",
     "agency": "OTHER",
     "collection": "fbi-files",
     "topics": [
       "fbi-files"
     ],
-    "docDate": "1985-01-01",
-    "releaseDate": "1985-01-01",
-    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-VA-871e115325c2eae69d58f53b05365c72",
+    "docDate": "1980-01-01",
+    "releaseDate": "1980-01-01",
+    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-L-7d21850ed4bb7c40db41349d6e23a05c",
     "sourceName": "GovInfo (U.S. GPO)",
     "language": "English",
-    "summary": "Administrator of Veterans Affairs, Annual Report, 1984 [Administrator of Veterans Affairs, Annual Report, 1984] [From the U.S. Our Nation's veterans have served us for many generations. They have borne the battles, manned the defenses, and made great sacrifices - for us.",
+    "summary": "United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979 [United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979] [From the U.S. Government Publishing Office, www.gpo.gov ] United States Department of Labor Sixty-Seventh Annual Report Fiscal Year 1979 pi mi 'C library SAN DIEGO -v Q 1 4 5 5 1 liwuS i United States Department of Labor Sixty-Seventh Annual Report Fiscal Year 1979 Ray Marshall, Secretary 3 1336…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Administrator of Veterans Affairs, Annual Report, 1984 [Administrator of Veterans Affairs, Annual Report, 1984] [From the U.S. Government Publishing Office, www.gpo.gov ] Veterans Administration VA l-|: Annual Report 1984 **' Wo lww fCc 01 y America is #1 Thanks to our Veterans Administrator of Veterans Affairs Veterans Vw Administration Annual Report 1984 America is #X Thanks to our Veterans Administrator of Veterans Affairs 3 1336 08668 0718 Letter of Transmittal To the President of the Senate and the Speaker of the House of Representatives of the 99th Congress: In accordance with the provisions of section 214, title 38, U.S.C., I have the honor of submitting a report on the activities of the Veterans Administration for the fiscal year ending September 30, 1 984. Our Nation's veterans have served us for many generations. They have borne the battles, manned the defenses, and made great sacrifices - for us. It is our duty to serve them as they enter the personal battles of disability, illness and old age. That is the Veterans Administration's mission. This past year has been an important and an eventful one for the Veterans Administration and for those whom it serves. This Annual Report illustrates the extent of our commitment to provide number one care - and number one service - to every eligible veteran or family member who comes to our Agency. America is #1 Thanks to our Veterans! HARRY N. WALTERS Administrator of Veterans Affairs iii \"...at this place, for all time, it…"
+        "text": "United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979 [United States Department of Labor Sixty-Seventh Annual Report, Fiscal Year 1979] [From the U.S. Government Publishing Office, www.gpo.gov ] United States Department of Labor Sixty-Seventh Annual Report Fiscal Year 1979 pi mi 'C library SAN DIEGO -v Q 1 4 5 5 1 liwuS i United States Department of Labor Sixty-Seventh Annual Report Fiscal Year 1979 Ray Marshall, Secretary 3 1336 05750 3600 United States Department of Labor Ray Marshal] Secretary of Labor Paul Jensen Executive Assistant and Counselor to the Secretary John W. Leslie Director, Office of Information, Publications and Reports Alexis Herman Director, Women’s Bureau Marjorie F. Knowles1 Inspector General Vacant2 Under Secretary Willis J. Nordlund3 Executive Assistant to the Under Secretary E. Gerald Lamboley Chariman, Employees’ Compensation Appeals Board Samuel J. Smith Chairman, Benefits Review Board Nahum Litt4 Chief Administrative Law Judge Nik B. Edes Deputy Under Secretary for Legislation and Intergovernmental Relations Vacant5 Deputy Under Secretary for International Affairs Herbert N. Blackman Associate Deputy Under Secretary for International Affairs Darwin M. Bell Associate Deputy Under Secretary for Development Assistance Carin A. Clauss Solicitor Alfred G. Albert Deputy Solicitor Arnold Packer Assistant Secretary for Policy, Evaluation and Research Josephine E. Allen6 Deputy Assistant Secretary for Policy, Evaluation and…"
       }
     ],
     "entities": [
-      "Martin Luther King Jr.",
-      "Department of Defense",
-      "Department of Justice"
+      "Department of Justice",
+      "September 11 attacks"
     ],
     "tags": [
       "GOVPUB;ANNUALREP"
@@ -3943,6 +3943,36 @@
       {
         "pageNumber": 1,
         "text": "This report is supplemented by four annexes: The Seventh Report to Congress: Comprehensive Program and Plan for Federal Energy Education, Extension, and Information Activities (published May 1984 by the Assistant Secretary for Conservation and Renewable Energy, U.S. Department of Energy); Fifth Annual Report to Congress on the Automotive Technology Development Program (published December 1983 by the Office of Vehicle and Engine Research and the Department of Energy); Fifth Annual Report to Congress and the Secretary of Energy on the Nationwide Energy Extension Service Program, by the National Energy Extension Service Advisory Board (published February 1984 by the Office of State and Local Assistance Programs, Office of Conservation and Renewable Energy, U.S. Department of Energy); and the Seventh Annual Report to Congress: Electric and Hybrid Vehicles Program (published February 1984 by the Office of Vehicle and Engine Research and Development, Office of Conservation and Renewable Energy, U.S. Department of Energy). All years are fiscal years unless otherwise noted. Ill Table of Contents 1. Secretary’s Statement National Energy Policy.......................... 1 Goal .................................... 1 Strategy Number 1 ....................... 1 Strategy Number 2 ....................... 2 Energy Resources .......................... 2 Petroleum ............................... 2 Natural Gas ............................. 4 Coal .................................... 5…"
+      }
+    ],
+    "entities": [
+      "Federal Bureau of Investigation",
+      "Department of Defense",
+      "Department of Justice"
+    ],
+    "tags": [
+      "GOVPUB;ANNUALREP"
+    ],
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+  },
+  {
+    "id": "gov-GOVPUB-VA-0006c003a6aae553da52d9eabe0a9e05",
+    "title": "Administrator of Veterans Affairs, Annual Report, 1983",
+    "agency": "OTHER",
+    "collection": "fbi-files",
+    "topics": [
+      "fbi-files"
+    ],
+    "docDate": "1984-01-01",
+    "releaseDate": "1984-01-01",
+    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-VA-0006c003a6aae553da52d9eabe0a9e05",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Administrator of Veterans Affairs, Annual Report, 1983 [Administrator of Veterans Affairs, Annual Report, 1983] [From the U.S. Government Publishing Office, www.gpo.gov ] Veterans Administration Annual Report 1983 America is #1 Thanks to our Veterans Administrator of Veterans Affairs Veterans Vw Administration our Veterans Annual Report 1983 America is #1 Thanks to 3 1336 08668 0668 Letter of Transmittal To the President of the Senate and the Speaker of…",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Administrator of Veterans Affairs, Annual Report, 1983 [Administrator of Veterans Affairs, Annual Report, 1983] [From the U.S. Government Publishing Office, www.gpo.gov ] Veterans Administration Annual Report 1983 America is #1 Thanks to our Veterans Administrator of Veterans Affairs Veterans Vw Administration our Veterans Annual Report 1983 America is #1 Thanks to 3 1336 08668 0668 Letter of Transmittal To the President of the Senate and the Speaker of the House of Representatives of the 98th Congress: In accordance with the provisions of 38 U.S.C. 21 4, I have the honor of submitting a report on the activities of the Veterans Administration for the Fiscal Year ending September 30, 1983. For more than two hundred years this grateful Nation has honored and cared for its veterans in acknowledgment of their sacrifice. This has never been more evident than today as the Veterans Administration enthusiastically meets the challenges posed by the changing needs of the veteran population. Fiscal Year 1 983 was a year of accomplishment. It was also a springboard into caring for our Nation's veterans in the future. America is #1 - Thanks to our Veterans! HARRY N. WALTERS Administrator of Veterans Affairs iii VETERANS ADMINISTRATION MISSION & GOALS The mission of the Veterans Administration is to serve America's veterans and their families with dignity and compassion and to be their principal advocate in ensuring that they receive the care, support and recognition earned in service to…"
       }
     ],
     "entities": [
@@ -3983,36 +4013,6 @@
       "Department of Justice",
       "September 11 attacks",
       "Mexico City"
-    ],
-    "tags": [
-      "GOVPUB;ANNUALREP"
-    ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
-  },
-  {
-    "id": "gov-GOVPUB-VA-0006c003a6aae553da52d9eabe0a9e05",
-    "title": "Administrator of Veterans Affairs, Annual Report, 1983",
-    "agency": "OTHER",
-    "collection": "fbi-files",
-    "topics": [
-      "fbi-files"
-    ],
-    "docDate": "1984-01-01",
-    "releaseDate": "1984-01-01",
-    "originalUrl": "https://www.govinfo.gov/app/details/GOVPUB-VA-0006c003a6aae553da52d9eabe0a9e05",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Administrator of Veterans Affairs, Annual Report, 1983 [Administrator of Veterans Affairs, Annual Report, 1983] [From the U.S. Government Publishing Office, www.gpo.gov ] Veterans Administration Annual Report 1983 America is #1 Thanks to our Veterans Administrator of Veterans Affairs Veterans Vw Administration our Veterans Annual Report 1983 America is #1 Thanks to 3 1336 08668 0668 Letter of Transmittal To the President of the Senate and the Speaker of…",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Administrator of Veterans Affairs, Annual Report, 1983 [Administrator of Veterans Affairs, Annual Report, 1983] [From the U.S. Government Publishing Office, www.gpo.gov ] Veterans Administration Annual Report 1983 America is #1 Thanks to our Veterans Administrator of Veterans Affairs Veterans Vw Administration our Veterans Annual Report 1983 America is #1 Thanks to 3 1336 08668 0668 Letter of Transmittal To the President of the Senate and the Speaker of the House of Representatives of the 98th Congress: In accordance with the provisions of 38 U.S.C. 21 4, I have the honor of submitting a report on the activities of the Veterans Administration for the Fiscal Year ending September 30, 1983. For more than two hundred years this grateful Nation has honored and cared for its veterans in acknowledgment of their sacrifice. This has never been more evident than today as the Veterans Administration enthusiastically meets the challenges posed by the changing needs of the veteran population. Fiscal Year 1 983 was a year of accomplishment. It was also a springboard into caring for our Nation's veterans in the future. America is #1 - Thanks to our Veterans! HARRY N. WALTERS Administrator of Veterans Affairs iii VETERANS ADMINISTRATION MISSION & GOALS The mission of the Veterans Administration is to serve America's veterans and their families with dignity and compassion and to be their principal advocate in ensuring that they receive the care, support and recognition earned in service to…"
-      }
-    ],
-    "entities": [
-      "Federal Bureau of Investigation",
-      "Department of Defense",
-      "Department of Justice"
     ],
     "tags": [
       "GOVPUB;ANNUALREP"
@@ -7580,18 +7580,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/05/07/2026-09173/imposing-sanctions-on-those-responsible-for-repression-in-cuba-and-for-threats-to-united-states",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C. 1601 et seq.) (NEA), section 212(f) of the Immigration and Nationality Act of 1952 (8 U.S.C. 1182(f)), and section 301 of title 3, United States Code, and in order to take further steps with respect to the national emergency declared in Executive Order 14380 of January 29, 2026 (Addressing Threats to the United States by the Government of Cuba), I hereby determine and order: Section 1.",
+    "summary": "Imposing Sanctions on Those Responsible for Repression in Cuba and for Threats to United States National Security and Foreign Policy. A presidential document published in the Federal Register.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C. 1601 et seq.) (NEA), section 212(f) of the Immigration and Nationality Act of 1952 (8 U.S.C. 1182(f)), and section 301 of title 3, United States Code, and in order to take further steps with respect to the national emergency declared in Executive Order 14380 of January 29, 2026 (Addressing Threats to the United States by the Government of Cuba), I hereby determine and order: Section 1. Policy. The policies, practices, and actions of the Government of Cuba, as described in Executive Order 14380, continue to constitute an unusual and extraordinary threat, which has its source in whole or substantial part outside the United States, to the national security and foreign policy of the United States. Not only are these policies, practices, and actions designed to harm the United States, but they are also repugnant to the moral and political values of free and democratic societies. Sec. 2. Sanctionable Conduct. (a) All property and interests in property that are in the United States, that hereafter come within the United States, or that are or hereafter come within the possession or control of any United States persons of the following persons are blocked and may not be transferred, paid, exported, withdrawn, or otherwise dealt in: (i) any foreign person determined by the Secretary of State, in consultation with the Secretary of the Treasury; or by the Secretary of the Treasury, in consultation with the Secretary of…"
+        "text": "Imposing Sanctions on Those Responsible for Repression in Cuba and for Threats to United States National Security and Foreign Policy. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
   },
   {
     "id": "fr-2026-08909",
@@ -8016,18 +8016,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07729/authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-three-existing-pipeline",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Three Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between…. A presidential document published in the Federal Register.",
+    "summary": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. This permit supersedes and revokes the Presidential permit issued previously, dated December 12, 1991. This permit does not affect the applicability of any otherwise-relevant laws and regulations.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Three Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain existing pipeline Border facilities, as described herein, at the international border of the United States and Canada in Pembina County, North Dakota, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated December 12, 1991. This permit does not affect the applicability of any otherwise-relevant laws and regulations. As confirmed in Article 2 of this permit, the Border facilities shall remain subject to all such laws and regulations. The term ``Facilities'' as used in this permit means the portion in the United States of the international pipeline project associated with the permittee's January 16, 2026, application for an amendment to its existing permit, and any land, structures, installations, or equipment appurtenant thereto. The term ``Border facilities'' as used in this permit means those parts of the Facilities consisting…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07725",
@@ -8043,18 +8043,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07725/authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-existing-pipeline-facilities",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the…. A presidential document published in the Federal Register.",
+    "summary": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. This permit supersedes and revokes the Presidential permit issued previously, dated October 13, 2017. 16, 2017) (Notice of Issuance of a Presidential Permit to Enbridge Energy, Limited Partnership).",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Enbridge Energy, Limited Partnership To Operate and Maintain Existing Pipeline Facilities at Pembina County, North Dakota, at the International Boundary Between the…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "The permittee is a limited partnership organized under the laws of the State of Delaware and is an indirect subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain existing pipeline Border facilities, as described herein, at the international border of the United States and Canada near Neche, Pembina County, North Dakota, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated October 13, 2017. See 82 Fed. Reg. 53553 (Nov. 16, 2017) (Notice of Issuance of a Presidential Permit to Enbridge Energy, Limited Partnership). This permit does not affect the applicability of any otherwise-relevant laws and regulations. As confirmed in Article 2 of this permit, the Border facilities shall remain subject to all such laws and regulations. The term ``Facilities'' as used in this permit means the portion in the United States of the international pipeline project associated with the permittee's January 16, 2026, application for an amendment to its existing permit, and any land, structures, installations, or…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07724",
@@ -8124,18 +8124,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07718/authorizing-enbridge-energy-company-inc-to-operate-and-maintain-existing-pipeline-facilities-at-st",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Enbridge Energy Company, Inc. To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United…. A presidential document published in the Federal Register.",
+    "summary": "75 / Monday, April 20, 2026 / Presidential Documents\u0000\u0000 [[Page 21217]] Presidential Permit of April 15, 2026 Authorizing Enbridge Energy Company, Inc. To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada By virtue of the authority vested in me as President of the United States of America (the ``President''), I hereby grant this Presidential permit, subject to…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Enbridge Energy Company, Inc. To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "75 / Monday, April 20, 2026 / Presidential Documents\u0000\u0000 [[Page 21217]] Presidential Permit of April 15, 2026 Authorizing Enbridge Energy Company, Inc. To Operate and Maintain Existing Pipeline Facilities at St. Clair County, Michigan, at the International Boundary Between the United States and Canada By virtue of the authority vested in me as President of the United States of America (the ``President''), I hereby grant this Presidential permit, subject to the conditions herein set forth to Enbridge Energy Company, Inc. (the ``permittee''). The permittee is a company formed under the laws of the State of Delaware and is a subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain existing pipeline Border facilities, as described herein, at the international border of the United States and Canada in St. Clair County, Michigan between the cities of Port Huron and Marysville, Michigan, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated April 28, 1953. This permit does not affect the…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07717",
@@ -8151,18 +8151,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/20/2026-07717/authorizing-bakken-pipeline-company-lp-to-operate-and-maintain-existing-pipeline-facilities-at-burke",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Authorizing Bakken Pipeline Company LP To Operate and Maintain Existing Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the United States…. A presidential document published in the Federal Register.",
+    "summary": "The permittee is a limited partnership organized under the laws of the State of Delaware and is a subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. This permit supersedes and revokes the Presidential permit issued previously, dated April 8, 1996. This permit does not affect the applicability of any otherwise-relevant laws and regulations.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Authorizing Bakken Pipeline Company LP To Operate and Maintain Existing Pipeline Facilities at Burke County, North Dakota, at the International Boundary Between the United States…. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "The permittee is a limited partnership organized under the laws of the State of Delaware and is a subsidiary of Enbridge Inc., a corporation organized under the laws of Canada. Permission is hereby granted to the permittee to operate and maintain pipeline Border facilities, as described herein, at the international border of the United States and Canada near Portal, North Dakota, for the transport between the United States and Canada of crude oil and petroleum products of every description, refined or unrefined (inclusive of, but not limited to, naphtha, liquefied petroleum gas, natural gas liquids, jet fuel, gasoline, kerosene, and diesel), but not including natural gas subject to section 3 of the Natural Gas Act, as amended (15 U.S.C. 717b). This permit supersedes and revokes the Presidential permit issued previously, dated April 8, 1996. This permit does not affect the applicability of any otherwise-relevant laws and regulations. As confirmed in Article 2 of this permit, the Border facilities shall remain subject to all such laws and regulations. The term ``Facilities'' as used in this permit means the portion in the United States of the international pipeline project associated with the permittee's January 16, 2026, application for an amendment to its existing permit, and any land, structures, installations, or equipment appurtenant thereto. The term ``Border facilities'' as used in this permit means those parts of the Facilities consisting of a 12- inch diameter…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07716",
@@ -8205,18 +8205,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/17/2026-07645/continuation-of-the-national-emergency-and-of-the-emergency-authority-relating-to-the-regulation-of",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Continuation of the National Emergency and of the Emergency Authority Relating to the Regulation of the Anchorage and Movement of Russian-Affiliated Vessels to United States Ports. A presidential document published in the Federal Register.",
+    "summary": "1601 et seq.) and section 1 of title II of Public Law 65-24, ch. 30, June 15, 1917, as amended (Magnuson Act) (46 U.S.C. The policies and actions of the Government of the Russian Federation continue to constitute a national emergency by reason of a disturbance or threatened disturbance of international relations of the United States.",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Continuation of the National Emergency and of the Emergency Authority Relating to the Regulation of the Anchorage and Movement of Russian-Affiliated Vessels to United States Ports. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "1601 et seq.) and section 1 of title II of Public Law 65-24, ch. 30, June 15, 1917, as amended (Magnuson Act) (46 U.S.C. 70051). The policies and actions of the Government of the Russian Federation continue to constitute a national emergency by reason of a disturbance or threatened disturbance of international relations of the United States. Therefore, in accordance with section 202(d) of the National Emergencies Act (50 U.S.C. 1622(d)), I am continuing for 1 additional year the national emergency with respect to the Russian Federation and the emergency authority relating to the regulation of the anchorage and movement of Russian-affiliated vessels to United States ports set out in Proclamation 10371. This notice shall be published in the Federal Register and transmitted to the Congress. <GRAPHIC(S) NOT AVAILABLE IN TIFF FORMAT> (Presidential Sig.) THE WHITE HOUSE, April 15, 2026. [FR Doc. 2026-07645 Filed 4-16-26; 11:15 am] Billing code 3395-F4-P </pre></body> </html>"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07524",
@@ -8232,18 +8232,20 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/16/2026-07524/day-of-celebration-in-honor-of-the-life-of-henry-clay-2026",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Day of Celebration in Honor of the Life of Henry Clay, 2026. A presidential document published in the Federal Register.",
+    "summary": "Born in the midst of the Revolutionary War on April 12, 1777, Clay rose from humble beginnings in Virginia to stand among the most consequential statesmen this country has ever produced. He represented the Commonwealth of Kentucky in the United States Congress, where he became the driving force behind what became known as the American System, championing strong protective tariffs to defend and develop domestic industry, a sound national financial…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Day of Celebration in Honor of the Life of Henry Clay, 2026. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "Born in the midst of the Revolutionary War on April 12, 1777, Clay rose from humble beginnings in Virginia to stand among the most consequential statesmen this country has ever produced. He represented the Commonwealth of Kentucky in the United States Congress, where he became the driving force behind what became known as the American System, championing strong protective tariffs to defend and develop domestic industry, a sound national financial structure to support growth and commerce, and Federal investment in roads, canals, and other internal improvements to bind the Nation together. The American System served as a practical blueprint for national strength, national unity, and national self-reliance. Henry Clay understood that our Nation's political independence must rest on a firm foundation of economic independence. He knew that sovereignty is never merely political. It is industrial. It is financial. It is commercial. He understood that when a Nation can no longer make what it needs, move what it makes, or defend the workers who sustain it, that Nation risks losing not only prosperity, but independence itself. Throughout his time in public office, he never wavered in his fight for America's economic independence during the most formative years of our country. Clay would go on to wield the gavel as Speaker of the House and serve with distinction in the Senate, and in 1825, he assumed the office of Secretary of State under President John Quincy Adams. Throughout his…"
       }
     ],
-    "entities": [],
+    "entities": [
+      "Donald Trump"
+    ],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-07069",
@@ -8340,18 +8342,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/09/2026-06961/urgent-national-action-to-save-college-sports",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Urgent National Action To Save College Sports. A presidential document published in the Federal Register.",
+    "summary": "68 / Thursday, April 9, 2026 / Presidential Documents\u0000\u0000 [[Page 18267]] Executive Order 14400 of April 3, 2026 Urgent National Action To Save College Sports By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. America's system of college sports has long provided scholarships and life- changing educational, athletic, and leadership opportunities to millions of America's…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Urgent National Action To Save College Sports. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "68 / Thursday, April 9, 2026 / Presidential Documents\u0000\u0000 [[Page 18267]] Executive Order 14400 of April 3, 2026 Urgent National Action To Save College Sports By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose and Policy. America's system of college sports has long provided scholarships and life- changing educational, athletic, and leadership opportunities to millions of America's future leaders and formed an important part of our national fabric. In July, I signed an Executive Order to protect college sports from endless lawsuits and destabilizing financial obligations that could jeopardize women's and Olympic sports, but it has become clear that more comprehensive executive action is required before college sports are lost forever. College football is the primary revenue generator for university athletic departments, including revenue to support women's and Olympic sports, and is used by many universities to attract students, donations, and goodwill as millions of Americans gather with families and friends to watch each Saturday. These factors place enormous pressure on many universities to be competitive in football. The same dynamic exists for basketball to a lesser degree. Amid this pressure, the rules governing pay-for-play, eligibility, and other aspects of college athletics have been substantially loosened through a number of judicial rulings. Additional rules that could…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06960",
@@ -8367,18 +8369,20 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/04/09/2026-06960/strengthening-actions-taken-to-adjust-imports-of-aluminum-steel-and-copper-into-the-united-states",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Strengthening Actions Taken To Adjust Imports of Aluminum, Steel, and Copper Into the United States. A presidential document published in the Federal Register.",
+    "summary": "68 / Thursday, April 9, 2026 / Presidential Documents\u0000\u0000 [[Page 18201]] Proclamation 11021 of April 2, 2026 Strengthening Actions Taken To Adjust Imports of Aluminum, Steel, and Copper Into the United States By the President of the United States of America A Proclamation 1. In Proclamation 9704 of March 8, 2018 (Adjusting Imports of Aluminum Into the United States), as amended; Proclamation 9705 of March 8, 2018 (Adjusting Imports of Steel Into the United…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Strengthening Actions Taken To Adjust Imports of Aluminum, Steel, and Copper Into the United States. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "68 / Thursday, April 9, 2026 / Presidential Documents\u0000\u0000 [[Page 18201]] Proclamation 11021 of April 2, 2026 Strengthening Actions Taken To Adjust Imports of Aluminum, Steel, and Copper Into the United States By the President of the United States of America A Proclamation 1. In Proclamation 9704 of March 8, 2018 (Adjusting Imports of Aluminum Into the United States), as amended; Proclamation 9705 of March 8, 2018 (Adjusting Imports of Steel Into the United States), as amended; and Proclamation 10962 of July 30, 2025 (Adjusting Imports of Copper Into the United States), I found, under section 232 of the Trade Expansion Act of 1962, as amended, 19 U.S.C. 1862 (section 232), that aluminum, steel, and copper are being imported into the United States in such quantities or under such circumstances as to threaten to impair the national security of the United States and took action under section 232 to adjust imports of aluminum, steel, and copper articles and their derivative articles (collectively, metal products) so that such imports will not threaten to impair the national security. Specifically, to address the national security threats found in Proclamation 9704, Proclamation 9705, and Proclamation 10962, I established tariff regimes, which included imposing additional ad valorem duties on certain imports of metal products. 2. In those actions, I also directed the Secretary of Commerce (Secretary) to establish a process for including additional metal products within the scope of…"
       }
     ],
-    "entities": [],
+    "entities": [
+      "Donald Trump"
+    ],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06956",
@@ -8481,18 +8485,18 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-06079/continuation-of-the-national-emergency-with-respect-to-trade-practices-that-contribute-to-large-and",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits. A presidential document published in the Federal Register.",
+    "summary": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15517]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits On April 2, 2025, by Executive Order 14257, I declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15517]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits On April 2, 2025, by Executive Order 14257, I declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security and economy of the United States involving conditions reflected in large and persistent annual U.S. goods trade deficits, including the consequences of those deficits. The President took additional steps pursuant to this national emergency, including in Executive Order 14259 of April 8, 2025; Executive Order 14266 of April 9, 2025; Executive Order 14309 of June 16, 2025; Executive Order 14316 of July 7, 2025; Executive Order 14324 of July 30, 2025; Executive Order 14326 of July 31, 2025; Executive Order 14334 of August 11, 2025; Executive Order 14345 of September 4, 2025; Executive Order 14346 of September 5, 2025; and Executive Order 14360 of November 14, 2025. The circumstances related to this emergency continue to pose an unusual and extraordinary threat, which has its source in whole or in substantial part outside the United States, to the national security and economy of the United States. For this reason, the national emergency declared in Executive Order 14257 of April 2, 2025, must continue…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
     "id": "fr-2026-06078",
@@ -8508,17 +8512,17 @@
     "originalUrl": "https://www.federalregister.gov/documents/2026/03/27/2026-06078/continuation-of-the-national-emergency-with-respect-to-specified-harmful-foreign-activities-of-the",
     "sourceName": "Federal Register",
     "language": "English",
-    "summary": "Continuation of the National Emergency With Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation. A presidential document published in the Federal Register.",
+    "summary": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15515]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation On April 15, 2021, by Executive Order 14024, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to…",
     "pages": [
       {
         "pageNumber": 1,
-        "text": "Continuation of the National Emergency With Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation. A presidential document published in the Federal Register — the official daily journal of the U.S. government. Read the full text at the source."
+        "text": "59 / Friday, March 27, 2026 / Presidential Documents\u0000\u0000 [[Page 15515]] Notice of March 24, 2026 Continuation of the National Emergency With Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation On April 15, 2021, by Executive Order 14024, the President declared a national emergency pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) to deal with the unusual and extraordinary threat to the national security, foreign policy, and economy of the United States constituted by specified harmful foreign activities of the Government of the Russian Federation. On March 8, 2022, the President issued Executive Order 14066 to expand the scope of the national emergency declared in Executive Order 14024. On August 20, 2021, March 11, 2022, April 6, 2022, December 22, 2023, August 6, 2025, and February 6, 2026, the President issued Executive Orders 14039, 14068, 14071, 14114, 14329, and 14384, respectively, to take additional steps with respect to the national emergency declared in Executive Order 14024. Specified harmful foreign activities of the Government of the Russian Federation--in particular, efforts to undermine the conduct of free and fair democratic elections and democratic institutions in the United States and its allies and partners; to engage in and facilitate malicious cyber-enabled activities against the United States and its allies and partners; to foster and use transnational corruption to influence…"
       }
     ],
     "entities": [],
     "tags": [
       "presidential document"
     ],
-    "sourceNote": "Published in the Federal Register, the official daily journal of the U.S. government; read the full text at the source."
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   }
 ]
