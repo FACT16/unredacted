@@ -258,38 +258,6 @@
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
-    "id": "gov-DCPD-202600370",
-    "title": "Remarks in Cabinet Meeting and an Exchange With Reporters",
-    "agency": "OTHER",
-    "collection": "uap",
-    "topics": [
-      "uap"
-    ],
-    "docDate": "2026-05-27",
-    "releaseDate": "2026-05-27",
-    "originalUrl": "https://www.govinfo.gov/app/details/DCPD-202600370",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Trump, 2026 Remarks in Cabinet Meeting and an Exchange With Reporters May 27, 2026 The President. We have a lot of very happy people around the table, because we&#39;re a great team. It&#39;s been a tremendous period of time for our country, and things are going very well.",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Trump, 2026 Remarks in Cabinet Meeting and an Exchange With Reporters May 27, 2026 The President. Well, thank you very much. We have a lot of very happy people around the table, because we&#39;re a great team. It&#39;s been a tremendous period of time for our country, and things are going very well. The number of jobs—we have more people working today than we&#39;ve ever had before in the history of our country, and many other things. And I have a few words to say to you that I think will be helpful. Last night was incredible—not only Texas, but so many other places—and the numbers were fantastic. And they&#39;ve really been that way for a year, if you look. It&#39;s—hundreds of people won, and almost nobody didn&#39;t win. So but last night was very, very powerful. So I&#39;m thrilled to welcome everyone to the 12th Cabinet meeting of our administration, and we&#39;re doing something that no administration&#39;s ever done. We&#39;re always letting the press join us, because we&#39;re very open and transparent. You like the word &quot;transparent,&quot; but we&#39;re more transparent than any administration in history. No—to the best of my knowledge, press has never been invited ever to a Cabinet meeting for any reason at all, and it&#39;s an honor to have you. This team has achieved more than most other administrations achieve in 8 years. We took the most dangerous, unsafe, violent, and open border in the world—anywhere in the world, there&#39;s no border like the border we…"
-      }
-    ],
-    "entities": [
-      "Donald Trump",
-      "John F. Kennedy",
-      "Robert F. Kennedy",
-      "Federal Bureau of Investigation",
-      "Department of Justice"
-    ],
-    "tags": [
-      "CPD"
-    ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
-  },
-  {
     "id": "gov-CHRG-119hhrg61718",
     "title": "Restoring Public Trust Through Uap Transparency and Whistleblower Protection",
     "agency": "SENATE",
@@ -746,6 +714,38 @@
     ],
     "tags": [
       "CRPT"
+    ],
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+  },
+  {
+    "id": "gov-DCPD-202600370",
+    "title": "Remarks in Cabinet Meeting and an Exchange With Reporters",
+    "agency": "OTHER",
+    "collection": "uap",
+    "topics": [
+      "uap"
+    ],
+    "docDate": "2026-05-27",
+    "releaseDate": "2026-05-27",
+    "originalUrl": "https://www.govinfo.gov/app/details/DCPD-202600370",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Trump, 2026 Remarks in Cabinet Meeting and an Exchange With Reporters May 27, 2026 The President. We have a lot of very happy people around the table, because we&#39;re a great team. It&#39;s been a tremendous period of time for our country, and things are going very well.",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Trump, 2026 Remarks in Cabinet Meeting and an Exchange With Reporters May 27, 2026 The President. Well, thank you very much. We have a lot of very happy people around the table, because we&#39;re a great team. It&#39;s been a tremendous period of time for our country, and things are going very well. The number of jobs—we have more people working today than we&#39;ve ever had before in the history of our country, and many other things. And I have a few words to say to you that I think will be helpful. Last night was incredible—not only Texas, but so many other places—and the numbers were fantastic. And they&#39;ve really been that way for a year, if you look. It&#39;s—hundreds of people won, and almost nobody didn&#39;t win. So but last night was very, very powerful. So I&#39;m thrilled to welcome everyone to the 12th Cabinet meeting of our administration, and we&#39;re doing something that no administration&#39;s ever done. We&#39;re always letting the press join us, because we&#39;re very open and transparent. You like the word &quot;transparent,&quot; but we&#39;re more transparent than any administration in history. No—to the best of my knowledge, press has never been invited ever to a Cabinet meeting for any reason at all, and it&#39;s an honor to have you. This team has achieved more than most other administrations achieve in 8 years. We took the most dangerous, unsafe, violent, and open border in the world—anywhere in the world, there&#39;s no border like the border we…"
+      }
+    ],
+    "entities": [
+      "Donald Trump",
+      "John F. Kennedy",
+      "Robert F. Kennedy",
+      "Federal Bureau of Investigation",
+      "Department of Justice"
+    ],
+    "tags": [
+      "CPD"
     ],
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
@@ -2289,34 +2289,6 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-CREC-2025-12-18",
-    "title": "DEADLINE TO RELEASE EPSTEIN FILES",
-    "agency": "OTHER",
-    "collection": "epstein",
-    "topics": [
-      "epstein"
-    ],
-    "docDate": "2025-12-18",
-    "releaseDate": "2025-12-18",
-    "originalUrl": "https://www.govinfo.gov/app/details/CREC-2025-12-18",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "DEADLINE TO RELEASE EPSTEIN FILES. A record published by the U.S. Government Publishing Office (collection CREC).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "DEADLINE TO RELEASE EPSTEIN FILES. Published by the U.S. Government Publishing Office, collection CREC. Read the full document at the source."
-      }
-    ],
-    "entities": [
-      "Jeffrey Epstein"
-    ],
-    "tags": [
-      "CREC"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
     "id": "gov-CREC-2025-07-17",
     "title": "Jeffrey Epstein (Executive Session)",
     "agency": "OTHER",
@@ -2334,6 +2306,34 @@
       {
         "pageNumber": 1,
         "text": "Jeffrey Epstein (Executive Session). Published by the U.S. Government Publishing Office, collection CREC. Read the full document at the source."
+      }
+    ],
+    "entities": [
+      "Jeffrey Epstein"
+    ],
+    "tags": [
+      "CREC"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-CREC-2025-12-18",
+    "title": "DEADLINE TO RELEASE EPSTEIN FILES",
+    "agency": "OTHER",
+    "collection": "epstein",
+    "topics": [
+      "epstein"
+    ],
+    "docDate": "2025-12-18",
+    "releaseDate": "2025-12-18",
+    "originalUrl": "https://www.govinfo.gov/app/details/CREC-2025-12-18",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "DEADLINE TO RELEASE EPSTEIN FILES. A record published by the U.S. Government Publishing Office (collection CREC).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "DEADLINE TO RELEASE EPSTEIN FILES. Published by the U.S. Government Publishing Office, collection CREC. Read the full document at the source."
       }
     ],
     "entities": [
@@ -2692,6 +2692,37 @@
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
   {
+    "id": "gov-CRPT-111srpt11",
+    "title": "REPORT ON THE ACTIVITIES of the COMMITTEE ON THE JUDICIARY UNITED STATES SENATE during the ONE HUNDRED TENTH CONGRESS pursuant to Rule XXVI of the Standing Rules of the United…",
+    "agency": "SENATE",
+    "collection": "sept-11",
+    "topics": [
+      "sept-11"
+    ],
+    "docDate": "2009-03-31",
+    "releaseDate": "2009-03-31",
+    "originalUrl": "https://www.govinfo.gov/app/details/CRPT-111srpt11",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "Senate Report 111-11 - REPORT ON THE ACTIVITIES of the COMMITTEE ON THE JUDICIARY UNITED STATES SENATE during the ONE HUNDRED TENTH CONGRESS pursuant to Rule XXVI of the Standing Rules of the United States Senate [Senate Report 111-11] [From the U.S. KENNEDY, Massachusetts ARLEN SPECTER, Pennsylvania JOSEPH R. Cohen, Chief Counsel and Staff Director Stephanie A.",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "Senate Report 111-11 - REPORT ON THE ACTIVITIES of the COMMITTEE ON THE JUDICIARY UNITED STATES SENATE during the ONE HUNDRED TENTH CONGRESS pursuant to Rule XXVI of the Standing Rules of the United States Senate [Senate Report 111-11] [From the U.S. Government Publishing Office] 111th Congress Report SENATE 1st Session 111-11 _______________________________________________________________________ REPORT ON THE ACTIVITIES of the COMMITTEE ON THE JUDICIARY UNITED STATES SENATE during the ONE HUNDRED TENTH CONGRESS pursuant to Rule XXVI of the Standing Rules of the United States Senate March 31, 2009.--Ordered to be printed SENATE COMMITTEE ON THE JUDICIARY ONE HUNDRED TENTH CONGRESS PATRICK J. LEAHY, Vermont, Chairman EDWARD M. KENNEDY, Massachusetts ARLEN SPECTER, Pennsylvania JOSEPH R. BIDEN, Jr., Delaware ORRIN G. HATCH, Utah HERBERT KOHL, Wisconsin CHARLES E. GRASSLEY, Iowa DIANNE FEINSTEIN, California JON KYL, Arizona RUSSELL D. FEINGOLD, Wisconsin JEFF SESSIONS, Alabama CHARLES E. SCHUMER, New York LINDSEY GRAHAM, South Carolina RICHARD J. DURBIN, Illinois JOHN CORNYN, Texas BENJAMIN CARDIN, Maryland SAM BROWNBACK, Kansas SHELDON WHITEHOUSE, Rhode Island TOM COBURN, Oklahoma Bruce A. Cohen, Chief Counsel and Staff Director Stephanie A. Middleton, Republican Staff Director Nicholas A. Rossi, Republican Chief Counsel SUBCOMMITTEES Administrative Oversight and the Courts CHARLES E. SCHUMER, New York, Chairman DIANNE FEINSTEIN, California JEFF SESSIONS, Alabama RUSSELL D.…"
+      }
+    ],
+    "entities": [
+      "Federal Bureau of Investigation",
+      "Department of Justice",
+      "September 11 attacks",
+      "Guantanamo"
+    ],
+    "tags": [
+      "CRPT"
+    ],
+    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
+  },
+  {
     "id": "gov-CHRG-113hhrg78250",
     "title": "Terrorist Attack in Benghazi: The Secretary of State's View",
     "agency": "SENATE",
@@ -2721,37 +2752,6 @@
     ],
     "tags": [
       "CHRG"
-    ],
-    "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
-  },
-  {
-    "id": "gov-CRPT-111srpt11",
-    "title": "REPORT ON THE ACTIVITIES of the COMMITTEE ON THE JUDICIARY UNITED STATES SENATE during the ONE HUNDRED TENTH CONGRESS pursuant to Rule XXVI of the Standing Rules of the United…",
-    "agency": "SENATE",
-    "collection": "sept-11",
-    "topics": [
-      "sept-11"
-    ],
-    "docDate": "2009-03-31",
-    "releaseDate": "2009-03-31",
-    "originalUrl": "https://www.govinfo.gov/app/details/CRPT-111srpt11",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "Senate Report 111-11 - REPORT ON THE ACTIVITIES of the COMMITTEE ON THE JUDICIARY UNITED STATES SENATE during the ONE HUNDRED TENTH CONGRESS pursuant to Rule XXVI of the Standing Rules of the United States Senate [Senate Report 111-11] [From the U.S. KENNEDY, Massachusetts ARLEN SPECTER, Pennsylvania JOSEPH R. Cohen, Chief Counsel and Staff Director Stephanie A.",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "Senate Report 111-11 - REPORT ON THE ACTIVITIES of the COMMITTEE ON THE JUDICIARY UNITED STATES SENATE during the ONE HUNDRED TENTH CONGRESS pursuant to Rule XXVI of the Standing Rules of the United States Senate [Senate Report 111-11] [From the U.S. Government Publishing Office] 111th Congress Report SENATE 1st Session 111-11 _______________________________________________________________________ REPORT ON THE ACTIVITIES of the COMMITTEE ON THE JUDICIARY UNITED STATES SENATE during the ONE HUNDRED TENTH CONGRESS pursuant to Rule XXVI of the Standing Rules of the United States Senate March 31, 2009.--Ordered to be printed SENATE COMMITTEE ON THE JUDICIARY ONE HUNDRED TENTH CONGRESS PATRICK J. LEAHY, Vermont, Chairman EDWARD M. KENNEDY, Massachusetts ARLEN SPECTER, Pennsylvania JOSEPH R. BIDEN, Jr., Delaware ORRIN G. HATCH, Utah HERBERT KOHL, Wisconsin CHARLES E. GRASSLEY, Iowa DIANNE FEINSTEIN, California JON KYL, Arizona RUSSELL D. FEINGOLD, Wisconsin JEFF SESSIONS, Alabama CHARLES E. SCHUMER, New York LINDSEY GRAHAM, South Carolina RICHARD J. DURBIN, Illinois JOHN CORNYN, Texas BENJAMIN CARDIN, Maryland SAM BROWNBACK, Kansas SHELDON WHITEHOUSE, Rhode Island TOM COBURN, Oklahoma Bruce A. Cohen, Chief Counsel and Staff Director Stephanie A. Middleton, Republican Staff Director Nicholas A. Rossi, Republican Chief Counsel SUBCOMMITTEES Administrative Oversight and the Courts CHARLES E. SCHUMER, New York, Chairman DIANNE FEINSTEIN, California JEFF SESSIONS, Alabama RUSSELL D.…"
-      }
-    ],
-    "entities": [
-      "Federal Bureau of Investigation",
-      "Department of Justice",
-      "September 11 attacks",
-      "Guantanamo"
-    ],
-    "tags": [
-      "CRPT"
     ],
     "sourceNote": "Beginning of the official document text, as published by the source; read the full document at the source."
   },
@@ -5395,32 +5395,6 @@
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
   {
-    "id": "gov-CREC-1996-09-28",
-    "title": "TERRORISM MEETS PROLIFERATION: THE CONVERGENCE OF THREATS IN THE POST COLD WAR ERA",
-    "agency": "OTHER",
-    "collection": "cold-war",
-    "topics": [
-      "cold-war"
-    ],
-    "docDate": "1996-09-28",
-    "releaseDate": "1996-09-28",
-    "originalUrl": "https://www.govinfo.gov/app/details/CREC-1996-09-28",
-    "sourceName": "GovInfo (U.S. GPO)",
-    "language": "English",
-    "summary": "TERRORISM MEETS PROLIFERATION: THE CONVERGENCE OF THREATS IN THE POST COLD WAR ERA. A record published by the U.S. Government Publishing Office (collection CREC).",
-    "pages": [
-      {
-        "pageNumber": 1,
-        "text": "TERRORISM MEETS PROLIFERATION: THE CONVERGENCE OF THREATS IN THE POST COLD WAR ERA. Published by the U.S. Government Publishing Office, collection CREC. Read the full document at the source."
-      }
-    ],
-    "entities": [],
-    "tags": [
-      "CREC"
-    ],
-    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
-  },
-  {
     "id": "gov-GOVPUB-D5_200-PURL-gpo71564",
     "title": "The Vietnam Cauldron: Defense Intelligence in the War for Southeast Asia",
     "agency": "DOD",
@@ -5443,6 +5417,32 @@
     "entities": [],
     "tags": [
       "GOVPUB"
+    ],
+    "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
+  },
+  {
+    "id": "gov-CREC-1996-09-28",
+    "title": "TERRORISM MEETS PROLIFERATION: THE CONVERGENCE OF THREATS IN THE POST COLD WAR ERA",
+    "agency": "OTHER",
+    "collection": "cold-war",
+    "topics": [
+      "cold-war"
+    ],
+    "docDate": "1996-09-28",
+    "releaseDate": "1996-09-28",
+    "originalUrl": "https://www.govinfo.gov/app/details/CREC-1996-09-28",
+    "sourceName": "GovInfo (U.S. GPO)",
+    "language": "English",
+    "summary": "TERRORISM MEETS PROLIFERATION: THE CONVERGENCE OF THREATS IN THE POST COLD WAR ERA. A record published by the U.S. Government Publishing Office (collection CREC).",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "TERRORISM MEETS PROLIFERATION: THE CONVERGENCE OF THREATS IN THE POST COLD WAR ERA. Published by the U.S. Government Publishing Office, collection CREC. Read the full document at the source."
+      }
+    ],
+    "entities": [],
+    "tags": [
+      "CREC"
     ],
     "sourceNote": "This is the official record from GovInfo (U.S. Government Publishing Office); read the full document at the source."
   },
